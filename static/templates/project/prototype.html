@@ -1,0 +1,48 @@
+<md-dialog class="prototype-dialog">
+    <md-dialog-content class="dialog-content">
+        <!-- <div layout="row">  -->
+        <div layout="row">
+            <div layout="column" layout-align="end start" class="title">Prototype Tasks</div>
+            <div layout="column" layout-align="center end" class="clear">
+                <md-button class="exit md-icon-button" ng-click="cancel()">
+                    <md-icon md-font-set="material-icons">close</md-icon>
+                </md-button>
+            </div>
+        </div>
+        <div class="text">
+            <div>Decide how many users should work on your prototype and how many tasks you want done. They will give
+                 you feedback so you can improve your task design in the future.
+            </div>
+        </div>
+
+        <div layout="column">
+            <form name="metaForm" ng-submit="publish()">
+                <div class="form-content" layout="row">
+                    <md-input-container class="input-container" layout-align="center">
+                        <label>Tasks</label>
+
+                        <input class="input-content" name="num_tasks" required type="number" min="1"
+                               max="{{ max_rows }}" ng-model="num_rows">
+
+                    </md-input-container>
+                    <md-input-container class="input-container _ml-24" layout-align="center">
+                        <label>Workers/Task</label>
+                        <input class="input-content" name="repetition" required type="number" min="1"
+                               ng-model="project.repetition">
+                    </md-input-container>
+                </div>
+                <div class="_ml-24 _error _small-note">{{ project.publishError }}</div>
+                <div class="layout-align-end-end" layout="row">
+                    <md-dialog-actions>
+                        <md-button type="submit" class="publish" ng-disabled="metaForm.$invalid || metaForm.$pending">
+                            Publish
+                        </md-button>
+                    </md-dialog-actions>
+                </div>
+
+            </form>
+        </div>
+
+    </md-dialog-content>
+</md-dialog>
+

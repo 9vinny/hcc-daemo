@@ -1,0 +1,88 @@
+<h3>Sign Up</h3>
+<form name="form" ng-submit="register.register(form.$valid)" novalidate class="_left">
+    <div class="_secondary-text-small">Academic (.edu) and non-profit (.org) accounts receive
+        <a href="https://forum.daemo.org/t/daemo-academic-and-nonprofit-discount/123" target="_blank">a 50%
+            discount thanks to the Sloan Foundation</a>.
+    </div>
+    <div layout="row" style="margin-top: 24px">
+        <md-input-container flex="" class="md-input-has-placeholder">
+            <label>First Name</label>
+            <input name="firstname" required ng-model="register.firstname">
+
+            <div ng-if="form.firstname.$touched||register.submitted" ng-messages="form.firstname.$error">
+                <p ng-message="required">First Name is required.</p>
+            </div>
+        </md-input-container>
+        <md-input-container flex="" class="md-input-has-placeholder">
+            <label>Last Name</label>
+            <input name="lastname" required ng-model="register.lastname">
+
+            <div ng-if="form.lastname.$touched||register.submitted" ng-messages="form.lastname.$error">
+                <p ng-message="required">Last Name is required.</p>
+            </div>
+        </md-input-container>
+    </div>
+    <div layout="row">
+        <md-input-container flex="50" class="md-input-has-placeholder">
+            <label>Email</label>
+            <input name="email" type="email" required ng-model="register.email" name="email"
+                   ng-change="form.email.$setValidity('backend', true)">
+
+            <div ng-if="form.email.$touched||register.submitted" ng-messages="form.email.$error">
+                <p ng-message="required">Email is required.</p>
+
+                <p ng-message="email">Invalid Email.</p>
+
+                <p ng-show="form.email.$error.backend" class="authentication-error">
+                    {{ register.errors.email }}</p>
+            </div>
+        </md-input-container>
+    </div>
+    <div layout="row">
+        <md-input-container flex="" class="md-input-has-placeholder">
+            <label>Password</label>
+            <input name="password1" ng-minlength="8" type="password" required ng-model="register.password1">
+
+            <div ng-if="form.password1.$touched||register.submitted" ng-messages="form.password1.$error">
+                <p ng-message="required">Password is required.</p>
+
+                <p ng-message="minlength">Minimum 8 characters are required.</p>
+            </div>
+        </md-input-container>
+        <md-input-container flex="" class="md-input-has-placeholder">
+            <label>Confirm Password</label>
+            <input name="password2" ng-minlength="8" type="password" required ng-model="register.password2">
+            <!--                     <span ng-show="register.password1!=register.password2" class="authentication-error">Passwords do not match.</span> -->
+            <div ng-if="form.password2.$touched||register.submitted" ng-messages="form.password2.$error">
+                <p ng-message="required">Password confirmation is required.</p>
+
+                <p ng-message="minlength">Minimum 8 characters are required.</p>
+
+                <p ng-show="register.password1!=register.password2&&form.$dirty" class="authentication-error">
+                    Passwords do not match.</p>
+            </div>
+        </md-input-container>
+    </div>
+
+    <div class="_small-note _auth-footer" style="text-align: left">By clicking Sign Up, you agree to our <a
+            ui-sref="auth.irb" target="_blank">IRB</a>
+        and the <a href="https://stripe.com/connect-account/legal" target="_blank">Stripe Connected Account
+            Agreement</a>
+    </div>
+
+    <!--div style="text-align: left" class="_small-note _auth-footer"> As a condition of Daemo enabling payment processing services through Stripe,
+        you agree to provide Daemo accurate and complete information about you and your business, and you authorize Daemo to share it and transaction
+        information related to your use of the payment processing services provided by Stripe. Daemo does not store
+        any banking or credit card information.</div-->
+    <div class="authentication-error" layout="row" ng-show="register.registrationEnabled == false">
+      <span>We are currently in closed beta. Please <a href="https://goo.gl/forms/8eNjaR8pKc3aIpci1">fill out this form</a> to register interest in using Daemo.</span>
+    </div>
+    <div class="authentication-error" layout="row" ng-show="register.error && form.$pristine" ng-bind="register.error"></div>
+    <div flex layout="row" layout-align="end center">
+        <md-button type="submit" style="margin-right: 0; right: -16px" class="md-accent">Sign Up</md-button>
+    </div>
+
+
+    <!--div class="_small-note _auth-footer" style="padding-top: 16px;text-align: left">Already have an account? <a ui-sref="auth.login">Sign
+        in</a></div-->
+</form>

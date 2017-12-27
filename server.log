@@ -1,0 +1,67 @@
+[uWSGI] getting INI configuration from uwsgi-dev.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Dec 27 16:24:51 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2) on 27 December 2017 16:17:50
+os: Darwin-17.3.0 Darwin Kernel Version 17.3.0: Thu Nov  9 18:09:22 PST 2017; root:xnu-4570.31.3~1/RELEASE_X86_64
+nodename: Bir-Mac.local
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /Users/GARB42/Envs/daemoenv/daemo
+detected binary path: /Users/GARB42/Envs/daemoenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+- async cores set to 100 - fd table size: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8000 fd 3
+Python version: 2.7.10 (default, Jul 15 2017, 17:16:57)  [GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.31)]
+Python main interpreter initialized at 0x7ff611f00830
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 5460320 bytes (5332 KB) for 400 cores
+*** Operational MODE: preforking+async ***
+WSGI app 0 (mountpoint='') ready in 3 seconds on interpreter 0x7ff611f00830 pid: 34587 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 34587)
+spawned uWSGI worker 1 (pid: 34601, cores: 100)
+spawned uWSGI worker 2 (pid: 34602, cores: 100)
+spawned uWSGI worker 3 (pid: 34603, cores: 100)
+spawned uWSGI worker 4 (pid: 34604, cores: 100)
+*** running gevent loop engine [addr:0x108138660] ***
+Python auto-reloader enabled
+[27/Dec/2017:07:24:58 +0000] "GET /home HTTP/1.1" 200 427 12356
+[27/Dec/2017:07:24:59 +0000] "GET /static/images/image3.png HTTP/1.1" 200 216 333586
+[27/Dec/2017:07:25:36 +0000] "POST /api/auth/login/ HTTP/1.1" 200 865 586
+[27/Dec/2017:07:25:37 +0000] "GET /api/profile/a.b/ HTTP/1.1" 200 65 764
+[27/Dec/2017:07:25:37 +0000] "GET /static/templates/layout/navbar.html HTTP/1.1" 304 12 29
+[27/Dec/2017:07:25:37 +0000] "GET /static/templates/message/overlay.html HTTP/1.1" 304 12 29
+[27/Dec/2017:07:25:37 +0000] "GET /api/profile/ HTTP/1.1" 200 251 752
+[27/Dec/2017:07:25:37 +0000] "GET /api/projects/task-feed/?sort_by=- HTTP/1.1" 200 302 149
+[27/Dec/2017:07:25:37 +0000] "GET /api/preferences/ HTTP/1.1" 200 310 276
+[27/Dec/2017:07:25:38 +0000] "GET /static/fonts/Material_Icons/MaterialIcons-Regular.woff2 HTTP/1.1" 304 63 29
+[27/Dec/2017:07:25:37 +0000] "GET /api/user/notifications/ HTTP/1.1" 200 639 132
+[27/Dec/2017:07:25:37 +0000] "GET /api/conversation-recipients/list-open/ HTTP/1.1" 200 685 113
+[27/Dec/2017:07:25:46 +0000] "GET /static/templates/project/my-tasks.html HTTP/1.1" 304 5 29
+[27/Dec/2017:07:25:46 +0000] "GET /api/user/notifications/ HTTP/1.1" 200 52 132
+[27/Dec/2017:07:25:46 +0000] "GET /api/preferences/ HTTP/1.1" 200 79 276
+[27/Dec/2017:07:25:46 +0000] "GET /api/projects/?group_by=status HTTP/1.1" 200 106 151
+[27/Dec/2017:07:25:46 +0000] "GET /api/profile/ HTTP/1.1" 200 116 752
+[27/Dec/2017:07:25:49 +0000] "GET /api/preferences/ HTTP/1.1" 200 73 276
+[27/Dec/2017:07:25:49 +0000] "GET /api/user/notifications/ HTTP/1.1" 200 85 132
+[27/Dec/2017:07:25:49 +0000] "GET /api/profile/ HTTP/1.1" 200 136 752
+[27/Dec/2017:07:25:49 +0000] "GET /api/projects/task-feed/?sort_by=- HTTP/1.1" 200 131 149
+[27/Dec/2017:07:25:53 +0000] "GET /api/projects/task-feed/?sort_by=-available_tasks HTTP/1.1" 200 74 155
+[27/Dec/2017:07:25:55 +0000] "GET /api/projects/task-feed/?sort_by=-price HTTP/1.1" 200 83 145
+[27/Dec/2017:07:26:23 +0000] "GET /static/css/app.css.map HTTP/1.1" 304 18 29
+[27/Dec/2017:07:26:28 +0000] "GET /api/preferences/ HTTP/1.1" 200 226 272
+[27/Dec/2017:07:26:28 +0000] "GET /api/user/notifications/ HTTP/1.1" 200 245 132
+[27/Dec/2017:07:26:28 +0000] "GET /api/profile/ HTTP/1.1" 200 298 752
+[27/Dec/2017:07:26:28 +0000] "GET /api/projects/?group_by=status HTTP/1.1" 200 290 151
+[27/Dec/2017:07:26:38 +0000] "GET /api/user/notifications/ HTTP/1.1" 200 59 132
+[27/Dec/2017:07:26:38 +0000] "GET /api/preferences/ HTTP/1.1" 200 81 272
+[27/Dec/2017:07:26:38 +0000] "GET /api/profile/ HTTP/1.1" 200 156 752
+[27/Dec/2017:07:26:38 +0000] "GET /api/projects/task-feed/?sort_by=- HTTP/1.1" 200 207 145
+[27/Dec/2017:07:27:14 +0000] "GET /api/projects/task-feed/?sort_by=-boomerang HTTP/1.1" 200 122 149

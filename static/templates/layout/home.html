@@ -1,0 +1,191 @@
+<div class="home">
+  <div>
+    <div layout="row" style="background-color: rgba(255,255,255,0.5);" class="light">
+      <div flex="25" flex-md="35" flex-lg="55" layout="row">
+        <div style="margin: 12px 5px 0px 16px;">
+          <a href="www.daemo.org">
+          <svg class="_nav-logo _small _element" viewBox="0 0 88 125" enable-background="new 0 0 88 125">
+            <g>
+              <path d="M69.4,64.5c1.2,4.9,1.9,9.8,1.9,14.6c0,17.8-13.1,28.9-26.7,28.9C26,108,16.7,92.7,16.7,81
+    c0-14,9.6-26.7,27.9-26.7c6.5,0,12.6,1.3,18.1,3.7c1.1,0.5,2.2,1.1,3.4,1.8C64.7,55.4,62,47.6,58,40.1c-0.3-0.1-0.5-0.2-0.8-0.2
+    c-3.9-1.1-8.1-1.7-12.6-1.7C14.9,38.2,0.8,61.3,0.8,81c0,19.7,14.7,43,43.8,43c30.3,0,42.2-27.4,42.2-43c0-0.1,0-0.1,0-0.2
+    C82.3,74.1,75.7,68,69.4,64.5z"/>
+              <path d="M56.2,35.3c0.1,0.2,0.2,0.3,0.3,0.5c6.8,1.8,15.7,6.5,22.8,12.1C71.4,28.6,59.5,11.7,53.6,6.1
+    c-8.2-8-16.1-3-20.2,2.2C37.4,12.3,48.1,22.6,56.2,35.3z"/>
+            </g>
+          </svg>
+        </a>
+        </div>
+        <h2 class="logo"><a href="www.daemo.org">DAEMO</a></h2>
+      </div>
+      <div layout="row" layout-align="end center" flex class="navbar">
+        <!--<md-button class="md-link" scroll-to-div scroll-to="#about_us" hide-xs hide-sm
+                   show-gt-md="true">About
+          us
+        </md-button>
+        <md-button class="md-link" scroll-to-div scroll-to="#how_it_works" hide-xs hide-sm>How it works</md-button>
+        <md-button class="md-link" scroll-to-div scroll-to="#integrate_api" hide-xs hide-sm
+                   show-gt-md="true">Python API
+        </md-button>-->
+        <md-button class="md-link" href="/forum" target="_blank" hide-xs>Forum</md-button>
+        <!--<md-button class="md-link" scroll-to-div scroll-to="#demos">Demos</md-button>-->
+        <!--<md-button class="md-link" ng-hide="isLoggedIn" ng-click="vm.goTo('auth.register')">Create Account</md-button>-->
+        <md-button class="md-link" ng-hide="isLoggedIn" ng-click="vm.goTo('auth.login')">Sign in</md-button>
+        <md-button class="md-link highlighted" ng-hide="isLoggedIn" ng-click="vm.goTo('auth.register')">Get Started
+        </md-button>
+        <md-button class="md-link" ng-show="isLoggedIn" ng-click="vm.goTo('my_projects')">Requester</md-button>
+      </div>
+    </div>
+
+    <div class="bg-network">
+      <div layout="row" layout-align="center">
+        <!-- light section logo-overlay -->
+        <!-- logo-container -->
+        <div class="logo-overlay" flex-xs="100">
+          <div class="logo-container">
+            <svg class="_nav-logo _medium _element" viewBox="0 0 88 125" enable-background="new 0 0 88 125">
+              <g>
+                <path d="M69.4,64.5c1.2,4.9,1.9,9.8,1.9,14.6c0,17.8-13.1,28.9-26.7,28.9C26,108,16.7,92.7,16.7,81
+  		c0-14,9.6-26.7,27.9-26.7c6.5,0,12.6,1.3,18.1,3.7c1.1,0.5,2.2,1.1,3.4,1.8C64.7,55.4,62,47.6,58,40.1c-0.3-0.1-0.5-0.2-0.8-0.2
+  		c-3.9-1.1-8.1-1.7-12.6-1.7C14.9,38.2,0.8,61.3,0.8,81c0,19.7,14.7,43,43.8,43c30.3,0,42.2-27.4,42.2-43c0-0.1,0-0.1,0-0.2
+  		C82.3,74.1,75.7,68,69.4,64.5z"/>
+                <path d="M56.2,35.3c0.1,0.2,0.2,0.3,0.3,0.5c6.8,1.8,15.7,6.5,22.8,12.1C71.4,28.6,59.5,11.7,53.6,6.1
+  		c-8.2-8-16.1-3-20.2,2.2C37.4,12.3,48.1,22.6,56.2,35.3z"/>
+              </g>
+            </svg>
+
+            <h2 class="logo-text">DAEMO</h2>
+            <h2 class="logo-subtitle">Easier and more equitable crowdsourcing</h2>
+            <!--
+            <md-button class="dark action" scroll-to-div scroll-to-div="#about_us">Post Tasks</md-button>
+            <md-button class="light action" scroll-to-div scroll-to="#how_it_works">Do Tasks</md-button>
+            -->
+
+            <!--
+            <div layout="row" layout-align="center">
+              <md-button class="md-primary signup" style="" ng-click="vm.goTo('auth.register')">Get Started</md-button>
+            </div>
+            -->
+
+
+            <div layout="row" layout-align="center">
+              <a href="http://crowdresearch.stanford.edu">
+                <!--<img src="static/images/stanford.png" alt="Stanford University" style="width: 300px; max-width: 100%;">
+                -->
+                <img ng-src="static/images/image{{randomImg}}.png" alt="Stanford Crowd Research Collective" style="width: 250px; max-width: 100%;">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="dark section _text-light" id="about_us">
+    <div layout="row" layout-align="center" layout-margin="">
+      <div flex="90" flex-md="80" flex-lg="60">
+        <h1 class="heading">Your results get better automatically.</h1>
+        <h2 class="sub-heading">Workers who you like will get first access to your tasks. As you give feedback, your
+          favorite workers will do more and more of your work.</h2>
+      </div>
+    </div>
+    <div layout="row" layout-align="center">
+      <div flex="90" flex-md="70" flex-lg="50">
+        <img src="/static/images/reddit2.png" style="width: 100%">
+      </div>
+    </div>
+    <div layout="row" layout-align="center">
+      <md-button class="md-link"
+                 href="http://hci.stanford.edu/publications/2016/boomerang/boomerang-uist.pdf"
+                 target="_blank">Learn how Daemo's reputation system works
+      </md-button>
+    </div>
+  </div>
+  <div class="light section" id="how_it_works">
+    <div layout="row" layout-align="center" layout-margin="">
+      <div flex="90" flex-md="80" flex-lg="60">
+        <h1 class="heading">A crowdsourcing platform governed by its users: you.</h1>
+        <h2 class="sub-heading">Daemo's constitution determines how the platform evolves.</h2>
+      </div>
+    </div>
+    <div layout="row" layout-align="center">
+      <div flex="90" flex-md="70" flex-lg="50">
+        <img src="/static/images/constitution.png" style="width: 100%">
+      </div>
+    </div>
+    <div layout="row" layout-align="center">
+      <md-button class="md-link"
+                 href="https://crowdresearch.github.io/open-gov/constitution/2016/11/21/constitution.html"
+                 target="_blank">Read Daemo's constitution
+      </md-button>
+    </div>
+  </div>
+  <div class="dark section _text-light" id="integrate_api">
+    <div layout="row" layout-align="center" layout-margin="">
+      <div flex="90" flex-md="80" flex-lg="60">
+        <h1 class="heading">Python API</h1>
+        <h2 class="sub-heading">Scale up your data collection and worker curation.</h2>
+      </div>
+    </div>
+    <div layout="row" layout-align="center" layout-wrap="">
+      <div style="width:390px">
+        <h2 style="text-align: center">Publish tasks</h2>
+        <!-- HTML generated using hilite.me -->
+        <div style="background: transparent; overflow:auto;width:auto;padding:.2em .6em;"><pre
+          style="margin: 0; line-height: 125%">
+  client.<strong>publish</strong>(
+      project_key<span style="color: #fff">=</span>PROJECT_KEY,
+      tasks<span
+          style="color: #fff">=</span>TASKS,
+      approve<span style="color: #fff">=</span>approve_correct_response,
+      completed<span style="color: #fff">=</span>rate_workers
+  )
+</pre>
+        </div>
+
+      </div>
+      <div style="width:390px">
+        <h2 style="text-align: center">Rate workers</h2>
+
+        <!-- HTML generated using hilite.me -->
+        <div style="background: transparent; overflow:auto;width:auto;padding:.2em .6em;"><pre
+          style="margin: 0; line-height: 125%">
+  client.<strong>rate</strong>(
+      project_key<span style="color: #fff">=</span>PROJECT_KEY,
+      ratings<span
+          style="color: #fff">=</span>RATINGS
+  )
+</pre>
+        </div>
+      </div>
+
+    </div>
+
+    <div layout="row" layout-align="center">
+      <md-button class="md-button dark" href="http://daemo-api-client.readthedocs.io/en/latest/" target="_blank">Explore
+        our API
+      </md-button>
+    </div>
+  </div>
+
+  <div class="light section small" id="discount">
+    <div layout="row" layout-align="center" layout-margin="">
+      <div flex="90" flex-md="80" flex-lg="60">
+        <h1 class="heading">Academic and nonprofit discount</h1>
+        <h2 class="sub-heading">Thanks to a <a href="https://sloan.org/fellowships/">Sloan Research Fellowship</a>,
+          Daemo will cover half the cost if you are a researcher, student, or nonprofit.</h2>
+      </div>
+    </div>
+
+    <div class="dark section small" id="start">
+      <div layout="row" layout-align="center" layout-margin="">
+        <div flex="90" flex-md="80" flex-lg="60">
+          <h1 class="heading">Ready?</h1>
+          <div layout="row" layout-align="center">
+            <md-button class="md-primary signup" style="" ng-click="vm.goTo('auth.register')">Get Started</md-button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>

@@ -1,0 +1,46 @@
+h3.my-profile-header {
+  color: black;
+}
+._getting-started {
+    & md-input-container .md-errors-spacer {
+        display: none;
+    }
+}
+md-toolbar.my-profile-toolbar {
+  background-color: white;
+  min-height: 0;
+  //width: initial;
+
+  .md-menu {
+    margin: 0;
+
+    > .md-button{
+      color:black;
+    }
+  }
+}
+.my-profile-body{
+  md-list-item{
+    min-height: 28px;
+
+    span{
+      font-size: 14px;
+      margin: 0;
+      max-width: 320px;
+      text-align: right;
+    }
+  }
+
+  md-autocomplete[md-floating-label] md-input-container{
+    padding-bottom: 0;
+  }
+
+  md-datepicker {
+    margin-bottom: 18px;
+  }
+}
+
+.label-style {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.54);
+  }

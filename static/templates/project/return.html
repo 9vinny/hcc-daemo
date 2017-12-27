@@ -1,0 +1,45 @@
+<md-dialog class="return-dialog" style="width: 50%">
+    <md-dialog-content class="dialog-content">
+        <!-- <div layout="row">  -->
+        <div layout="row">
+            <div layout="column" layout-align="end start" class="title">Request revision
+                from {{ review.current_taskWorker.worker_alias }}</div>
+            <div layout="column" layout-align="center end" class="clear">
+                <md-button class="exit md-icon-button" ng-click="cancel()">
+                    <md-icon md-font-set="material-icons">close</md-icon>
+                </md-button>
+            </div>
+        </div>
+        <div style="padding: 8px 16px" ng-if="review.current_taskWorker.attempt > 1">
+            <md-radio-group ng-model="review.returnStatus" class="layout-row">
+                <md-radio-button value="return">Return Submission</md-radio-button>
+                <md-radio-button value="reject">Reject Submission </md-radio-button>
+            </md-radio-group>
+        </div>
+        <div class="text">
+            <div>Let <b>{{ review.current_taskWorker.worker_alias }}</b> know
+                {{ review.returnStatus=='return'? 'what you are asking them to change about': 'why you are rejecting'  }}
+                their work.
+            </div>
+        </div>
+
+        <div>
+            <form name="metaForm">
+                <div class="form-content">
+                    <md-input-container class="md-block md-input-has-placeholder">
+                        <label>{{ review.returnStatus=='return'? 'Feedback': 'Reason' }}</label>
+                        <textarea required ng-model="review.feedback" md-maxlength="5000"
+                                  md-select-on-focus rows="3"></textarea>
+                    </md-input-container>
+                </div>
+                <div class="layout-align-end-end" layout="row">
+                    <md-dialog-actions>
+                        <md-button ng-click="review.returnTask(review.current_taskWorker, '', $event); cancel();"
+                                   class="return" ng-disabled="!review.feedback">Submit
+                        </md-button>
+                    </md-dialog-actions>
+                </div>
+            </form>
+        </div>
+    </md-dialog-content>
+</md-dialog>

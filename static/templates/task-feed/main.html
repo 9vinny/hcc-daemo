@@ -1,0 +1,128 @@
+<div class="_main-content _middle-content" ng-class="{'_sm': screenIsSmall, '_gt-sm': !screenIsSmall}">
+    <div layout="row" class="layout-align-start-center _task-nav _task-feed-shadow">
+        <span class="_nav-title _left-inset">Task Feed</span>
+        <div flex=""></div>
+        <div>
+            <md-input-container style="margin-bottom: 0; padding-right: 16px; margin-top: 0">
+                <label ng-if="!taskfeed.sortBy">Sort by</label>
+                <md-select ng-model="taskfeed.sortBy" aria-label="sort feed by">
+                    <md-option value="-boomerang">
+                        Boomerang
+                    </md-option>
+                    <md-option value="-published_at">
+                        Newest
+                    </md-option>
+                    <md-option value="-available_tasks">
+                        Available Tasks
+                    </md-option>
+                    <md-option value="-price">
+                        Price
+                    </md-option>
+                </md-select>
+            </md-input-container>
+        </div>
+
+    </div>
+    <div class="_feed-list">
+        <div ng-hide="!project.available_tasks" ng-repeat="project in taskfeed.projects" class="_task-feed-shadow">
+            <div class="_task-top">
+                <div layout="row" layout-align="start center">
+                    <div style="min-width: 68px">
+                        <div class="_price">
+                            {{ (project.aux_attributes.median_price ? project.aux_attributes.median_price: project.price) | currency:"$":2}}
+                            <md-tooltip ng-if="project.aux_attributes.median_price">Average price</md-tooltip>
+                        </div>
+                        <div>
+                            <div class="_time">
+                                <div ng-if="project.allow_price_per_task && project.aux_attributes.median_price">
+                                    <span ng-if="project.aux_attributes.min_price < 10">
+                                        {{ project.aux_attributes.min_price | currency: "$":2}}-
+                                    </span>
+                                    <span ng-if="project.aux_attributes.min_price >= 10">
+                                        ${{ project.aux_attributes.min_price | number:0}}-
+                                    </span>
+                                    <span ng-if="project.aux_attributes.max_price < 10">
+                                        {{ project.aux_attributes.max_price | currency: "$":2}}
+                                    </span>
+                                    <span ng-if="project.aux_attributes.max_price >= 10">${{ project.aux_attributes.max_price | number:0}}
+                                    </span>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div style="width: 100%">
+                        <div layout="row" layout-align="start center">
+                            <div class="_title _primary _clickable"
+                                 ui-sref="task_project({projectId:project.id})" flex-gt-xs="">
+                                {{ project.name }}
+                            </div>
+                            <div class="layout-row layout-align-end-center" flex-gt-xs="20" hide-xs="">
+                                <div style="max-width: 72px; text-overflow: ellipsis; overflow: hidden; white-space: nowrap;"
+                                     class="_no-border _clickable _tasks-available"
+                                     ui-sref="public_profile({handle:project.requester_handle})">{{ project.requester_handle }}
+                                    <md-tooltip>{{ project.requester_handle }}</md-tooltip>
+                                </div>
+                                <div>
+                                    <md-icon ng-if="project.requester_rating > 2.0" md-font-set="material-icons">
+                                        trending_up
+                                        <md-tooltip>This requester's tasks appear at the top of your task feed.
+                                        </md-tooltip>
+                                    </md-icon>
+                                    <md-icon ng-if="project.requester_rating < 1.99" md-font-set="material-icons">
+                                        trending_down
+                                        <md-tooltip>This requester's tasks appear at the bottom of your task feed.
+                                        </md-tooltip>
+                                    </md-icon>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div layout="row" layout-align="start start">
+                            <div style="min-width: 140px">
+                                <md-icon md-font-set="material-icons">list</md-icon>
+                                <ng-pluralize class="_tasks-available" count="project.available_tasks"
+                                              when="{'one': '1 available task', 'other': '{} available tasks'}"></ng-pluralize>
+                            </div>
+                            <!--div ng-if="project.is_prototype" style="margin-left: 8px; line-height: 22px">
+                                <span class="_prototype-badge" style="padding-bottom: 0"
+                                      hide-xs="">Prototype Task</span>
+                                <span class="_prototype-badge" style="padding-bottom: 0" hide-gt-xs="">Prototype</span>
+
+                            </div-->
+                        </div>
+                        <div hide-gt-xs="" class="layout-row layout-align-start-center">
+                            <div class="_no-border _clickable _tasks-available"
+                                 ui-sref="public_profile({handle:project.requester_handle})">{{ project.requester_handle }}</div>
+                            <div>
+                                <md-icon ng-if="project.requester_rating > 2.0" md-font-set="material-icons">
+                                    trending_up
+                                    <md-tooltip>This requester's tasks appear at the top of your task feed.
+                                    </md-tooltip>
+                                </md-icon>
+                                <md-icon ng-if="project.requester_rating < 1.99" md-font-set="material-icons">
+                                    trending_down
+                                    <md-tooltip>This requester's tasks appear at the bottom of your task feed.
+                                    </md-tooltip>
+                                </md-icon>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="_no-tasks _task-feed-shadow" ng-if="taskfeed.loading">
+            <div layout="row" layout-sm="column" layout-align="space-around" class="md-padding">
+                <md-progress-circular md-diameter="20" md-mode="indeterminate"></md-progress-circular>
+            </div>
+        </div>
+        <div class="_no-tasks _task-feed-shadow" ng-if="!taskfeed.loading && !taskfeed.availableTasks">
+            No tasks available
+        </div>
+    </div>
+</div>

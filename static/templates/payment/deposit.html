@@ -1,0 +1,48 @@
+<div style="background-color: white" class="_main-content _middle-content md-whiteframe-z1 my-profile-body"
+     ng-class="{'_sm': screenIsSmall, '_gt-sm': !screenIsSmall}">
+    <md-toolbar class="my-profile-toolbar _content-nav"
+                ng-class="{'_sm': screenIsSmall, '_gt-sm': !screenIsSmall}">
+        <div class="md-toolbar-tools">
+            <div class="my-profile-header _nav-title">Deposit Funds</div>
+        </div>
+    </md-toolbar>
+    <md-progress-linear ng-if="payment.depositRequested" md-mode="indeterminate"></md-progress-linear>
+    <div layout-margin="">
+        <div style="padding-top: 32px; margin-bottom: 0">
+            <div ng-if="payment.discount < 1.0">
+                <a href="https://forum.daemo.org/t/daemo-academic-and-nonprofit-discount/123/2" target="_blank">50% off
+                    for academic and nonprofit accounts: discount applied</a>
+            </div>
+            <md-input-container style="margin-bottom: 0; min-width: 150px">
+                <label for="amount">Deposit Amount (USD)</label>
+                <input name="amount" required type="number" min="1.00" step="0.01"
+                       max="9999.99" ng-model="payment.amount">
+            </md-input-container>
+            <div style="line-height: 32px">Current balance: ${{ payment.financial_data.account_balance }}</div>
+
+        </div>
+
+        <div layout="row" layout-align="start center" style="padding-bottom: 16px; margin-top: 0">
+            <div>Credit Card ****-{{ payment.financial_data.default_card.last_4 }},
+                exp. {{ payment.financial_data.default_card.exp_month }}/{{ payment.financial_data.default_card.exp_year }}</div>
+            <a style="padding-left: 16px" ui-sref="payment_card">Edit Card</a>
+        </div>
+        <div>
+            <div>Your credit card will be charged: {{ payment.getTotal() | currency }}</div>
+
+            <div class="_secondary-text-small">Stripe collects a 2.9% + 30¢ fee per transaction, and Daemo <a
+                    href="https://forum.daemo.org/t/daemos-overhead-charge-policy/118" target="_blank">
+                holds 0.5% in
+                reserve per transaction
+            </a>
+            </div>
+        </div>
+        <div layout="row" layout-align="end center">
+            <md-button ng-disabled="payment.depositRequested" class="md-accent" ng-click="payment.createCharge()">
+                Deposit
+            </md-button>
+        </div>
+
+    </div>
+</div>
+

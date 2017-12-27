@@ -1,0 +1,118 @@
+<div class="bg-network">
+  <div layout="row" layout-align="center">
+    <!-- light section logo-overlay -->
+    <!-- logo-container -->
+    <div class="logo-overlay" flex-xs="100" flex="60">
+      <div class="logo-container">
+        <h2 class="logo-text">Where will you land after attending a top CS grad school?</h2>
+        <p class="logo-subtitle">Wherein the author rolls up his sleeves and does some crowdsourcing to find out.</p>
+        <p class="logo-subtitle"><a href="http://hci.stanford.edu/msb">Michael Bernstein</a>, Jul 12 2017</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="light section textblock" id="intro">
+  <div layout="row" layout-align="center" layout-margin="">
+    <div flex-xs="90" flex="60" class="free-height">
+      <p>Where should you study if you want to push the boundaries of Computer Science? Rumors abound: School X is better at producing professors, School Y is better at producing startups, and more. Is there any truth to this?</p>
+
+      <p>My group at Stanford has been building <a href="http://www.daemo.org">Daemo, a new research platform for paid crowdsourcing</a>. So, I set it to answering this question. We scraped CS graduate lists from Stanford, Berkeley and MIT, then launched a task for Daemo's crowd workers to find LinkedIn profiles for each graduate. The workers found profiles for about 75% of graduates in our sample, a total of 1097 people. An algorithm then classified the job titles that each graduate had listed, including if the person had held multiple types of jobs in their career.</p>
+
+      <p>The data suggest that Stanford, MIT and Berkley have similar percentages of graduates becoming professors, research scientists, and engineers:</p>
+      <div><img width="100%" src="static/images/demo/vis-allcareer-sketched.png"/></div>
+      <p>Let's dig in to how we did this.</p>
+
+    </div>
+  </div>
+</div>
+
+<div class="dark section textblock" id="method">
+  <div layout="row" layout-align="center" layout-margin="">
+    <div flex-xs="90" flex="60" class="free-height">
+
+      <h1 class="heading _text-light">Our method</h1>
+
+      <p class="_text-light"><i>Wherein we randomly sample graduates from each program, crowdsource the identification of their LinkedIn profiles, then categorize each job in their career.</i></p>
+
+      <p  class="_text-light">Our platform, Daemo, has two goals: (1) techniques to ensure high-quality results with less effort, and (2) a collective governance structure that gives workers more rights. I used Daemo to compare the career outcomes of every graduate from these programs that we can find. To do this, I took three top Computer Science programs that have up-to-date lists of their Ph.D. alumni &mdash; <a href="https://www-cs.stanford.edu/directory/phd-alumni">Stanford</a>, <a href="https://alum.mit.edu/directory">MIT</a>, and <a href="https://www2.eecs.berkeley.edu/Pubs/Dissertations/">UC Berkeley</a> &mdash; and scraped them. (Other schools: I'd be happy to include you, I likely couldn't find an up-to-date list of PhD alumni. <a href="mailto:msb@cs.stanford.edu">Drop me a line.</a>) In Stanford's case this designation is easy: just include every PhD graduate from Stanford's CS Department. Berkeley and MIT have joint EECS departments, so to focus on Computer Science graduate students, I sampled only Berkeley PhD graduates whose dissertations were advised by a faculty member in the CS Division, and only MIT PhD graduates who were affiliated with the Computer Science and Artificial Intelligence Lab (CSAIL), or its predecessors LCS and the AI Lab. I then randomly sampled about 500 graduates from each program.</p>
+
+      <p  class="_text-light">I posted the task asking Daemo's workers to find a public LinkedIn page for each graduate, if it exists. They exported the profile in a specific PDF format that LinkedIn generates.</p>
+
+      <p  class="_text-light">One goal of Daemo is to get high quality work by identifying high-quality workers. <a href="http://hci.stanford.edu/publications/2016/boomerang/boomerang-uist.pdf">The way that Daemo works: workers who you rate highly will get early access to your future tasks</a>. It cascades task to the workers so that most of your work is done by people who you like, so you spend far less time dealing with bad actors and mistakes. So I launched a prototype task with a small number of inputs, then rated the workers who did the task. Those workers then got early access and did the brunt of the task, labeling and exporting hundreds of graduate LinkedIn profiles in just a couple hours.</p>
+
+      <div style="max-height: 40em; overflow-y: scroll;">
+        <div project-preview="42" class="project-preview"></div>
+      </div>
+
+      <p  class="_text-light">The Daemo workers were able to locate verifiable LinkedIn pages for about 75% of the graduates. I used <a href="https://github.com/johnjosephhorton/lip2sql">John Horton's lip2sql library</a> to parse the LinkedIn PDFs into a sqlite database, and then got to querying.</p>
+
+      <p  class="_text-light">The goal is to see if each graduate held career positions in each of four major outcomes for CS Ph.D.s: professor, entrepreneur, research scientist, and engineer. <a          href="https://pdfs.semanticscholar.org/d267/4d889a5d1e5b0f7828e9570977492e733530.pdf">Following John's lead in his labor economics paper</a>, I identified professor positions by looking for job titles including words such as "faculty" or "professor" but not words like "adjunct" or "consulting". Entrepreneurship was triggered by titles such as "founder" or "partner", research scientist by titles such as "researcher" or "scientist" (natch), and engineer by titles such as "programmer" or "architect". <a href="https://github.com/crowdresearch/daemo-demos/blob/master/cs-phd/transformquery.sql">Here's the code</a>.</p>
+
+      <p  class="_text-light">Some limitations of this analysis: not everyone is on LinkedIn, and not everyone keeps their LinkedIn pages up to date. The Daemo workers located about 75% of graduates, however, so we shouldn't have too large a sample bias here. In addition, not everybody uses the same vocabulary to describe their jobs on LinkedIn. (There was one MIT graduate whose job title is "Captain Abstraction".) I inspected all the matched job titles and non-matched ones &mdash; to check for false positives and negatives in the labels. Many were easily weeded out, for example adjunct faculty positions. Finally, there may be selection bias of who attends each school: that is, there is obviously not random assignment of who gets into each institution, so these results may reflect who is matriculating rather than any influence the institutions themselves have.</p>
+    </div>
+  </div>
+</div>
+
+<div class="light section textblock" id="results">
+  <div layout="row" layout-align="center" layout-margin="">
+    <div flex-xs="90" flex="60" class="free-height">
+      <h1 class="heading">Result 1: all schools produce faculty at the same rate</h1>
+
+      <p>I wrote <a href="https://github.com/crowdresearch/daemo-demos/blob/master/cs-phd/bootstrap.py">a numpy script to do bootstrap estimation of the means and 95% confidence intervals</a>, producing the following plot. Keep in mind that the numbers in this graph don't add up to 100%, because a given person might have multiple kinds of jobs in their career, for example <a href="http://www.mdw.la">a professor who moves into an engineering position in industry</a> counting in both categories.</p>
+
+      <div><img width="100%" src="static/images/demo/vis-allcareer.png"/></div>
+
+      <p>So despite anything you might have heard, all schools are equally good at producing faculty. About 27% of PhD graduates from each of the three schools hold a faculty position at some point in their career.</p>
+
+      <h1 class="heading">Result 2: Research scientist and engineer appear highly permeable</h1>
+      <p>These categories don't appear to be a zero-sum game. Stanford not only produces more entrepreneurs than its peer institutions &mdash; a clearly statistically significant result at p=.05 given the bootstrapped confidence intervals &mdash; but, surprisingly, it seems to produce no fewer of any other category. One interpretation would be that Stanford's startup culture is drawing a self-selecting set of individuals, and those folks are relatively uninterested in the other career outcomes. That's what I believed at first. But I was wrong! Looking more closely, the entrepreneurs are also very likely to hold careers as scientists or engineers:</p>
+
+      <div flex="50" flex-xs="90">
+        <img src="static/images/demo/adjacency.svg" width="100%"/>
+      </div>
+      <p>While relatively few scientists or engineers are also professors or entrepreneurs, there is quite a bit of mixing between the two.</p>
+
+      <h1 class="heading">Result 3: We are producing fewer and fewer faculty members</h1>
+      <p>Those results were aggregated over the entire history of each department. Do things look different if we focus on more recent times, filtering down to people who got their degrees in 2006 or later?</p>
+
+      <div><img width="100%" src="static/images/demo/vis-tenyears.png"/></div>
+
+      <p>The story is the same. The bars for faculty are no longer exactly the same height, but <b>the range is 18%-22% and nowhere near significant</b>. It is notable, though that the percentage of graduates who become faculty is lower than when we aggregate over all years.</p>
+
+      <p>This brings up the question: are things changing over time? Here's what happens when we aggregrate across all schools and break down by decade:</p>
+
+      <div><img width="100%" src="static/images/demo/vis-overtime.png"/></div>
+
+      <p>The 2010s are lower on all groups, which I'm guessing is because they've had less time to hold multiple career positions, whereas the older graduates have had time to move around. But, accounting for that correction, three of the four careers &mdash; entrepreneur, scientist, and engineer &mdash; are holding pretty constant. The fourth &mdash; professor &mdash; does seem to be on a downward trend.</p>
+
+      <p>Why are fewer graduates becoming faculty over time? (The author looks around, keenly aware that he is a 2012 graduate who became faculty.) It's even more surprising because CS departments are, as a whole, growing quite a bit right now. We could be staring faculty scarcity in the face: my colleage Eric Roberts points out in the CRA Taulbee Survey that there are 5x the number of CS departments as Ph.D. graduates in CS who go on to become faculty. Has the draw of industry further outpaced the allure of being a professor? Perhaps academia's filter is very high, but the people who pass that filter are looking at other careers as often as not?</p>
+    </div>
+  </div>
+</div>
+
+<div class="dark section textblock _text-light" id="results">
+  <div layout="row" layout-align="center" layout-margin="">
+    <div flex-xs="90" flex="60" class="free-height">
+      <h1 class="heading">So now what?</h1>
+
+      <p>Here's what I take away from this little exploration:</p>
+
+      <ul>
+        <li>If you want to be a professor, and got into these top programs, go to the school with the best advisor match
+          &mdash; anyone who tries to tell you that one is better or worse at producing faculty is <b>wrong</b>.
+        </li>
+        <li>In fact, the only noticeable difference across schools is that Stanford produces the most entrepreneurs, but
+          entrepreneurship seems to be a noncompeting outcome against the others. It doesn't cut into the proportion of
+          Stanford people pursuing other kinds of opportunities.
+        </li>
+        <li>Crowd workers are great at extracting resumes from LinkedIn. Thanks in particular to to Daemo workers william.blanchard, gina.bixby, jessica.schertz, and scott.gross for their efforts.</li>
+      </ul>
+
+      <p>Feel free to ping me at <a href="mailto:msb@cs.stanford.edu">msb@cs.stanford.edu</a> or <a
+        href="http://twitter.com/msbernst">@msbernst</a>. If you'd like to get access to Daemo to try it out while we
+        finish developing it as a research crowdsourcing platform, let me know.</p>
+    </div>
+  </div>
+</div>
