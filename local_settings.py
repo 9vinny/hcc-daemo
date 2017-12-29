@@ -18,7 +18,8 @@ DATABASES = {
     # }
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'crowdsource_dev',
+        'NAME': 'def805jckni1jb',
+        'PORT': '5432',
     }
 }
 
