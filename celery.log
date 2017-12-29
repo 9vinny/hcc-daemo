@@ -1,0 +1,1193 @@
+[2017-12-28 05:51:31,734: INFO/Beat] beat: Starting...
+[2017-12-28 05:51:32,325: INFO/MainProcess] Connected to redis://localhost:6379//
+[2017-12-28 05:51:32,345: INFO/MainProcess] mingle: searching for neighbors
+[2017-12-28 05:51:33,386: INFO/MainProcess] mingle: all alone
+[2017-12-28 05:51:33,416: WARNING/MainProcess] /Users/GARB42/Envs/daemoenv/lib/python2.7/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+[2017-12-28 05:51:33,416: INFO/MainProcess] celery@Bir-Mac.local ready.
+[2017-12-28 05:51:33,655: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-28 05:51:33,675: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[3e925949-064e-45bc-a000-7043edbb271d]  
+[2017-12-28 05:51:33,792: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[4224f077-b0d2-4d2d-aa97-2b26a2dd8638]  
+[2017-12-28 05:51:33,796: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.refund_task[4224f077-b0d2-4d2d-aa97-2b26a2dd8638] succeeded in 0.00129356999241s: 'OBSOLETE METHOD'
+[2017-12-28 05:51:33,806: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[7b3635fc-c9f5-49f4-82b6-525e23b16297]  
+[2017-12-28 05:51:33,810: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.update_worker_cache[7b3635fc-c9f5-49f4-82b6-525e23b16297] succeeded in 0.00160624399723s: 'SUCCESS'
+[2017-12-28 05:51:33,823: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[27037dd7-65f4-4483-867c-d8763e9a8705]  
+[2017-12-28 05:51:33,824: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.refund_task[27037dd7-65f4-4483-867c-d8763e9a8705] succeeded in 0.000312618998578s: 'OBSOLETE METHOD'
+[2017-12-28 05:51:33,836: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[f30da5e0-95a4-469d-88a1-a29ed2eab3a2]  
+[2017-12-28 05:51:33,836: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.expire_tasks[3e925949-064e-45bc-a000-7043edbb271d] succeeded in 0.157598733989s: 'SUCCESS'
+[2017-12-28 05:51:33,842: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[f30da5e0-95a4-469d-88a1-a29ed2eab3a2] succeeded in 0.00234371999977s: 'SUCCESS'
+[2017-12-28 05:52:33,640: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-28 05:52:33,657: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[c96df4a4-972a-4cb1-827e-cd76584521f3]  
+[2017-12-28 05:52:33,755: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[d4309500-9543-4735-8fa9-7ed4b32d8e99]  
+[2017-12-28 05:52:33,764: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[d4309500-9543-4735-8fa9-7ed4b32d8e99] succeeded in 0.00182465699618s: 'OBSOLETE METHOD'
+[2017-12-28 05:52:33,773: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[f1a83351-a617-4647-bf9f-1535bb890011]  
+[2017-12-28 05:52:33,787: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[f1a83351-a617-4647-bf9f-1535bb890011] succeeded in 0.00455725900247s: 'SUCCESS'
+[2017-12-28 05:52:33,793: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[fc809de7-595d-4b1d-9f39-c60a405545d5]  
+[2017-12-28 05:52:33,801: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.refund_task[fc809de7-595d-4b1d-9f39-c60a405545d5] succeeded in 0.00393038500624s: 'OBSOLETE METHOD'
+[2017-12-28 05:52:33,816: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[4d87b25e-c9ef-4ff4-b03a-228a1cc2c16d]  
+[2017-12-28 05:52:33,816: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.expire_tasks[c96df4a4-972a-4cb1-827e-cd76584521f3] succeeded in 0.150828262005s: 'SUCCESS'
+[2017-12-28 05:52:33,818: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.update_worker_cache[4d87b25e-c9ef-4ff4-b03a-228a1cc2c16d] succeeded in 0.000763491989346s: 'SUCCESS'
+[2017-12-28 05:53:33,638: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-28 05:53:33,644: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[d15732c8-a199-4b05-988c-abb532a91ec4]  
+[2017-12-28 05:53:33,704: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[ec74959e-dc83-4195-bfdd-87c655db3d90]  
+[2017-12-28 05:53:33,707: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[ec74959e-dc83-4195-bfdd-87c655db3d90] succeeded in 0.000792047008872s: 'OBSOLETE METHOD'
+[2017-12-28 05:53:33,721: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[40430819-102c-4b32-9a36-2999490c254f]  
+[2017-12-28 05:53:33,723: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[40430819-102c-4b32-9a36-2999490c254f] succeeded in 0.000338187004672s: 'SUCCESS'
+[2017-12-28 05:53:33,740: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[737e910e-81dd-477e-9378-01146cf8e184]  
+[2017-12-28 05:53:33,748: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.refund_task[737e910e-81dd-477e-9378-01146cf8e184] succeeded in 0.00276946900703s: 'OBSOLETE METHOD'
+[2017-12-28 05:53:33,755: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[dbffd2dc-ec34-4228-b115-db8f4e6204e9]  
+[2017-12-28 05:53:33,754: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.expire_tasks[d15732c8-a199-4b05-988c-abb532a91ec4] succeeded in 0.107707853997s: 'SUCCESS'
+[2017-12-28 05:53:33,757: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.update_worker_cache[dbffd2dc-ec34-4228-b115-db8f4e6204e9] succeeded in 0.000348906993167s: 'SUCCESS'
+[2017-12-28 05:54:33,640: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-28 05:54:33,658: INFO/Beat] Scheduler: Sending due task auto-approve-tasks (crowdsourcing.tasks.auto_approve_tasks)
+[2017-12-28 05:54:33,659: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[2caf4c17-5657-4b44-a3bb-b2dab5e27626]  
+[2017-12-28 05:54:33,662: INFO/MainProcess] Received task: crowdsourcing.tasks.auto_approve_tasks[5c5e5ed7-048e-4a6f-b97e-989a5a4f23ff]  
+[2017-12-28 05:54:33,862: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.auto_approve_tasks[5c5e5ed7-048e-4a6f-b97e-989a5a4f23ff] succeeded in 0.188962771004s: 'SUCCESS'
+[2017-12-28 05:54:33,891: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[72cf6ae4-9d12-463e-bbfb-633456d37027]  
+[2017-12-28 05:54:33,902: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.refund_task[72cf6ae4-9d12-463e-bbfb-633456d37027] succeeded in 0.00715394399595s: 'OBSOLETE METHOD'
+[2017-12-28 05:54:33,912: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[aa523951-c69b-4c69-807e-a5f3c2e422cb]  
+[2017-12-28 05:54:33,927: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.update_worker_cache[aa523951-c69b-4c69-807e-a5f3c2e422cb] succeeded in 0.00792146399908s: 'SUCCESS'
+[2017-12-28 05:54:33,935: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[fada59c7-3765-4ebe-9771-691dc6901e62]  
+[2017-12-28 05:54:33,936: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[fada59c7-3765-4ebe-9771-691dc6901e62] succeeded in 0.000393319991417s: 'OBSOLETE METHOD'
+[2017-12-28 05:54:33,946: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[ef916e61-0da1-4089-9adf-17a35feb18dc]  
+[2017-12-28 05:54:33,946: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.expire_tasks[2caf4c17-5657-4b44-a3bb-b2dab5e27626] succeeded in 0.273328930998s: 'SUCCESS'
+[2017-12-28 05:54:33,949: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.update_worker_cache[ef916e61-0da1-4089-9adf-17a35feb18dc] succeeded in 0.000953580005444s: 'SUCCESS'
+[2017-12-28 05:55:33,639: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-28 05:55:33,645: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[10bbd413-9f01-41b5-ade3-06a7e0f27f99]  
+[2017-12-28 05:55:33,717: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[a3bee722-a547-4aec-bac7-1eea8f25b9bf]  
+[2017-12-28 05:55:33,719: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.refund_task[a3bee722-a547-4aec-bac7-1eea8f25b9bf] succeeded in 0.000259371998254s: 'OBSOLETE METHOD'
+[2017-12-28 05:55:33,730: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[bb0570ea-02ab-4ff9-ba29-fa59a109be1c]  
+[2017-12-28 05:55:33,732: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.update_worker_cache[bb0570ea-02ab-4ff9-ba29-fa59a109be1c] succeeded in 0.0002346340043s: 'SUCCESS'
+[2017-12-28 05:55:33,746: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[f8ccd614-f877-4328-833b-9b86dba93253]  
+[2017-12-28 05:55:33,747: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[f8ccd614-f877-4328-833b-9b86dba93253] succeeded in 0.000263068999629s: 'OBSOLETE METHOD'
+[2017-12-28 05:55:33,757: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[918dde6f-75d9-42c1-918d-b4863897b8d0]  
+[2017-12-28 05:55:33,757: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.expire_tasks[10bbd413-9f01-41b5-ade3-06a7e0f27f99] succeeded in 0.111086056s: 'SUCCESS'
+[2017-12-28 05:55:33,759: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[918dde6f-75d9-42c1-918d-b4863897b8d0] succeeded in 0.00055859699205s: 'SUCCESS'
+[2017-12-28 05:56:33,639: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-28 05:56:33,645: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[a6c80d52-3f7c-4c10-9c8e-d0661f3a7127]  
+[2017-12-28 05:56:33,645: INFO/Beat] Scheduler: Sending due task update-feed-boomerang (crowdsourcing.tasks.update_feed_boomerang)
+[2017-12-28 05:56:33,648: INFO/MainProcess] Received task: crowdsourcing.tasks.update_feed_boomerang[892489b3-08f8-44d7-92bb-bb3e8e555d5d]  
+[2017-12-28 05:56:33,699: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[bd789910-153f-481b-aac5-fb4b43d922da]  
+[2017-12-28 05:56:33,700: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.refund_task[bd789910-153f-481b-aac5-fb4b43d922da] succeeded in 0.000266502000159s: 'OBSOLETE METHOD'
+[2017-12-28 05:56:33,711: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[0efcb8ef-e689-41d5-b5ac-a02f7520d00d]  
+[2017-12-28 05:56:33,712: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.update_worker_cache[0efcb8ef-e689-41d5-b5ac-a02f7520d00d] succeeded in 0.000242154012085s: 'SUCCESS'
+[2017-12-28 05:56:33,730: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[bda2ac05-da46-4419-827d-f05e83b512d1]  
+[2017-12-28 05:56:33,732: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.refund_task[bda2ac05-da46-4419-827d-f05e83b512d1] succeeded in 0.000277129001915s: 'OBSOLETE METHOD'
+[2017-12-28 05:56:33,747: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.expire_tasks[a6c80d52-3f7c-4c10-9c8e-d0661f3a7127] succeeded in 0.101314623011s: 'SUCCESS'
+[2017-12-28 05:56:33,748: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[8599927d-2da9-4f23-a9ee-aa242629d054]  
+[2017-12-28 05:56:33,750: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.update_worker_cache[8599927d-2da9-4f23-a9ee-aa242629d054] succeeded in 0.000301695006783s: 'SUCCESS'
+[2017-12-28 05:56:33,834: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_feed_boomerang[892489b3-08f8-44d7-92bb-bb3e8e555d5d] succeeded in 0.185068606006s: 'SUCCESS: 0 rows affected'
+[2017-12-28 05:57:33,640: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-28 05:57:33,658: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[ec6d7b28-0e30-48be-ad2c-2f88656cac77]  
+[2017-12-28 05:57:33,705: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[1d8b7d80-0881-4565-9bd2-ff5122c9c142]  
+[2017-12-28 05:57:33,707: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[1d8b7d80-0881-4565-9bd2-ff5122c9c142] succeeded in 0.000524132003193s: 'OBSOLETE METHOD'
+[2017-12-28 05:57:33,717: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[7d6ae603-a64d-48a0-8f79-dd605f5afcc8]  
+[2017-12-28 05:57:33,725: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[7d6ae603-a64d-48a0-8f79-dd605f5afcc8] succeeded in 0.00208660999488s: 'SUCCESS'
+[2017-12-28 05:57:33,732: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[91ade6d7-1b06-400d-87a6-a96c0c572176]  
+[2017-12-28 05:57:33,734: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.refund_task[91ade6d7-1b06-400d-87a6-a96c0c572176] succeeded in 0.000361610000255s: 'OBSOLETE METHOD'
+[2017-12-28 05:57:33,744: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[e901acaf-8205-48d0-8b16-84e399a2d74a]  
+[2017-12-28 05:57:33,744: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.expire_tasks[ec6d7b28-0e30-48be-ad2c-2f88656cac77] succeeded in 0.0777519269905s: 'SUCCESS'
+[2017-12-28 05:57:33,746: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.update_worker_cache[e901acaf-8205-48d0-8b16-84e399a2d74a] succeeded in 0.00030634200084s: 'SUCCESS'
+[2017-12-28 05:58:33,659: INFO/Beat] Scheduler: Sending due task auto-approve-tasks (crowdsourcing.tasks.auto_approve_tasks)
+[2017-12-28 05:58:33,664: INFO/MainProcess] Received task: crowdsourcing.tasks.auto_approve_tasks[886cb3e4-82f0-44eb-a72b-7aedc5964b95]  
+[2017-12-28 05:58:33,664: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-28 05:58:33,667: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[4ca0e29d-ee34-4a36-99f2-c99d9b236b5a]  
+[2017-12-28 05:58:33,707: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.auto_approve_tasks[886cb3e4-82f0-44eb-a72b-7aedc5964b95] succeeded in 0.0415211799991s: 'SUCCESS'
+[2017-12-28 05:58:33,721: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[ffe023f7-c4a3-473a-9e79-5776a20c7f08]  
+[2017-12-28 05:58:33,723: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.refund_task[ffe023f7-c4a3-473a-9e79-5776a20c7f08] succeeded in 0.000278040010016s: 'OBSOLETE METHOD'
+[2017-12-28 05:58:33,735: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[4f742922-9f76-4d71-bb2c-19772328fc2c]  
+[2017-12-28 05:58:33,737: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.update_worker_cache[4f742922-9f76-4d71-bb2c-19772328fc2c] succeeded in 0.000826186995255s: 'SUCCESS'
+[2017-12-28 05:58:33,750: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[828dcab6-f6cd-4643-a693-aced9e014900]  
+[2017-12-28 05:58:33,752: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[828dcab6-f6cd-4643-a693-aced9e014900] succeeded in 0.000446216989076s: 'OBSOLETE METHOD'
+[2017-12-28 05:58:33,762: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[a6d844be-1499-4b22-834f-3bb8a519a86b]  
+[2017-12-28 05:58:33,762: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.expire_tasks[4ca0e29d-ee34-4a36-99f2-c99d9b236b5a] succeeded in 0.0928890549985s: 'SUCCESS'
+[2017-12-28 05:58:33,764: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[a6d844be-1499-4b22-834f-3bb8a519a86b] succeeded in 0.00034704200516s: 'SUCCESS'
+[2017-12-28 05:59:33,666: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-28 05:59:33,680: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[f575736f-e164-4215-87f5-585aa2d8c8af]  
+[2017-12-28 05:59:33,789: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[c1fb4cd8-d82f-4564-8823-55e3a30a2dba]  
+[2017-12-28 05:59:33,797: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.refund_task[c1fb4cd8-d82f-4564-8823-55e3a30a2dba] succeeded in 0.00133247800113s: 'OBSOLETE METHOD'
+[2017-12-28 05:59:33,804: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[8ead3180-975c-484d-a13a-24c58a784bbf]  
+[2017-12-28 05:59:33,806: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.update_worker_cache[8ead3180-975c-484d-a13a-24c58a784bbf] succeeded in 0.000698313990142s: 'SUCCESS'
+[2017-12-28 05:59:33,819: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[9673e962-e18d-4000-af14-0a193bf75464]  
+[2017-12-28 05:59:33,829: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[9673e962-e18d-4000-af14-0a193bf75464] succeeded in 0.00266822100093s: 'OBSOLETE METHOD'
+[2017-12-28 05:59:33,834: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[dd66db9b-5d37-4066-bdf8-6eabc3fcf362]  
+[2017-12-28 05:59:33,833: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.expire_tasks[f575736f-e164-4215-87f5-585aa2d8c8af] succeeded in 0.149966129989s: 'SUCCESS'
+[2017-12-28 05:59:33,835: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[dd66db9b-5d37-4066-bdf8-6eabc3fcf362] succeeded in 0.000337178993504s: 'SUCCESS'
+[2017-12-28 06:00:33,665: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-28 06:00:33,670: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[5214d5dc-03b4-4721-ab09-f029baece2a4]  
+[2017-12-28 06:00:33,752: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[db81ce5b-f140-4b03-a121-2d88f6f2ee30]  
+[2017-12-28 06:00:33,754: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.refund_task[db81ce5b-f140-4b03-a121-2d88f6f2ee30] succeeded in 0.000291698001092s: 'OBSOLETE METHOD'
+[2017-12-28 06:00:33,770: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[bd477a1b-6c3d-4132-bef9-4ba58519d3ba]  
+[2017-12-28 06:00:33,771: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.update_worker_cache[bd477a1b-6c3d-4132-bef9-4ba58519d3ba] succeeded in 0.000359012992703s: 'SUCCESS'
+[2017-12-28 06:00:33,788: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[27a325f3-c1c8-4d9b-9d0f-6482fa260e2b]  
+[2017-12-28 06:00:33,791: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[27a325f3-c1c8-4d9b-9d0f-6482fa260e2b] succeeded in 0.000310752002406s: 'OBSOLETE METHOD'
+[2017-12-28 06:00:33,806: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[44216a78-0a25-4abd-9dd9-688d1b6f9f5b]  
+[2017-12-28 06:00:33,805: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.expire_tasks[5214d5dc-03b4-4721-ab09-f029baece2a4] succeeded in 0.133734675997s: 'SUCCESS'
+[2017-12-28 06:00:33,808: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[44216a78-0a25-4abd-9dd9-688d1b6f9f5b] succeeded in 0.000320149003528s: 'SUCCESS'
+[2017-12-28 06:01:33,645: INFO/Beat] Scheduler: Sending due task update-feed-boomerang (crowdsourcing.tasks.update_feed_boomerang)
+[2017-12-28 06:01:33,650: INFO/MainProcess] Received task: crowdsourcing.tasks.update_feed_boomerang[ec28111d-183a-4f7c-8539-8e464944a9be]  
+[2017-12-28 06:01:33,665: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-28 06:01:33,668: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[2474aa36-cf44-489a-bda9-625f385c5820]  
+[2017-12-28 06:01:33,722: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[4dc4fc27-31c1-46c5-8500-125e586ae8c3]  
+[2017-12-28 06:01:33,724: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.refund_task[4dc4fc27-31c1-46c5-8500-125e586ae8c3] succeeded in 0.000465776000055s: 'OBSOLETE METHOD'
+[2017-12-28 06:01:33,726: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.update_feed_boomerang[ec28111d-183a-4f7c-8539-8e464944a9be] succeeded in 0.075399171008s: 'SUCCESS: 0 rows affected'
+[2017-12-28 06:01:33,737: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[4d04a309-311e-45a4-8d68-be0e6f3d1dd1]  
+[2017-12-28 06:01:33,738: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.update_worker_cache[4d04a309-311e-45a4-8d68-be0e6f3d1dd1] succeeded in 0.000361816986697s: 'SUCCESS'
+[2017-12-28 06:01:33,752: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[27eaa044-9cb2-4a89-9560-6c442eb2d375]  
+[2017-12-28 06:01:33,753: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[27eaa044-9cb2-4a89-9560-6c442eb2d375] succeeded in 0.000203597999644s: 'OBSOLETE METHOD'
+[2017-12-28 06:01:33,764: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[43dc2abe-111c-4e32-b682-fab4a35cf3ec]  
+[2017-12-28 06:01:33,764: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.expire_tasks[2474aa36-cf44-489a-bda9-625f385c5820] succeeded in 0.0947696500079s: 'SUCCESS'
+[2017-12-28 06:01:33,766: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.update_worker_cache[43dc2abe-111c-4e32-b682-fab4a35cf3ec] succeeded in 0.000275746991974s: 'SUCCESS'
+[2017-12-28 06:02:33,665: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-28 06:02:34,303: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[56468c51-34be-43b5-b16c-a5f00cd93f0f]  
+[2017-12-28 06:02:34,303: INFO/Beat] Scheduler: Sending due task auto-approve-tasks (crowdsourcing.tasks.auto_approve_tasks)
+[2017-12-28 06:02:34,308: INFO/MainProcess] Received task: crowdsourcing.tasks.auto_approve_tasks[f369073e-48e9-40c5-ab92-3395e6ba4ffd]  
+[2017-12-28 06:02:34,343: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.auto_approve_tasks[f369073e-48e9-40c5-ab92-3395e6ba4ffd] succeeded in 0.0329681900039s: 'SUCCESS'
+[2017-12-28 06:02:34,404: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[7aabb18b-d470-4c55-b3b6-e107cd4f32d5]  
+[2017-12-28 06:02:34,406: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[7aabb18b-d470-4c55-b3b6-e107cd4f32d5] succeeded in 0.000305542998831s: 'OBSOLETE METHOD'
+[2017-12-28 06:02:34,430: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[fb02f012-e1ef-4675-91fc-a251f6609a4c]  
+[2017-12-28 06:02:34,432: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[fb02f012-e1ef-4675-91fc-a251f6609a4c] succeeded in 0.000310222996632s: 'SUCCESS'
+[2017-12-28 06:02:34,447: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[fe6cb55a-1081-43ca-a04f-9818562fa605]  
+[2017-12-28 06:02:34,449: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.refund_task[fe6cb55a-1081-43ca-a04f-9818562fa605] succeeded in 0.000326274006511s: 'OBSOLETE METHOD'
+[2017-12-28 06:02:34,465: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.expire_tasks[56468c51-34be-43b5-b16c-a5f00cd93f0f] succeeded in 0.160520058998s: 'SUCCESS'
+[2017-12-28 06:02:34,465: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[b4b0a6f2-66af-49d1-8aa0-8106c8ded876]  
+[2017-12-28 06:02:34,468: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[b4b0a6f2-66af-49d1-8aa0-8106c8ded876] succeeded in 0.000507941993419s: 'SUCCESS'
+[2017-12-28 06:03:33,665: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-28 06:03:33,670: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[4ed57e45-2856-4daf-9d9e-9d2c0f5b23fc]  
+[2017-12-28 06:03:33,759: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[b1b7f90f-e2f0-457a-ba9e-a57513d3cd9d]  
+[2017-12-28 06:03:33,761: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[b1b7f90f-e2f0-457a-ba9e-a57513d3cd9d] succeeded in 0.000294569996186s: 'OBSOLETE METHOD'
+[2017-12-28 06:03:33,771: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[b0bf9018-ebbd-404b-b441-d3804605a6fd]  
+[2017-12-28 06:03:33,773: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[b0bf9018-ebbd-404b-b441-d3804605a6fd] succeeded in 0.000333644988132s: 'SUCCESS'
+[2017-12-28 06:03:33,786: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[6b653631-a55f-46d1-8aff-b505b3568d47]  
+[2017-12-28 06:03:33,787: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[6b653631-a55f-46d1-8aff-b505b3568d47] succeeded in 0.000252687998s: 'OBSOLETE METHOD'
+[2017-12-28 06:03:33,798: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[8cd8c4ab-4e77-4d35-879d-3c2479a58ab6]  
+[2017-12-28 06:03:33,798: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[4ed57e45-2856-4daf-9d9e-9d2c0f5b23fc] succeeded in 0.126847025007s: 'SUCCESS'
+[2017-12-28 06:03:33,800: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[8cd8c4ab-4e77-4d35-879d-3c2479a58ab6] succeeded in 0.000311284005875s: 'SUCCESS'
+[2017-12-28 06:04:33,665: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-28 06:04:33,671: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[69238f86-0291-4aff-a848-59d4904f00ff]  
+[2017-12-28 06:04:33,720: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[b020bf34-ac0b-4d50-a549-ab34a08ca248]  
+[2017-12-28 06:04:33,721: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[b020bf34-ac0b-4d50-a549-ab34a08ca248] succeeded in 0.000306255999021s: 'OBSOLETE METHOD'
+[2017-12-28 06:04:33,732: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[fdb65789-9f93-4d7d-9d5b-3d2b9e94395a]  
+[2017-12-28 06:04:33,733: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[fdb65789-9f93-4d7d-9d5b-3d2b9e94395a] succeeded in 0.000282017994323s: 'SUCCESS'
+[2017-12-28 06:04:33,747: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[f3ecad37-2863-47a1-ba8e-634bae80dd22]  
+[2017-12-28 06:04:33,748: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[f3ecad37-2863-47a1-ba8e-634bae80dd22] succeeded in 0.000316512014251s: 'OBSOLETE METHOD'
+[2017-12-28 06:04:33,758: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[e043b086-3e2e-4a80-88af-9816c4cdad49]  
+[2017-12-28 06:04:33,758: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[69238f86-0291-4aff-a848-59d4904f00ff] succeeded in 0.0862790249957s: 'SUCCESS'
+[2017-12-28 06:04:33,760: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[e043b086-3e2e-4a80-88af-9816c4cdad49] succeeded in 0.000278159990557s: 'SUCCESS'
+[2017-12-28 06:05:33,665: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-28 06:05:33,669: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[aa2be961-5294-407a-a108-98118c10f743]  
+[2017-12-28 06:05:33,730: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[03e5399c-c740-4d14-9b56-071195618cb0]  
+[2017-12-28 06:05:33,731: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[03e5399c-c740-4d14-9b56-071195618cb0] succeeded in 0.000194127991563s: 'OBSOLETE METHOD'
+[2017-12-28 06:05:33,742: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[ab1506a7-ac5a-4793-a633-f70ae6dd18bf]  
+[2017-12-28 06:05:33,744: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[ab1506a7-ac5a-4793-a633-f70ae6dd18bf] succeeded in 0.000304139990476s: 'SUCCESS'
+[2017-12-28 06:05:33,758: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[04a685f8-9e5e-4b6b-8b57-18aae098a4a8]  
+[2017-12-28 06:05:33,760: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[04a685f8-9e5e-4b6b-8b57-18aae098a4a8] succeeded in 0.000622034000116s: 'OBSOLETE METHOD'
+[2017-12-28 06:05:33,771: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[f7a80de2-eb2a-43a9-b20d-b054391439fc]  
+[2017-12-28 06:05:33,771: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[aa2be961-5294-407a-a108-98118c10f743] succeeded in 0.0999457210128s: 'SUCCESS'
+[2017-12-28 06:05:33,772: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[f7a80de2-eb2a-43a9-b20d-b054391439fc] succeeded in 0.000187429002835s: 'SUCCESS'
+[2017-12-28 06:06:33,645: INFO/Beat] Scheduler: Sending due task update-feed-boomerang (crowdsourcing.tasks.update_feed_boomerang)
+[2017-12-28 06:06:33,650: INFO/MainProcess] Received task: crowdsourcing.tasks.update_feed_boomerang[90e7e858-ad71-4561-877a-2a6a46e286a9]  
+[2017-12-28 06:06:33,666: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-28 06:06:33,668: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[82a2e10c-0fa6-4fd2-9663-eded720593a2]  
+[2017-12-28 06:06:33,713: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[2f2c36d5-15dc-4433-afa5-6d5db07ecf6a]  
+[2017-12-28 06:06:33,715: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.refund_task[2f2c36d5-15dc-4433-afa5-6d5db07ecf6a] succeeded in 0.000415950009483s: 'OBSOLETE METHOD'
+[2017-12-28 06:06:33,730: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[746cf75a-8814-4c94-9a70-d5c60eea2811]  
+[2017-12-28 06:06:33,731: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[746cf75a-8814-4c94-9a70-d5c60eea2811] succeeded in 0.000319996994222s: 'SUCCESS'
+[2017-12-28 06:06:33,752: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[3e5b1d23-aac0-4715-8634-04c84e4c9d68]  
+[2017-12-28 06:06:33,753: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.refund_task[3e5b1d23-aac0-4715-8634-04c84e4c9d68] succeeded in 0.000307007998344s: 'OBSOLETE METHOD'
+[2017-12-28 06:06:33,756: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.update_feed_boomerang[90e7e858-ad71-4561-877a-2a6a46e286a9] succeeded in 0.105189984999s: 'SUCCESS: 0 rows affected'
+[2017-12-28 06:06:33,766: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[c7c53a6d-acdd-4329-a338-fddddd5e6eeb]  
+[2017-12-28 06:06:33,765: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.expire_tasks[82a2e10c-0fa6-4fd2-9663-eded720593a2] succeeded in 0.0959053940023s: 'SUCCESS'
+[2017-12-28 06:06:33,767: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.update_worker_cache[c7c53a6d-acdd-4329-a338-fddddd5e6eeb] succeeded in 0.000409996995586s: 'SUCCESS'
+[2017-12-28 06:06:34,303: INFO/Beat] Scheduler: Sending due task auto-approve-tasks (crowdsourcing.tasks.auto_approve_tasks)
+[2017-12-28 06:06:34,306: INFO/MainProcess] Received task: crowdsourcing.tasks.auto_approve_tasks[cb1c3101-f222-4fed-9c5b-ee6d01cb156a]  
+[2017-12-28 06:06:34,324: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.auto_approve_tasks[cb1c3101-f222-4fed-9c5b-ee6d01cb156a] succeeded in 0.0174442999996s: 'SUCCESS'
+[2017-12-28 06:07:33,666: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-28 06:07:33,670: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[ebfe6612-24a6-42db-960c-158ff54d12ae]  
+[2017-12-28 06:07:33,722: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[b3cb9ed3-e5f3-4f77-871d-42d74c285bf2]  
+[2017-12-28 06:07:33,723: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[b3cb9ed3-e5f3-4f77-871d-42d74c285bf2] succeeded in 0.000253656005953s: 'OBSOLETE METHOD'
+[2017-12-28 06:07:33,733: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[27dc9bd2-03e8-4ebc-9d88-fa0166e24686]  
+[2017-12-28 06:07:33,735: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[27dc9bd2-03e8-4ebc-9d88-fa0166e24686] succeeded in 0.000191283004824s: 'SUCCESS'
+[2017-12-28 06:07:33,749: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[661bb9d9-9eb4-47f1-b092-487514441aef]  
+[2017-12-28 06:07:33,750: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[661bb9d9-9eb4-47f1-b092-487514441aef] succeeded in 0.000188521997188s: 'OBSOLETE METHOD'
+[2017-12-28 06:07:33,762: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[5fa5a3fa-eab1-4ac3-8f50-1b3a60eb0ba5]  
+[2017-12-28 06:07:33,761: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[ebfe6612-24a6-42db-960c-158ff54d12ae] succeeded in 0.0898421970051s: 'SUCCESS'
+[2017-12-28 06:07:33,764: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[5fa5a3fa-eab1-4ac3-8f50-1b3a60eb0ba5] succeeded in 0.000495390006108s: 'SUCCESS'
+[2017-12-28 06:08:33,668: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-28 06:08:33,683: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[1ab869bd-27d3-4b52-8211-91a5291a527e]  
+[2017-12-28 06:08:33,753: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[9e74d866-6e31-4a1e-bf02-1ffb8cf7c05d]  
+[2017-12-28 06:08:33,764: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[9e74d866-6e31-4a1e-bf02-1ffb8cf7c05d] succeeded in 0.00382704299409s: 'OBSOLETE METHOD'
+[2017-12-28 06:08:33,768: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[6c4cecb7-69b5-47c2-92df-9fb810c45257]  
+[2017-12-28 06:08:33,780: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[6c4cecb7-69b5-47c2-92df-9fb810c45257] succeeded in 0.00369695399422s: 'SUCCESS'
+[2017-12-28 06:08:33,785: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[fa0b6855-b73d-4ce5-accd-a6ed19250611]  
+[2017-12-28 06:08:33,802: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[6cf0f5f1-dac2-46af-96f2-f39d902e9c0c]  
+[2017-12-28 06:08:33,802: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[1ab869bd-27d3-4b52-8211-91a5291a527e] succeeded in 0.108703113001s: 'SUCCESS'
+[2017-12-28 06:08:33,801: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[fa0b6855-b73d-4ce5-accd-a6ed19250611] succeeded in 0.00859522199607s: 'OBSOLETE METHOD'
+[2017-12-28 06:08:33,806: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[6cf0f5f1-dac2-46af-96f2-f39d902e9c0c] succeeded in 0.000953473005211s: 'SUCCESS'
+[2017-12-28 06:09:33,668: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-28 06:09:33,683: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[b6da75eb-bf0c-4e88-9950-ae241b867aeb]  
+[2017-12-28 06:09:33,755: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[d4e1c35a-45e4-4df5-9595-4c924f90ec3c]  
+[2017-12-28 06:09:33,765: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.refund_task[d4e1c35a-45e4-4df5-9595-4c924f90ec3c] succeeded in 0.00326647699694s: 'OBSOLETE METHOD'
+[2017-12-28 06:09:33,771: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[ff9f03d3-da1f-4ad9-bf94-a1e9a6dea501]  
+[2017-12-28 06:09:33,782: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.update_worker_cache[ff9f03d3-da1f-4ad9-bf94-a1e9a6dea501] succeeded in 0.00362217500515s: 'SUCCESS'
+[2017-12-28 06:09:33,787: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[34c83d05-c2cc-469f-b574-efd36f8cb8bf]  
+[2017-12-28 06:09:33,800: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.refund_task[34c83d05-c2cc-469f-b574-efd36f8cb8bf] succeeded in 0.00403760799963s: 'OBSOLETE METHOD'
+[2017-12-28 06:09:33,803: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[477fc871-1c5c-4574-8fcc-1e833a669608]  
+[2017-12-28 06:09:33,803: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.expire_tasks[b6da75eb-bf0c-4e88-9950-ae241b867aeb] succeeded in 0.111102352996s: 'SUCCESS'
+[2017-12-28 06:09:33,806: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.update_worker_cache[477fc871-1c5c-4574-8fcc-1e833a669608] succeeded in 0.000783306997619s: 'SUCCESS'
+[2017-12-28 06:10:33,667: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-28 06:10:33,672: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[9a496ae2-c357-4f37-93d7-47d028ef96b5]  
+[2017-12-28 06:10:33,742: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[366e051d-cc43-4be6-962a-bc730a83e7db]  
+[2017-12-28 06:10:33,745: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[366e051d-cc43-4be6-962a-bc730a83e7db] succeeded in 0.000479224006995s: 'OBSOLETE METHOD'
+[2017-12-28 06:10:33,759: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[90e603b0-6391-44c5-80ff-382963dc7fc8]  
+[2017-12-28 06:10:33,761: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[90e603b0-6391-44c5-80ff-382963dc7fc8] succeeded in 0.000859375999426s: 'SUCCESS'
+[2017-12-28 06:10:33,773: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[c02f816f-b2ed-48ac-a3d1-dfeb2d26f9f9]  
+[2017-12-28 06:10:33,776: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[c02f816f-b2ed-48ac-a3d1-dfeb2d26f9f9] succeeded in 0.000389303997508s: 'OBSOLETE METHOD'
+[2017-12-28 06:10:33,787: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[cf58e15f-66c8-49a2-bfd2-1603f0c53124]  
+[2017-12-28 06:10:33,786: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[9a496ae2-c357-4f37-93d7-47d028ef96b5] succeeded in 0.112848449004s: 'SUCCESS'
+[2017-12-28 06:10:33,788: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[cf58e15f-66c8-49a2-bfd2-1603f0c53124] succeeded in 0.000383136008168s: 'SUCCESS'
+[2017-12-28 06:10:34,303: INFO/Beat] Scheduler: Sending due task auto-approve-tasks (crowdsourcing.tasks.auto_approve_tasks)
+[2017-12-28 06:10:34,306: INFO/MainProcess] Received task: crowdsourcing.tasks.auto_approve_tasks[7ebe840a-a669-454b-8e11-fb87dabd8cb4]  
+[2017-12-28 06:10:34,325: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.auto_approve_tasks[7ebe840a-a669-454b-8e11-fb87dabd8cb4] succeeded in 0.01792053401s: 'SUCCESS'
+[2017-12-28 06:11:33,645: INFO/Beat] Scheduler: Sending due task update-feed-boomerang (crowdsourcing.tasks.update_feed_boomerang)
+[2017-12-28 06:11:33,651: INFO/MainProcess] Received task: crowdsourcing.tasks.update_feed_boomerang[f5f5cf5d-8180-4bb5-b0cd-5e1c4a201705]  
+[2017-12-28 06:11:33,667: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-28 06:11:33,669: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[269d79c7-a781-4380-9e00-9820450caac7]  
+[2017-12-28 06:11:33,708: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[a330a882-2463-44af-ab2f-889a657491ff]  
+[2017-12-28 06:11:33,710: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[a330a882-2463-44af-ab2f-889a657491ff] succeeded in 0.000302742002532s: 'OBSOLETE METHOD'
+[2017-12-28 06:11:33,727: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[05b30007-0eeb-445c-9cd1-39eb192b20cb]  
+[2017-12-28 06:11:33,729: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.update_worker_cache[05b30007-0eeb-445c-9cd1-39eb192b20cb] succeeded in 0.000933767994866s: 'SUCCESS'
+[2017-12-28 06:11:33,748: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[eebdf1dc-7644-425e-bb3b-d51b680dad3c]  
+[2017-12-28 06:11:33,749: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[eebdf1dc-7644-425e-bb3b-d51b680dad3c] succeeded in 0.000243268994382s: 'OBSOLETE METHOD'
+[2017-12-28 06:11:33,765: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[efeeed59-08e8-4fa0-b0a3-d9290244a111]  
+[2017-12-28 06:11:33,764: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[269d79c7-a781-4380-9e00-9820450caac7] succeeded in 0.0939791980054s: 'SUCCESS'
+[2017-12-28 06:11:33,767: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.update_worker_cache[efeeed59-08e8-4fa0-b0a3-d9290244a111] succeeded in 0.000338764002663s: 'SUCCESS'
+[2017-12-28 06:11:33,773: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_feed_boomerang[f5f5cf5d-8180-4bb5-b0cd-5e1c4a201705] succeeded in 0.120439599006s: 'SUCCESS: 0 rows affected'
+[2017-12-28 06:12:33,668: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-28 06:12:33,683: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[1c9fdbc9-14ff-44ea-99d9-c033c42e3ca2]  
+[2017-12-28 06:12:33,801: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[ac475c6e-46cf-4412-ab10-6976e827cbbc]  
+[2017-12-28 06:12:33,815: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.refund_task[ac475c6e-46cf-4412-ab10-6976e827cbbc] succeeded in 0.00375605499721s: 'OBSOLETE METHOD'
+[2017-12-28 06:12:33,821: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[a60f4f7c-fb0c-418e-9294-385880e1775e]  
+[2017-12-28 06:12:33,841: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.update_worker_cache[a60f4f7c-fb0c-418e-9294-385880e1775e] succeeded in 0.0114670930052s: 'SUCCESS'
+[2017-12-28 06:12:33,848: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[892ebe0b-69f8-414e-ab77-46d13fceed91]  
+[2017-12-28 06:12:33,859: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.refund_task[892ebe0b-69f8-414e-ab77-46d13fceed91] succeeded in 0.0037982010108s: 'OBSOLETE METHOD'
+[2017-12-28 06:12:33,864: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[70e0ee4a-e202-46bb-956b-c2b6f657e5ec]  
+[2017-12-28 06:12:33,864: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.expire_tasks[1c9fdbc9-14ff-44ea-99d9-c033c42e3ca2] succeeded in 0.166746811999s: 'SUCCESS'
+[2017-12-28 06:12:33,871: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.update_worker_cache[70e0ee4a-e202-46bb-956b-c2b6f657e5ec] succeeded in 0.00502646999666s: 'SUCCESS'
+[2017-12-28 06:13:33,668: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-28 06:13:33,683: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[1fbc339c-d3c3-4276-a895-e85c5a5fa4d2]  
+[2017-12-28 06:13:33,761: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[31008fc7-f7be-4af5-8742-32f12584318d]  
+[2017-12-28 06:13:33,774: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.refund_task[31008fc7-f7be-4af5-8742-32f12584318d] succeeded in 0.0041738509899s: 'OBSOLETE METHOD'
+[2017-12-28 06:13:33,778: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[9a7a1e83-3246-4e8f-8af3-843df80695f8]  
+[2017-12-28 06:13:33,791: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.update_worker_cache[9a7a1e83-3246-4e8f-8af3-843df80695f8] succeeded in 0.00390691099165s: 'SUCCESS'
+[2017-12-28 06:13:33,796: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[211ed446-7994-4c9e-89b2-c1a9b5174804]  
+[2017-12-28 06:13:33,809: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.refund_task[211ed446-7994-4c9e-89b2-c1a9b5174804] succeeded in 0.00409324400243s: 'OBSOLETE METHOD'
+[2017-12-28 06:13:33,812: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[3722bdb0-e0f6-43fc-82d4-133560601075]  
+[2017-12-28 06:13:33,812: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.expire_tasks[1fbc339c-d3c3-4276-a895-e85c5a5fa4d2] succeeded in 0.120097178995s: 'SUCCESS'
+[2017-12-28 06:13:33,815: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.update_worker_cache[3722bdb0-e0f6-43fc-82d4-133560601075] succeeded in 0.00112913000339s: 'SUCCESS'
+[2017-12-28 06:14:33,667: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-28 06:14:33,672: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[a22babd3-8681-4af8-852f-d39c35bb35e5]  
+[2017-12-28 06:14:33,722: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[a2a46aa7-c17e-4051-ad68-870c16bcc5d0]  
+[2017-12-28 06:14:33,723: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.refund_task[a2a46aa7-c17e-4051-ad68-870c16bcc5d0] succeeded in 0.000210718993912s: 'OBSOLETE METHOD'
+[2017-12-28 06:14:33,735: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[2cecff13-242e-40b6-b8b4-1acc3f01b039]  
+[2017-12-28 06:14:33,736: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.update_worker_cache[2cecff13-242e-40b6-b8b4-1acc3f01b039] succeeded in 0.000214571002289s: 'SUCCESS'
+[2017-12-28 06:14:33,749: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[e5aaccc5-32e2-4baf-bb7e-7893b3104c52]  
+[2017-12-28 06:14:33,751: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.refund_task[e5aaccc5-32e2-4baf-bb7e-7893b3104c52] succeeded in 0.000237433996517s: 'OBSOLETE METHOD'
+[2017-12-28 06:14:33,762: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[8af0e2e7-803b-42bb-b89e-2056340e34eb]  
+[2017-12-28 06:14:33,762: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.expire_tasks[a22babd3-8681-4af8-852f-d39c35bb35e5] succeeded in 0.0881800389907s: 'SUCCESS'
+[2017-12-28 06:14:33,764: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.update_worker_cache[8af0e2e7-803b-42bb-b89e-2056340e34eb] succeeded in 0.000215776992263s: 'SUCCESS'
+[2017-12-28 06:14:34,303: INFO/Beat] Scheduler: Sending due task auto-approve-tasks (crowdsourcing.tasks.auto_approve_tasks)
+[2017-12-28 06:14:34,306: INFO/MainProcess] Received task: crowdsourcing.tasks.auto_approve_tasks[27d6fc77-7a73-4e50-bc23-301957e84696]  
+[2017-12-28 06:14:34,325: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.auto_approve_tasks[27d6fc77-7a73-4e50-bc23-301957e84696] succeeded in 0.0177390699973s: 'SUCCESS'
+[2017-12-28 06:15:33,672: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-28 06:15:33,689: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[9443d372-0eb6-496b-ad1e-844fab296cbf]  
+[2017-12-28 06:15:33,770: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[1662fdb0-cdec-4007-9138-8afd821b2de3]  
+[2017-12-28 06:15:33,781: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[1662fdb0-cdec-4007-9138-8afd821b2de3] succeeded in 0.00334088300588s: 'OBSOLETE METHOD'
+[2017-12-28 06:15:33,788: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[bc7bbf6b-a9bd-4438-b265-adc883ba9a8b]  
+[2017-12-28 06:15:33,807: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[bc7bbf6b-a9bd-4438-b265-adc883ba9a8b] succeeded in 0.0111395020067s: 'SUCCESS'
+[2017-12-28 06:15:33,811: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[44d5d2fc-79f8-4347-9d94-11b80062464f]  
+[2017-12-28 06:15:33,824: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[44d5d2fc-79f8-4347-9d94-11b80062464f] succeeded in 0.00476465300017s: 'OBSOLETE METHOD'
+[2017-12-28 06:15:33,826: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[e51b6840-b9a8-43f0-8718-8687a377a411]  
+[2017-12-28 06:15:33,827: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[9443d372-0eb6-496b-ad1e-844fab296cbf] succeeded in 0.129221056995s: 'SUCCESS'
+[2017-12-28 06:15:33,832: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[e51b6840-b9a8-43f0-8718-8687a377a411] succeeded in 0.00160341100127s: 'SUCCESS'
+[2017-12-28 06:16:33,670: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-28 06:16:33,675: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[ee13f676-2386-4adc-869a-f45be561e1d7]  
+[2017-12-28 06:16:33,675: INFO/Beat] Scheduler: Sending due task update-feed-boomerang (crowdsourcing.tasks.update_feed_boomerang)
+[2017-12-28 06:16:33,680: INFO/MainProcess] Received task: crowdsourcing.tasks.update_feed_boomerang[03e0a881-8fbc-4d1b-bced-ebfc3af9230d]  
+[2017-12-28 06:16:33,776: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[d6737127-d7a4-4a36-92f7-cd950c587be3]  
+[2017-12-28 06:16:33,777: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.update_feed_boomerang[03e0a881-8fbc-4d1b-bced-ebfc3af9230d] succeeded in 0.0959184660023s: 'SUCCESS: 0 rows affected'
+[2017-12-28 06:16:33,779: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[d6737127-d7a4-4a36-92f7-cd950c587be3] succeeded in 0.000944742001593s: 'OBSOLETE METHOD'
+[2017-12-28 06:16:33,792: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[784169dd-771e-438d-85df-adb924926d43]  
+[2017-12-28 06:16:33,794: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.update_worker_cache[784169dd-771e-438d-85df-adb924926d43] succeeded in 0.000986241997452s: 'SUCCESS'
+[2017-12-28 06:16:33,809: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[42ee79ca-e64b-4905-a523-ba4aad8d1ab3]  
+[2017-12-28 06:16:33,811: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.refund_task[42ee79ca-e64b-4905-a523-ba4aad8d1ab3] succeeded in 0.000548540003365s: 'OBSOLETE METHOD'
+[2017-12-28 06:16:33,824: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[158701a8-120a-44b7-89b5-ad882e0861b7]  
+[2017-12-28 06:16:33,823: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.expire_tasks[ee13f676-2386-4adc-869a-f45be561e1d7] succeeded in 0.145730420991s: 'SUCCESS'
+[2017-12-28 06:16:33,825: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.update_worker_cache[158701a8-120a-44b7-89b5-ad882e0861b7] succeeded in 0.000491394996061s: 'SUCCESS'
+[2017-12-28 06:17:33,669: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-28 06:17:33,675: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[8facba2b-377b-4253-a9f7-cc5a36766f2f]  
+[2017-12-28 06:17:33,739: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[58e3a9ee-031e-44a2-8c52-87d979cccc01]  
+[2017-12-28 06:17:33,741: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.refund_task[58e3a9ee-031e-44a2-8c52-87d979cccc01] succeeded in 0.000592200987739s: 'OBSOLETE METHOD'
+[2017-12-28 06:17:33,752: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[cf655a96-c7a2-429a-9047-39e5f21e0e8e]  
+[2017-12-28 06:17:33,754: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.update_worker_cache[cf655a96-c7a2-429a-9047-39e5f21e0e8e] succeeded in 0.000516700005392s: 'SUCCESS'
+[2017-12-28 06:17:33,767: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[87313a21-5cb5-4dac-9a5e-9831225c5927]  
+[2017-12-28 06:17:33,769: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.refund_task[87313a21-5cb5-4dac-9a5e-9831225c5927] succeeded in 0.000471590989036s: 'OBSOLETE METHOD'
+[2017-12-28 06:17:33,779: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[50319918-063a-43f9-8420-826310bad9e3]  
+[2017-12-28 06:17:33,779: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.expire_tasks[8facba2b-377b-4253-a9f7-cc5a36766f2f] succeeded in 0.102117076007s: 'SUCCESS'
+[2017-12-28 06:17:33,781: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.update_worker_cache[50319918-063a-43f9-8420-826310bad9e3] succeeded in 0.000265633003437s: 'SUCCESS'
+[2017-12-28 06:18:33,669: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-28 06:18:33,674: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[16afcb90-b47e-4a60-a439-9d322675bc18]  
+[2017-12-28 06:18:33,729: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[f06d4032-1d2a-48e0-bf5f-bcaac8734fc5]  
+[2017-12-28 06:18:33,731: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.refund_task[f06d4032-1d2a-48e0-bf5f-bcaac8734fc5] succeeded in 0.000289960997179s: 'OBSOLETE METHOD'
+[2017-12-28 06:18:33,743: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[c85177b7-7fec-474a-86d8-df092aa26655]  
+[2017-12-28 06:18:33,744: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.update_worker_cache[c85177b7-7fec-474a-86d8-df092aa26655] succeeded in 0.00034092599526s: 'SUCCESS'
+[2017-12-28 06:18:33,758: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[e63e174e-fa5e-44a6-adbb-22d12918eb8d]  
+[2017-12-28 06:18:33,759: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.refund_task[e63e174e-fa5e-44a6-adbb-22d12918eb8d] succeeded in 0.000212996994378s: 'OBSOLETE METHOD'
+[2017-12-28 06:18:33,771: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[7dac3e19-bd6a-41de-b835-5bf83032b7af]  
+[2017-12-28 06:18:33,771: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.expire_tasks[16afcb90-b47e-4a60-a439-9d322675bc18] succeeded in 0.095373492004s: 'SUCCESS'
+[2017-12-28 06:18:33,772: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.update_worker_cache[7dac3e19-bd6a-41de-b835-5bf83032b7af] succeeded in 0.000304204004351s: 'SUCCESS'
+[2017-12-28 06:18:34,303: INFO/Beat] Scheduler: Sending due task auto-approve-tasks (crowdsourcing.tasks.auto_approve_tasks)
+[2017-12-28 06:18:34,306: INFO/MainProcess] Received task: crowdsourcing.tasks.auto_approve_tasks[aa59fda9-12d7-48d2-a5be-c1c58f7f3289]  
+[2017-12-28 06:18:34,325: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.auto_approve_tasks[aa59fda9-12d7-48d2-a5be-c1c58f7f3289] succeeded in 0.0172359930002s: 'SUCCESS'
+[2017-12-28 06:19:33,670: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-28 06:19:33,677: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[5334d3ef-07c6-4ac7-8d65-2aa8df87717b]  
+[2017-12-28 06:19:33,756: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[d963d5b7-08ec-40b0-944b-ac5af8885538]  
+[2017-12-28 06:19:33,757: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[d963d5b7-08ec-40b0-944b-ac5af8885538] succeeded in 0.000296871992759s: 'OBSOLETE METHOD'
+[2017-12-28 06:19:33,773: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[936a4aa9-e936-4ab4-bb95-b57b1afbda8a]  
+[2017-12-28 06:19:33,776: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[936a4aa9-e936-4ab4-bb95-b57b1afbda8a] succeeded in 0.000814234008431s: 'SUCCESS'
+[2017-12-28 06:19:33,793: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[4bc4a778-77ff-4fd9-bf1b-1243eae9e1d3]  
+[2017-12-28 06:19:33,795: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[4bc4a778-77ff-4fd9-bf1b-1243eae9e1d3] succeeded in 0.000416830996983s: 'OBSOLETE METHOD'
+[2017-12-28 06:19:33,810: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[042adebe-c491-47be-9e54-76b8ab4f19dc]  
+[2017-12-28 06:19:33,810: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[5334d3ef-07c6-4ac7-8d65-2aa8df87717b] succeeded in 0.13148689401s: 'SUCCESS'
+[2017-12-28 06:19:33,812: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[042adebe-c491-47be-9e54-76b8ab4f19dc] succeeded in 0.000507877004566s: 'SUCCESS'
+[2017-12-28 06:20:33,677: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-28 06:20:33,890: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[d82fa874-f5fe-42cf-befa-37ec666fd132]  
+[2017-12-28 06:20:34,601: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[b06a832f-f84a-452a-95ae-044e04754dfa]  
+[2017-12-28 06:20:34,613: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[b06a832f-f84a-452a-95ae-044e04754dfa] succeeded in 0.00462091699592s: 'OBSOLETE METHOD'
+[2017-12-28 06:20:34,649: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[1f7f827d-2588-44cf-b5c6-d6c3e503c05d]  
+[2017-12-28 06:20:34,667: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[1f7f827d-2588-44cf-b5c6-d6c3e503c05d] succeeded in 0.00447478900605s: 'SUCCESS'
+[2017-12-28 06:20:34,683: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[c3cf14c4-f3ee-4174-89fb-4fc0443d90d6]  
+[2017-12-28 06:20:34,703: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[c3cf14c4-f3ee-4174-89fb-4fc0443d90d6] succeeded in 0.00478990199917s: 'OBSOLETE METHOD'
+[2017-12-28 06:20:34,714: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[33cc71ba-b1f1-400d-9387-8e5a2f90fbdf]  
+[2017-12-28 06:20:34,714: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[d82fa874-f5fe-42cf-befa-37ec666fd132] succeeded in 0.761287178s: 'SUCCESS'
+[2017-12-28 06:20:34,717: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[33cc71ba-b1f1-400d-9387-8e5a2f90fbdf] succeeded in 0.00101231501321s: 'SUCCESS'
+[2017-12-29 00:03:44,224: INFO/Beat] Scheduler: Sending due task update-feed-boomerang (crowdsourcing.tasks.update_feed_boomerang)
+[2017-12-29 00:03:44,968: INFO/MainProcess] Received task: crowdsourcing.tasks.update_feed_boomerang[5d2be21b-690e-46eb-b02a-f838e6c1e8a8]  
+[2017-12-29 00:03:45,822: INFO/Beat] Scheduler: Sending due task email-notifications (crowdsourcing.tasks.email_notifications)
+[2017-12-29 00:03:45,868: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:03:45,873: INFO/Beat] Scheduler: Sending due task auto-approve-tasks (crowdsourcing.tasks.auto_approve_tasks)
+[2017-12-29 00:03:45,877: INFO/Beat] Scheduler: Sending due task pay-workers (crowdsourcing.tasks.pay_workers)
+[2017-12-29 00:03:45,872: INFO/MainProcess] Received task: crowdsourcing.tasks.email_notifications[77596fd5-6bd7-4570-a22c-e2922e106eba]  
+[2017-12-29 00:03:45,890: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[0f6093f9-d0f7-4a5b-b9cd-a503ae81008d]  
+[2017-12-29 00:03:45,893: INFO/MainProcess] Received task: crowdsourcing.tasks.auto_approve_tasks[d1b3917f-9040-4931-b566-69a1f89373ce]  
+[2017-12-29 00:03:45,902: INFO/MainProcess] Received task: crowdsourcing.tasks.pay_workers[29bd3553-5882-40f9-b180-336140e7bed9]  
+[2017-12-29 00:03:47,000: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.auto_approve_tasks[d1b3917f-9040-4931-b566-69a1f89373ce] succeeded in 1.07269112401s: 'SUCCESS'
+[2017-12-29 00:03:47,056: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[d90b4b87-7dcd-425d-9667-7ad654289b25]  
+[2017-12-29 00:03:47,076: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[b9f7df26-c616-4afb-ab50-88b077da99cc]  
+[2017-12-29 00:03:47,099: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[f718d3d9-364f-42bb-a9f2-81bb0d0900a8]  
+[2017-12-29 00:03:47,120: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[ba549783-5c1e-4d58-9bbb-3d7f39befaeb]  
+[2017-12-29 00:03:47,120: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.expire_tasks[0f6093f9-d0f7-4a5b-b9cd-a503ae81008d] succeeded in 1.21630026099s: 'SUCCESS'
+[2017-12-29 00:03:47,125: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.refund_task[d90b4b87-7dcd-425d-9667-7ad654289b25] succeeded in 0.000308617993142s: 'OBSOLETE METHOD'
+[2017-12-29 00:03:47,131: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[b9f7df26-c616-4afb-ab50-88b077da99cc] succeeded in 0.000528364995262s: 'SUCCESS'
+[2017-12-29 00:03:47,134: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.refund_task[f718d3d9-364f-42bb-a9f2-81bb0d0900a8] succeeded in 0.000288109004032s: 'OBSOLETE METHOD'
+[2017-12-29 00:03:47,137: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[ba549783-5c1e-4d58-9bbb-3d7f39befaeb] succeeded in 0.000382529004128s: 'SUCCESS'
+[2017-12-29 00:03:47,191: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.pay_workers[29bd3553-5882-40f9-b180-336140e7bed9] succeeded in 0.183874715993s: None
+[2017-12-29 00:03:47,543: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.update_feed_boomerang[5d2be21b-690e-46eb-b02a-f838e6c1e8a8] succeeded in 2.545247876s: 'SUCCESS: 0 rows affected'
+[2017-12-29 00:03:48,273: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.email_notifications[77596fd5-6bd7-4570-a22c-e2922e106eba] succeeded in 2.368306998s: 'SUCCESS'
+[2017-12-29 00:04:47,042: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:04:47,059: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[b59a015a-9dd6-408c-8232-0a3c745551ac]  
+[2017-12-29 00:04:47,123: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[5f6771c0-1354-40e3-9e19-15d5e528ab43]  
+[2017-12-29 00:04:47,125: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[5f6771c0-1354-40e3-9e19-15d5e528ab43] succeeded in 0.000656768999761s: 'OBSOLETE METHOD'
+[2017-12-29 00:04:47,139: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[fe667418-4022-49d7-a366-76c491f017b5]  
+[2017-12-29 00:04:47,141: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[fe667418-4022-49d7-a366-76c491f017b5] succeeded in 0.000516133004567s: 'SUCCESS'
+[2017-12-29 00:04:47,157: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[c51b8ce0-fb0d-40b4-ae76-db0a8118f9f9]  
+[2017-12-29 00:04:47,159: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[c51b8ce0-fb0d-40b4-ae76-db0a8118f9f9] succeeded in 0.000489415993798s: 'OBSOLETE METHOD'
+[2017-12-29 00:04:47,173: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[ed716f75-1051-4118-9b40-5c197f371480]  
+[2017-12-29 00:04:47,172: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[b59a015a-9dd6-408c-8232-0a3c745551ac] succeeded in 0.103668415992s: 'SUCCESS'
+[2017-12-29 00:04:47,175: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[ed716f75-1051-4118-9b40-5c197f371480] succeeded in 0.000785398995504s: 'SUCCESS'
+[2017-12-29 00:05:47,041: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:05:47,047: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[f3f30cda-8aa5-49b2-85cb-95c005a0fef5]  
+[2017-12-29 00:05:47,104: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[7685463d-f92b-48c4-afda-eb126e8981c5]  
+[2017-12-29 00:05:47,107: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[7685463d-f92b-48c4-afda-eb126e8981c5] succeeded in 0.000318564998452s: 'OBSOLETE METHOD'
+[2017-12-29 00:05:47,120: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[2a2e53d8-d199-4925-b2ee-6322c3cb41e0]  
+[2017-12-29 00:05:47,122: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[2a2e53d8-d199-4925-b2ee-6322c3cb41e0] succeeded in 0.000332369003445s: 'SUCCESS'
+[2017-12-29 00:05:47,139: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[9b6513f1-a502-463b-821e-47a19dbcb4a5]  
+[2017-12-29 00:05:47,140: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[9b6513f1-a502-463b-821e-47a19dbcb4a5] succeeded in 0.000283247005427s: 'OBSOLETE METHOD'
+[2017-12-29 00:05:47,151: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[f3f30cda-8aa5-49b2-85cb-95c005a0fef5] succeeded in 0.102853862001s: 'SUCCESS'
+[2017-12-29 00:05:47,154: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[a7419543-3312-416e-be7a-9c697d1f4a2b]  
+[2017-12-29 00:05:47,156: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[a7419543-3312-416e-be7a-9c697d1f4a2b] succeeded in 0.000363938990631s: 'SUCCESS'
+[2017-12-29 00:06:47,043: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:06:47,063: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[57cb30c6-67b2-429b-8a18-105756550b3b]  
+[2017-12-29 00:06:47,144: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[377ce54e-9a8e-4dbb-8463-c92ec71d244c]  
+[2017-12-29 00:06:47,158: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[377ce54e-9a8e-4dbb-8463-c92ec71d244c] succeeded in 0.00473971199244s: 'OBSOLETE METHOD'
+[2017-12-29 00:06:47,165: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[03895727-66b7-4485-82ed-f50b19742bc4]  
+[2017-12-29 00:06:47,181: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[03895727-66b7-4485-82ed-f50b19742bc4] succeeded in 0.0049825199967s: 'SUCCESS'
+[2017-12-29 00:06:47,187: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[5ad8c7f5-d1db-4eae-895c-64228b46e33a]  
+[2017-12-29 00:06:47,202: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[5ad8c7f5-d1db-4eae-895c-64228b46e33a] succeeded in 0.00445226600277s: 'OBSOLETE METHOD'
+[2017-12-29 00:06:47,210: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[5f71b4c8-d58a-4512-b0f8-a6ff19237a83]  
+[2017-12-29 00:06:47,210: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[57cb30c6-67b2-429b-8a18-105756550b3b] succeeded in 0.137807296996s: 'SUCCESS'
+[2017-12-29 00:06:47,213: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[5f71b4c8-d58a-4512-b0f8-a6ff19237a83] succeeded in 0.00105247700412s: 'SUCCESS'
+[2017-12-29 00:07:45,873: INFO/Beat] Scheduler: Sending due task auto-approve-tasks (crowdsourcing.tasks.auto_approve_tasks)
+[2017-12-29 00:07:46,006: INFO/MainProcess] Received task: crowdsourcing.tasks.auto_approve_tasks[b5bf8193-0538-4b9e-b006-2e7b27efe89c]  
+[2017-12-29 00:07:46,047: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.auto_approve_tasks[b5bf8193-0538-4b9e-b006-2e7b27efe89c] succeeded in 0.0389102650079s: 'SUCCESS'
+[2017-12-29 00:07:47,042: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:07:47,045: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[13384f4d-6613-4718-8e03-200ecd6a0b6f]  
+[2017-12-29 00:07:47,093: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[543e3b7f-f8e3-4e47-9497-218b46743433]  
+[2017-12-29 00:07:47,095: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.refund_task[543e3b7f-f8e3-4e47-9497-218b46743433] succeeded in 0.000331470000674s: 'OBSOLETE METHOD'
+[2017-12-29 00:07:47,107: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[b9fadce5-10b3-4719-86f6-7ed270e71fd5]  
+[2017-12-29 00:07:47,110: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.update_worker_cache[b9fadce5-10b3-4719-86f6-7ed270e71fd5] succeeded in 0.00111549900612s: 'SUCCESS'
+[2017-12-29 00:07:47,123: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[1d714881-91bb-4680-a17b-8c2175136f0f]  
+[2017-12-29 00:07:47,125: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.refund_task[1d714881-91bb-4680-a17b-8c2175136f0f] succeeded in 0.000566807997529s: 'OBSOLETE METHOD'
+[2017-12-29 00:07:47,136: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[38744e9d-56a4-47bc-b00c-fed9c6818773]  
+[2017-12-29 00:07:47,135: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.expire_tasks[13384f4d-6613-4718-8e03-200ecd6a0b6f] succeeded in 0.0893335669971s: 'SUCCESS'
+[2017-12-29 00:07:47,137: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.update_worker_cache[38744e9d-56a4-47bc-b00c-fed9c6818773] succeeded in 0.000383768012398s: 'SUCCESS'
+[2017-12-29 00:08:44,109: INFO/Beat] Scheduler: Sending due task update-feed-boomerang (crowdsourcing.tasks.update_feed_boomerang)
+[2017-12-29 00:08:44,114: INFO/MainProcess] Received task: crowdsourcing.tasks.update_feed_boomerang[b494b3c3-7df3-4df0-ac08-ee381ccba82a]  
+[2017-12-29 00:08:44,182: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_feed_boomerang[b494b3c3-7df3-4df0-ac08-ee381ccba82a] succeeded in 0.0658661760099s: 'SUCCESS: 0 rows affected'
+[2017-12-29 00:08:47,042: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:08:47,047: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[e130d637-742d-4b55-97c4-dd914dd9cd54]  
+[2017-12-29 00:08:47,124: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[63f978f7-20e7-4bba-ab61-9b9d91b916d4]  
+[2017-12-29 00:08:47,126: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[63f978f7-20e7-4bba-ab61-9b9d91b916d4] succeeded in 0.000267620009254s: 'OBSOLETE METHOD'
+[2017-12-29 00:08:47,142: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[ce378090-cb36-4a17-b333-44fa8d3e7d3f]  
+[2017-12-29 00:08:47,144: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[ce378090-cb36-4a17-b333-44fa8d3e7d3f] succeeded in 0.00041682900337s: 'SUCCESS'
+[2017-12-29 00:08:47,160: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[69ead26e-55d5-4d5d-8d37-8c58f1427bd7]  
+[2017-12-29 00:08:47,163: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[69ead26e-55d5-4d5d-8d37-8c58f1427bd7] succeeded in 0.000339492995408s: 'OBSOLETE METHOD'
+[2017-12-29 00:08:47,177: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[f91af987-a17e-4134-89b1-57de3f437196]  
+[2017-12-29 00:08:47,176: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[e130d637-742d-4b55-97c4-dd914dd9cd54] succeeded in 0.127516920998s: 'SUCCESS'
+[2017-12-29 00:08:47,178: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[f91af987-a17e-4134-89b1-57de3f437196] succeeded in 0.00032197899418s: 'SUCCESS'
+[2017-12-29 00:09:47,042: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:09:47,047: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[2751f911-4b9a-48ca-8e25-9dead52a2854]  
+[2017-12-29 00:09:47,097: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[142d04e3-b561-4da3-ad0d-674d3553bcfa]  
+[2017-12-29 00:09:47,099: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[142d04e3-b561-4da3-ad0d-674d3553bcfa] succeeded in 0.000289314004476s: 'OBSOLETE METHOD'
+[2017-12-29 00:09:47,109: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[78485859-88f6-4897-8d53-6aef38c25cc7]  
+[2017-12-29 00:09:47,110: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[78485859-88f6-4897-8d53-6aef38c25cc7] succeeded in 0.000283415996819s: 'SUCCESS'
+[2017-12-29 00:09:47,123: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[6b55e18f-ed80-48d3-ae27-cebffe2b7caf]  
+[2017-12-29 00:09:47,125: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[6b55e18f-ed80-48d3-ae27-cebffe2b7caf] succeeded in 0.000293660006719s: 'OBSOLETE METHOD'
+[2017-12-29 00:09:47,135: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[81d7b892-8ee1-49ad-a24c-a74f5fa0fa27]  
+[2017-12-29 00:09:47,134: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[2751f911-4b9a-48ca-8e25-9dead52a2854] succeeded in 0.0864274439955s: 'SUCCESS'
+[2017-12-29 00:09:47,136: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[81d7b892-8ee1-49ad-a24c-a74f5fa0fa27] succeeded in 0.000273302997812s: 'SUCCESS'
+[2017-12-29 00:10:47,042: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:10:47,047: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[b1331bc3-55f8-476b-bb71-665caf7bd8c4]  
+[2017-12-29 00:10:47,097: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[aac6bc0e-01bf-4a14-b493-b936083d2808]  
+[2017-12-29 00:10:47,099: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[aac6bc0e-01bf-4a14-b493-b936083d2808] succeeded in 0.000188335994608s: 'OBSOLETE METHOD'
+[2017-12-29 00:10:47,111: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[3a4c48e2-51e5-40cc-b809-a9715f4b245a]  
+[2017-12-29 00:10:47,112: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[3a4c48e2-51e5-40cc-b809-a9715f4b245a] succeeded in 0.000285147005343s: 'SUCCESS'
+[2017-12-29 00:10:47,125: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[29882a30-ff6c-46ad-947d-16e113a15479]  
+[2017-12-29 00:10:47,126: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[29882a30-ff6c-46ad-947d-16e113a15479] succeeded in 0.000259808002738s: 'OBSOLETE METHOD'
+[2017-12-29 00:10:47,137: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[c6e38a5b-4a24-4f8d-a92e-f1650ab54b30]  
+[2017-12-29 00:10:47,137: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[b1331bc3-55f8-476b-bb71-665caf7bd8c4] succeeded in 0.0888891529903s: 'SUCCESS'
+[2017-12-29 00:10:47,139: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[c6e38a5b-4a24-4f8d-a92e-f1650ab54b30] succeeded in 0.00018504000036s: 'SUCCESS'
+[2017-12-29 00:11:45,873: INFO/Beat] Scheduler: Sending due task auto-approve-tasks (crowdsourcing.tasks.auto_approve_tasks)
+[2017-12-29 00:11:45,878: INFO/MainProcess] Received task: crowdsourcing.tasks.auto_approve_tasks[a0df3623-e44b-4afe-8a62-68db2829d065]  
+[2017-12-29 00:11:45,920: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.auto_approve_tasks[a0df3623-e44b-4afe-8a62-68db2829d065] succeeded in 0.0401670919964s: 'SUCCESS'
+[2017-12-29 00:11:47,043: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:11:47,045: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[d5b8f0d9-2882-498d-9b41-51d4bd9f3aa6]  
+[2017-12-29 00:11:47,100: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[a5019f52-e48a-4308-b0ac-49783f1de284]  
+[2017-12-29 00:11:47,101: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.refund_task[a5019f52-e48a-4308-b0ac-49783f1de284] succeeded in 0.000313287004246s: 'OBSOLETE METHOD'
+[2017-12-29 00:11:47,115: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[b59abf85-58c7-446d-b38a-1ae6e840894c]  
+[2017-12-29 00:11:47,117: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.update_worker_cache[b59abf85-58c7-446d-b38a-1ae6e840894c] succeeded in 0.000981331002549s: 'SUCCESS'
+[2017-12-29 00:11:47,132: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[0c206346-a716-4582-9cba-d5dadd67f632]  
+[2017-12-29 00:11:47,134: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.refund_task[0c206346-a716-4582-9cba-d5dadd67f632] succeeded in 0.000510023004608s: 'OBSOLETE METHOD'
+[2017-12-29 00:11:47,145: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[f6f7f5e9-a77a-4fa8-a54d-87fff1af8033]  
+[2017-12-29 00:11:47,144: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.expire_tasks[d5b8f0d9-2882-498d-9b41-51d4bd9f3aa6] succeeded in 0.0969562920072s: 'SUCCESS'
+[2017-12-29 00:11:47,147: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.update_worker_cache[f6f7f5e9-a77a-4fa8-a54d-87fff1af8033] succeeded in 0.000409967004089s: 'SUCCESS'
+[2017-12-29 00:12:47,043: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:12:47,046: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[ca719e88-1b2d-4afa-bd33-ceaa0d9951fa]  
+[2017-12-29 00:12:47,101: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[b987aa13-a807-4190-b57b-22117c18c3aa]  
+[2017-12-29 00:12:47,103: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.refund_task[b987aa13-a807-4190-b57b-22117c18c3aa] succeeded in 0.000198934008949s: 'OBSOLETE METHOD'
+[2017-12-29 00:12:47,114: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[5df12098-789a-406c-8fa0-b47ee367afe6]  
+[2017-12-29 00:12:47,116: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.update_worker_cache[5df12098-789a-406c-8fa0-b47ee367afe6] succeeded in 0.000310508999974s: 'SUCCESS'
+[2017-12-29 00:12:47,131: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[8b4c2881-e92f-4c10-ac17-2866df5740d7]  
+[2017-12-29 00:12:47,134: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.refund_task[8b4c2881-e92f-4c10-ac17-2866df5740d7] succeeded in 0.000439597002696s: 'OBSOLETE METHOD'
+[2017-12-29 00:12:47,145: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[955a31ca-d485-4d26-b67e-a82785017c50]  
+[2017-12-29 00:12:47,145: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.expire_tasks[ca719e88-1b2d-4afa-bd33-ceaa0d9951fa] succeeded in 0.0979692910041s: 'SUCCESS'
+[2017-12-29 00:12:47,147: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.update_worker_cache[955a31ca-d485-4d26-b67e-a82785017c50] succeeded in 0.000232224003412s: 'SUCCESS'
+[2017-12-29 00:13:44,110: INFO/Beat] Scheduler: Sending due task update-feed-boomerang (crowdsourcing.tasks.update_feed_boomerang)
+[2017-12-29 00:13:44,127: INFO/MainProcess] Received task: crowdsourcing.tasks.update_feed_boomerang[1a95baf5-faf1-4f98-9271-f5f9ecbdcf21]  
+[2017-12-29 00:13:44,228: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_feed_boomerang[1a95baf5-faf1-4f98-9271-f5f9ecbdcf21] succeeded in 0.0918184430047s: 'SUCCESS: 0 rows affected'
+[2017-12-29 00:13:47,043: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:13:47,049: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[e5f8ea90-a424-44a1-8d3c-ccb5cab0da3f]  
+[2017-12-29 00:13:47,107: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[2d31e5a8-30b4-40f8-9623-4a340e42e8bb]  
+[2017-12-29 00:13:47,109: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[2d31e5a8-30b4-40f8-9623-4a340e42e8bb] succeeded in 0.000403529993491s: 'OBSOLETE METHOD'
+[2017-12-29 00:13:47,122: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[4a91ab00-204c-41a8-b5f5-4be1c4a5b9c9]  
+[2017-12-29 00:13:47,135: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[4a91ab00-204c-41a8-b5f5-4be1c4a5b9c9] succeeded in 0.00589552499878s: 'SUCCESS'
+[2017-12-29 00:13:47,142: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[7311b490-3a4f-4bb4-b4ed-65eb6b5fc7ae]  
+[2017-12-29 00:13:47,152: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[7311b490-3a4f-4bb4-b4ed-65eb6b5fc7ae] succeeded in 0.00331138000183s: 'OBSOLETE METHOD'
+[2017-12-29 00:13:47,156: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[6898a8da-22a5-4088-877c-d41005330562]  
+[2017-12-29 00:13:47,156: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[e5f8ea90-a424-44a1-8d3c-ccb5cab0da3f] succeeded in 0.100391545988s: 'SUCCESS'
+[2017-12-29 00:13:47,157: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[6898a8da-22a5-4088-877c-d41005330562] succeeded in 0.000578505001613s: 'SUCCESS'
+[2017-12-29 00:14:47,043: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:14:47,049: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[8a7fc140-baf9-4a59-b724-3bd7c37741a5]  
+[2017-12-29 00:14:47,115: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[ccb2a06b-b3b3-4273-8286-2e92ce36e282]  
+[2017-12-29 00:14:47,118: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.refund_task[ccb2a06b-b3b3-4273-8286-2e92ce36e282] succeeded in 0.000249935997999s: 'OBSOLETE METHOD'
+[2017-12-29 00:14:47,129: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[02ddb735-e776-4f5a-ae01-23919f194127]  
+[2017-12-29 00:14:47,131: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.update_worker_cache[02ddb735-e776-4f5a-ae01-23919f194127] succeeded in 0.00092699500965s: 'SUCCESS'
+[2017-12-29 00:14:47,144: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[76496b77-d3db-4418-badb-1f06ea591024]  
+[2017-12-29 00:14:47,146: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.refund_task[76496b77-d3db-4418-badb-1f06ea591024] succeeded in 0.000403760001063s: 'OBSOLETE METHOD'
+[2017-12-29 00:14:47,156: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[885d49ee-2a00-41b0-8f84-8ac64792f4aa]  
+[2017-12-29 00:14:47,155: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.expire_tasks[8a7fc140-baf9-4a59-b724-3bd7c37741a5] succeeded in 0.105090588011s: 'SUCCESS'
+[2017-12-29 00:14:47,157: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.update_worker_cache[885d49ee-2a00-41b0-8f84-8ac64792f4aa] succeeded in 0.00046597099572s: 'SUCCESS'
+[2017-12-29 00:15:45,873: INFO/Beat] Scheduler: Sending due task auto-approve-tasks (crowdsourcing.tasks.auto_approve_tasks)
+[2017-12-29 00:15:45,878: INFO/MainProcess] Received task: crowdsourcing.tasks.auto_approve_tasks[3f6251ba-348a-4d8a-bb0f-20bd43f82b5f]  
+[2017-12-29 00:15:45,899: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.auto_approve_tasks[3f6251ba-348a-4d8a-bb0f-20bd43f82b5f] succeeded in 0.0194491330039s: 'SUCCESS'
+[2017-12-29 00:15:47,043: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:15:47,046: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[a218c768-53ed-448b-94b1-4d1c97ff6941]  
+[2017-12-29 00:15:47,077: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[fffa741c-be6a-4bfc-a1d0-30ad0106ee18]  
+[2017-12-29 00:15:47,078: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[fffa741c-be6a-4bfc-a1d0-30ad0106ee18] succeeded in 0.00027222999779s: 'OBSOLETE METHOD'
+[2017-12-29 00:15:47,090: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[78c624ff-9c7e-496f-8124-4f7ba3b97edc]  
+[2017-12-29 00:15:47,091: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[78c624ff-9c7e-496f-8124-4f7ba3b97edc] succeeded in 0.000212657003431s: 'SUCCESS'
+[2017-12-29 00:15:47,105: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[a69867f6-e8e7-4270-a36e-38dda531afc2]  
+[2017-12-29 00:15:47,107: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[a69867f6-e8e7-4270-a36e-38dda531afc2] succeeded in 0.000254159996985s: 'OBSOLETE METHOD'
+[2017-12-29 00:15:47,119: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[d8dd72fc-15ed-405e-8e76-83b4a15dcd4a]  
+[2017-12-29 00:15:47,118: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[a218c768-53ed-448b-94b1-4d1c97ff6941] succeeded in 0.0714770189952s: 'SUCCESS'
+[2017-12-29 00:15:47,121: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[d8dd72fc-15ed-405e-8e76-83b4a15dcd4a] succeeded in 0.000304319008137s: 'SUCCESS'
+[2017-12-29 00:16:47,046: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:16:47,094: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[8c2997e5-891a-425f-aded-a6976be989ee]  
+[2017-12-29 00:16:47,215: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[456287ed-e5f6-4245-bc71-7d5dfed72328]  
+[2017-12-29 00:16:47,232: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[456287ed-e5f6-4245-bc71-7d5dfed72328] succeeded in 0.00639305099321s: 'OBSOLETE METHOD'
+[2017-12-29 00:16:47,240: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[fcc0295c-b87c-44a4-a994-4cde1cac32b1]  
+[2017-12-29 00:16:47,256: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[fcc0295c-b87c-44a4-a994-4cde1cac32b1] succeeded in 0.0056441110064s: 'SUCCESS'
+[2017-12-29 00:16:47,268: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[a9f49ae0-9525-46a5-8bb5-01c9b264b3a9]  
+[2017-12-29 00:16:47,284: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[a9f49ae0-9525-46a5-8bb5-01c9b264b3a9] succeeded in 0.00439856700541s: 'OBSOLETE METHOD'
+[2017-12-29 00:16:47,292: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[1f1bb558-e5de-4ca2-a4da-ca5d71759f94]  
+[2017-12-29 00:16:47,291: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[8c2997e5-891a-425f-aded-a6976be989ee] succeeded in 0.178219684996s: 'SUCCESS'
+[2017-12-29 00:16:47,296: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[1f1bb558-e5de-4ca2-a4da-ca5d71759f94] succeeded in 0.00164778900216s: 'SUCCESS'
+[2017-12-29 00:17:47,044: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:17:47,048: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[38b36b74-a181-4977-ae47-8d0236db94a1]  
+[2017-12-29 00:17:47,081: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[67e4a0b5-b466-4493-99f2-9a8f04f245b4]  
+[2017-12-29 00:17:47,083: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[67e4a0b5-b466-4493-99f2-9a8f04f245b4] succeeded in 0.000365364001482s: 'OBSOLETE METHOD'
+[2017-12-29 00:17:47,093: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[0a239311-1d84-484c-ac33-08ee9764d585]  
+[2017-12-29 00:17:47,095: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[0a239311-1d84-484c-ac33-08ee9764d585] succeeded in 0.000396043004002s: 'SUCCESS'
+[2017-12-29 00:17:47,108: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[0a8fea44-f097-4573-a2f1-2e34bad28f4c]  
+[2017-12-29 00:17:47,110: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[0a8fea44-f097-4573-a2f1-2e34bad28f4c] succeeded in 0.000322723004501s: 'OBSOLETE METHOD'
+[2017-12-29 00:17:47,120: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[b8ca9c99-6e01-4f2c-9e4d-6292846a3760]  
+[2017-12-29 00:17:47,120: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[38b36b74-a181-4977-ae47-8d0236db94a1] succeeded in 0.071343278003s: 'SUCCESS'
+[2017-12-29 00:17:47,122: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[b8ca9c99-6e01-4f2c-9e4d-6292846a3760] succeeded in 0.000339367994457s: 'SUCCESS'
+[2017-12-29 00:18:44,109: INFO/Beat] Scheduler: Sending due task update-feed-boomerang (crowdsourcing.tasks.update_feed_boomerang)
+[2017-12-29 00:18:44,114: INFO/MainProcess] Received task: crowdsourcing.tasks.update_feed_boomerang[f65b62a9-8639-4523-8903-22027f5cc3e6]  
+[2017-12-29 00:18:44,185: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.update_feed_boomerang[f65b62a9-8639-4523-8903-22027f5cc3e6] succeeded in 0.0694748250098s: 'SUCCESS: 0 rows affected'
+[2017-12-29 00:18:47,045: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:18:47,048: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[381d21e0-5f2d-4a6c-83c3-4155efbdda90]  
+[2017-12-29 00:18:47,104: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[801f4736-d856-42e2-921f-283f4e21c682]  
+[2017-12-29 00:18:47,105: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.refund_task[801f4736-d856-42e2-921f-283f4e21c682] succeeded in 0.000335047996487s: 'OBSOLETE METHOD'
+[2017-12-29 00:18:47,117: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[112bb99a-c680-4123-b80d-538092e4de01]  
+[2017-12-29 00:18:47,119: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.update_worker_cache[112bb99a-c680-4123-b80d-538092e4de01] succeeded in 0.0008878519875s: 'SUCCESS'
+[2017-12-29 00:18:47,132: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[468177c5-f022-4ced-ab74-83d7abe7206b]  
+[2017-12-29 00:18:47,134: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.refund_task[468177c5-f022-4ced-ab74-83d7abe7206b] succeeded in 0.000304012006382s: 'OBSOLETE METHOD'
+[2017-12-29 00:18:47,145: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[44b481c3-e230-4923-b39b-5bd41dfa5f41]  
+[2017-12-29 00:18:47,144: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.expire_tasks[381d21e0-5f2d-4a6c-83c3-4155efbdda90] succeeded in 0.095408017005s: 'SUCCESS'
+[2017-12-29 00:18:47,146: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.update_worker_cache[44b481c3-e230-4923-b39b-5bd41dfa5f41] succeeded in 0.000512737999088s: 'SUCCESS'
+[2017-12-29 00:19:45,873: INFO/Beat] Scheduler: Sending due task auto-approve-tasks (crowdsourcing.tasks.auto_approve_tasks)
+[2017-12-29 00:19:45,876: INFO/MainProcess] Received task: crowdsourcing.tasks.auto_approve_tasks[70bf0bf3-4a41-429a-b868-88488f5a33df]  
+[2017-12-29 00:19:45,918: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.auto_approve_tasks[70bf0bf3-4a41-429a-b868-88488f5a33df] succeeded in 0.0396270670026s: 'SUCCESS'
+[2017-12-29 00:19:47,045: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:19:47,047: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[d8af5342-0e62-4c02-b739-26950a2c916d]  
+[2017-12-29 00:19:47,079: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[d4bd93de-7583-43fd-a5de-d4544592584b]  
+[2017-12-29 00:19:47,080: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[d4bd93de-7583-43fd-a5de-d4544592584b] succeeded in 0.000197144006961s: 'OBSOLETE METHOD'
+[2017-12-29 00:19:47,091: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[fadcb9d6-53e9-470f-9f6f-e2f3e5b22843]  
+[2017-12-29 00:19:47,092: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[fadcb9d6-53e9-470f-9f6f-e2f3e5b22843] succeeded in 0.000205464995815s: 'SUCCESS'
+[2017-12-29 00:19:47,106: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[675a92c8-24de-41a8-9a31-a8cc4afa0975]  
+[2017-12-29 00:19:47,107: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[675a92c8-24de-41a8-9a31-a8cc4afa0975] succeeded in 0.000259298001765s: 'OBSOLETE METHOD'
+[2017-12-29 00:19:47,118: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[8af948d7-cea2-4dd2-ba7e-23fa03da8f11]  
+[2017-12-29 00:19:47,117: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[d8af5342-0e62-4c02-b739-26950a2c916d] succeeded in 0.068726196012s: 'SUCCESS'
+[2017-12-29 00:19:47,119: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[8af948d7-cea2-4dd2-ba7e-23fa03da8f11] succeeded in 0.000237290005316s: 'SUCCESS'
+[2017-12-29 00:20:47,045: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:20:47,050: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[5f53aeee-10ad-4e0a-8917-b75451b079e7]  
+[2017-12-29 00:20:47,107: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[7abba001-8cab-43a8-ad5e-bce56967bb68]  
+[2017-12-29 00:20:47,109: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[7abba001-8cab-43a8-ad5e-bce56967bb68] succeeded in 0.000373286995455s: 'OBSOLETE METHOD'
+[2017-12-29 00:20:47,119: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[7aa77a02-f00e-4f75-ac66-6119ff118b59]  
+[2017-12-29 00:20:47,120: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[7aa77a02-f00e-4f75-ac66-6119ff118b59] succeeded in 0.000296975005767s: 'SUCCESS'
+[2017-12-29 00:20:47,147: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[72863c0d-4563-4b68-bfd7-d12d361f30de]  
+[2017-12-29 00:20:47,149: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[72863c0d-4563-4b68-bfd7-d12d361f30de] succeeded in 0.000399441007175s: 'OBSOLETE METHOD'
+[2017-12-29 00:20:47,164: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[eb842ded-2187-4362-b6b7-164dee2190e9]  
+[2017-12-29 00:20:47,165: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[5f53aeee-10ad-4e0a-8917-b75451b079e7] succeeded in 0.113510188996s: 'SUCCESS'
+[2017-12-29 00:20:47,166: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[eb842ded-2187-4362-b6b7-164dee2190e9] succeeded in 0.000304927991237s: 'SUCCESS'
+[2017-12-29 00:21:47,045: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:21:47,050: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[60cedf37-b4cb-4cf3-b561-f852efd7ded0]  
+[2017-12-29 00:21:47,099: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[1b64bd8e-d727-4ca9-8854-4a7b9c2da2c3]  
+[2017-12-29 00:21:47,100: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[1b64bd8e-d727-4ca9-8854-4a7b9c2da2c3] succeeded in 0.00026645399339s: 'OBSOLETE METHOD'
+[2017-12-29 00:21:47,111: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[e7be079d-0233-4c32-b219-20e4e2e36279]  
+[2017-12-29 00:21:47,112: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[e7be079d-0233-4c32-b219-20e4e2e36279] succeeded in 0.000203469011467s: 'SUCCESS'
+[2017-12-29 00:21:47,126: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[2a544ed9-5580-4d7c-b99b-fcdd63404767]  
+[2017-12-29 00:21:47,127: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[2a544ed9-5580-4d7c-b99b-fcdd63404767] succeeded in 0.000264732996584s: 'OBSOLETE METHOD'
+[2017-12-29 00:21:47,138: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[e86086c6-e5b0-4ebf-8b18-a595d69f17d7]  
+[2017-12-29 00:21:47,137: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[60cedf37-b4cb-4cf3-b561-f852efd7ded0] succeeded in 0.0859895549947s: 'SUCCESS'
+[2017-12-29 00:21:47,140: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[e86086c6-e5b0-4ebf-8b18-a595d69f17d7] succeeded in 0.000319435988786s: 'SUCCESS'
+[2017-12-29 00:22:47,045: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:22:47,051: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[4697e74f-1555-4c55-88e0-60d01d2cd9f3]  
+[2017-12-29 00:22:47,102: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[435f3367-5363-4b84-b13f-8e4d6593c0b5]  
+[2017-12-29 00:22:47,104: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[435f3367-5363-4b84-b13f-8e4d6593c0b5] succeeded in 0.000276790990029s: 'OBSOLETE METHOD'
+[2017-12-29 00:22:47,117: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[503f8473-28ac-46d1-a5cf-bd5200445bf5]  
+[2017-12-29 00:22:47,118: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[503f8473-28ac-46d1-a5cf-bd5200445bf5] succeeded in 0.000304109998979s: 'SUCCESS'
+[2017-12-29 00:22:47,135: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[2ccb86d3-7d28-41ac-be26-a0daf6f759d5]  
+[2017-12-29 00:22:47,137: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[2ccb86d3-7d28-41ac-be26-a0daf6f759d5] succeeded in 0.000332904004608s: 'OBSOLETE METHOD'
+[2017-12-29 00:22:47,150: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[31fc984f-a60b-4cba-88e8-eee435c9e14b]  
+[2017-12-29 00:22:47,150: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[4697e74f-1555-4c55-88e0-60d01d2cd9f3] succeeded in 0.0977856239915s: 'SUCCESS'
+[2017-12-29 00:22:47,153: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[31fc984f-a60b-4cba-88e8-eee435c9e14b] succeeded in 0.00042284099618s: 'SUCCESS'
+[2017-12-29 00:23:44,109: INFO/Beat] Scheduler: Sending due task update-feed-boomerang (crowdsourcing.tasks.update_feed_boomerang)
+[2017-12-29 00:23:44,115: INFO/MainProcess] Received task: crowdsourcing.tasks.update_feed_boomerang[c4d139eb-5cbc-4845-a226-8fea18be5cf4]  
+[2017-12-29 00:23:44,165: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.update_feed_boomerang[c4d139eb-5cbc-4845-a226-8fea18be5cf4] succeeded in 0.0490255839977s: 'SUCCESS: 0 rows affected'
+[2017-12-29 00:23:45,873: INFO/Beat] Scheduler: Sending due task auto-approve-tasks (crowdsourcing.tasks.auto_approve_tasks)
+[2017-12-29 00:23:45,877: INFO/MainProcess] Received task: crowdsourcing.tasks.auto_approve_tasks[4ec4225d-41e7-4f1d-9202-4d07ac29a095]  
+[2017-12-29 00:23:45,902: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.auto_approve_tasks[4ec4225d-41e7-4f1d-9202-4d07ac29a095] succeeded in 0.0241315009916s: 'SUCCESS'
+[2017-12-29 00:23:47,045: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:23:47,049: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[e1746d16-e505-4893-a3d3-d4af8db7fe46]  
+[2017-12-29 00:23:47,086: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[4a7089b4-3b74-4ce5-b8fc-ca43dfc5b3a2]  
+[2017-12-29 00:23:47,087: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[4a7089b4-3b74-4ce5-b8fc-ca43dfc5b3a2] succeeded in 0.000265394992311s: 'OBSOLETE METHOD'
+[2017-12-29 00:23:47,101: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[2b645e2b-92bb-4a0f-b549-eda5eedab214]  
+[2017-12-29 00:23:47,103: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[2b645e2b-92bb-4a0f-b549-eda5eedab214] succeeded in 0.000330800990923s: 'SUCCESS'
+[2017-12-29 00:23:47,117: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[f6503e4d-921e-4dfa-9a1a-bb06065d411d]  
+[2017-12-29 00:23:47,119: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[f6503e4d-921e-4dfa-9a1a-bb06065d411d] succeeded in 0.000237433996517s: 'OBSOLETE METHOD'
+[2017-12-29 00:23:47,131: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[103a81ab-41b4-4e13-b871-591847ff6df1]  
+[2017-12-29 00:23:47,131: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[e1746d16-e505-4893-a3d3-d4af8db7fe46] succeeded in 0.080856251996s: 'SUCCESS'
+[2017-12-29 00:23:47,133: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[103a81ab-41b4-4e13-b871-591847ff6df1] succeeded in 0.00032520100649s: 'SUCCESS'
+[2017-12-29 00:24:47,046: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:24:47,051: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[c404a2fb-6576-4d34-9230-bf6366c0c1e9]  
+[2017-12-29 00:24:47,083: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[f0d1d36c-976c-47fb-b07f-b90fe02e66b4]  
+[2017-12-29 00:24:47,085: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[f0d1d36c-976c-47fb-b07f-b90fe02e66b4] succeeded in 0.000349438007106s: 'OBSOLETE METHOD'
+[2017-12-29 00:24:47,095: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[5868a844-d95c-423c-ad87-1ac510a1cc1a]  
+[2017-12-29 00:24:47,096: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[5868a844-d95c-423c-ad87-1ac510a1cc1a] succeeded in 0.000297632999718s: 'SUCCESS'
+[2017-12-29 00:24:47,111: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[7625fb0c-1bd8-41f9-b0e1-5bb30c380a2c]  
+[2017-12-29 00:24:47,113: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[7625fb0c-1bd8-41f9-b0e1-5bb30c380a2c] succeeded in 0.00035291200038s: 'OBSOLETE METHOD'
+[2017-12-29 00:24:47,124: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[4820f492-ad15-497e-89f4-c4c4dfd74f9e]  
+[2017-12-29 00:24:47,124: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[c404a2fb-6576-4d34-9230-bf6366c0c1e9] succeeded in 0.0715334440029s: 'SUCCESS'
+[2017-12-29 00:24:47,126: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[4820f492-ad15-497e-89f4-c4c4dfd74f9e] succeeded in 0.000215852996917s: 'SUCCESS'
+[2017-12-29 00:25:47,046: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:25:47,053: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[7fb43725-19a3-4a3c-a0f6-64614f71a143]  
+[2017-12-29 00:25:47,111: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[f1ae9d46-bcea-4157-8921-809ce4f227d6]  
+[2017-12-29 00:25:47,113: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[f1ae9d46-bcea-4157-8921-809ce4f227d6] succeeded in 0.000335036005708s: 'OBSOLETE METHOD'
+[2017-12-29 00:25:47,126: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[626a55a8-dd37-424d-b589-e2def59ceab0]  
+[2017-12-29 00:25:47,128: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[626a55a8-dd37-424d-b589-e2def59ceab0] succeeded in 0.000406673992984s: 'SUCCESS'
+[2017-12-29 00:25:47,142: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[7f3d7b82-b050-4350-9eab-f70718f88841]  
+[2017-12-29 00:25:47,145: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[7f3d7b82-b050-4350-9eab-f70718f88841] succeeded in 0.000371927002561s: 'OBSOLETE METHOD'
+[2017-12-29 00:25:47,156: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[09c56bcd-af7f-4dff-aedb-0cd0805e7293]  
+[2017-12-29 00:25:47,155: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[7fb43725-19a3-4a3c-a0f6-64614f71a143] succeeded in 0.100639986995s: 'SUCCESS'
+[2017-12-29 00:25:47,158: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[09c56bcd-af7f-4dff-aedb-0cd0805e7293] succeeded in 0.000352244998794s: 'SUCCESS'
+[2017-12-29 00:26:47,046: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:26:47,051: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[35198c07-530e-4345-a54a-d63f3b73407c]  
+[2017-12-29 00:26:47,106: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[2a205bc2-066d-4389-bd95-cb16bd94cbf3]  
+[2017-12-29 00:26:47,108: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[2a205bc2-066d-4389-bd95-cb16bd94cbf3] succeeded in 0.000351398994098s: 'OBSOLETE METHOD'
+[2017-12-29 00:26:47,119: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[c6beb0d5-e1fa-4590-b1eb-6dcd1db708e1]  
+[2017-12-29 00:26:47,120: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[c6beb0d5-e1fa-4590-b1eb-6dcd1db708e1] succeeded in 0.000297434002277s: 'SUCCESS'
+[2017-12-29 00:26:47,134: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[284359f4-61e8-4bd1-b28d-a042c1efd9fc]  
+[2017-12-29 00:26:47,135: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[284359f4-61e8-4bd1-b28d-a042c1efd9fc] succeeded in 0.000261647001025s: 'OBSOLETE METHOD'
+[2017-12-29 00:26:47,147: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[f6e4d39a-2782-4cf0-8f1f-99d30d4670a7]  
+[2017-12-29 00:26:47,147: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[35198c07-530e-4345-a54a-d63f3b73407c] succeeded in 0.0940360040113s: 'SUCCESS'
+[2017-12-29 00:26:47,149: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[f6e4d39a-2782-4cf0-8f1f-99d30d4670a7] succeeded in 0.00021385398577s: 'SUCCESS'
+[2017-12-29 00:27:45,874: INFO/Beat] Scheduler: Sending due task auto-approve-tasks (crowdsourcing.tasks.auto_approve_tasks)
+[2017-12-29 00:27:45,877: INFO/MainProcess] Received task: crowdsourcing.tasks.auto_approve_tasks[6b71cd33-cad4-4a1a-b273-6e564a60e9da]  
+[2017-12-29 00:27:45,932: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.auto_approve_tasks[6b71cd33-cad4-4a1a-b273-6e564a60e9da] succeeded in 0.0531673319929s: 'SUCCESS'
+[2017-12-29 00:27:47,046: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:27:47,049: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[c4286489-d267-4f67-9c59-ba6344d1cc64]  
+[2017-12-29 00:27:47,096: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[5872b64f-d0d8-4728-932a-c7c0a330c931]  
+[2017-12-29 00:27:47,097: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.refund_task[5872b64f-d0d8-4728-932a-c7c0a330c931] succeeded in 0.000223563998588s: 'OBSOLETE METHOD'
+[2017-12-29 00:27:47,108: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[f4206494-6241-4c07-b0dd-ab036a748055]  
+[2017-12-29 00:27:47,111: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.update_worker_cache[f4206494-6241-4c07-b0dd-ab036a748055] succeeded in 0.000931800997932s: 'SUCCESS'
+[2017-12-29 00:27:47,124: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[2b0fd902-eaaf-433c-9c30-837873bbe4d5]  
+[2017-12-29 00:27:47,126: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.refund_task[2b0fd902-eaaf-433c-9c30-837873bbe4d5] succeeded in 0.00037914000859s: 'OBSOLETE METHOD'
+[2017-12-29 00:27:47,137: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[abfde2df-5c51-47c8-9d27-ad9be30178f2]  
+[2017-12-29 00:27:47,137: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.expire_tasks[c4286489-d267-4f67-9c59-ba6344d1cc64] succeeded in 0.0865388539969s: 'SUCCESS'
+[2017-12-29 00:27:47,139: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.update_worker_cache[abfde2df-5c51-47c8-9d27-ad9be30178f2] succeeded in 0.000473128005979s: 'SUCCESS'
+[2017-12-29 00:28:44,109: INFO/Beat] Scheduler: Sending due task update-feed-boomerang (crowdsourcing.tasks.update_feed_boomerang)
+[2017-12-29 00:28:44,115: INFO/MainProcess] Received task: crowdsourcing.tasks.update_feed_boomerang[bdb5ddca-8c7b-4ddc-b0c0-59b388c0361f]  
+[2017-12-29 00:28:44,183: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_feed_boomerang[bdb5ddca-8c7b-4ddc-b0c0-59b388c0361f] succeeded in 0.0668583269871s: 'SUCCESS: 0 rows affected'
+[2017-12-29 00:28:47,046: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:28:47,049: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[458f78b3-e7bb-43c4-9d95-448c78e39e5e]  
+[2017-12-29 00:28:47,081: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[b343b515-2a15-4a95-aa4b-ba640996fbcc]  
+[2017-12-29 00:28:47,083: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[b343b515-2a15-4a95-aa4b-ba640996fbcc] succeeded in 0.000204177005799s: 'OBSOLETE METHOD'
+[2017-12-29 00:28:47,094: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[b4046f0f-1c9f-48ad-af93-695477f493d4]  
+[2017-12-29 00:28:47,096: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[b4046f0f-1c9f-48ad-af93-695477f493d4] succeeded in 0.000452701002359s: 'SUCCESS'
+[2017-12-29 00:28:47,110: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[eff7851a-88c3-421a-850e-dda7bd18aa35]  
+[2017-12-29 00:28:47,112: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[eff7851a-88c3-421a-850e-dda7bd18aa35] succeeded in 0.000355590993422s: 'OBSOLETE METHOD'
+[2017-12-29 00:28:47,122: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[37bcdeb6-b760-4237-a8e5-b2d65dd8470c]  
+[2017-12-29 00:28:47,122: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[458f78b3-e7bb-43c4-9d95-448c78e39e5e] succeeded in 0.0719496679958s: 'SUCCESS'
+[2017-12-29 00:28:47,124: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[37bcdeb6-b760-4237-a8e5-b2d65dd8470c] succeeded in 0.000326983004925s: 'SUCCESS'
+[2017-12-29 00:29:47,046: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:29:47,049: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[06cf013e-4d7c-4737-8216-c04f08275bec]  
+[2017-12-29 00:29:47,083: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[b61ccd1f-49e6-41a7-8b1d-9dad9958b1c9]  
+[2017-12-29 00:29:47,084: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[b61ccd1f-49e6-41a7-8b1d-9dad9958b1c9] succeeded in 0.000276883001789s: 'OBSOLETE METHOD'
+[2017-12-29 00:29:47,095: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[b86ae780-3611-4291-a923-3d85e82d724f]  
+[2017-12-29 00:29:47,097: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[b86ae780-3611-4291-a923-3d85e82d724f] succeeded in 0.000307632013573s: 'SUCCESS'
+[2017-12-29 00:29:47,112: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[82c2b7d9-f26c-4dd8-9e62-7de52cdf35ff]  
+[2017-12-29 00:29:47,113: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[82c2b7d9-f26c-4dd8-9e62-7de52cdf35ff] succeeded in 0.000414332011133s: 'OBSOLETE METHOD'
+[2017-12-29 00:29:47,125: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[5613d448-b524-4fbd-a46e-4b5ca53f4ba0]  
+[2017-12-29 00:29:47,124: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[06cf013e-4d7c-4737-8216-c04f08275bec] succeeded in 0.0743333630089s: 'SUCCESS'
+[2017-12-29 00:29:47,126: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[5613d448-b524-4fbd-a46e-4b5ca53f4ba0] succeeded in 0.000358367004083s: 'SUCCESS'
+[2017-12-29 00:30:47,047: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:30:47,049: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[c24d438e-dcf4-4864-8ca8-da16af9e9b5f]  
+[2017-12-29 00:30:47,081: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[6b33d4ee-50e7-4c77-aff5-40a3f9f3236c]  
+[2017-12-29 00:30:47,082: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[6b33d4ee-50e7-4c77-aff5-40a3f9f3236c] succeeded in 0.000194730004296s: 'OBSOLETE METHOD'
+[2017-12-29 00:30:47,093: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[6d104ceb-5b61-42cb-b0db-ed9623438fc9]  
+[2017-12-29 00:30:47,095: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[6d104ceb-5b61-42cb-b0db-ed9623438fc9] succeeded in 0.000223352995818s: 'SUCCESS'
+[2017-12-29 00:30:47,108: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[d8486685-bf61-47c9-a920-c361ed47fbf3]  
+[2017-12-29 00:30:47,110: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[d8486685-bf61-47c9-a920-c361ed47fbf3] succeeded in 0.00019260100089s: 'OBSOLETE METHOD'
+[2017-12-29 00:30:47,121: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[a688a605-40f7-4b61-99aa-de48e8184ee9]  
+[2017-12-29 00:30:47,120: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[c24d438e-dcf4-4864-8ca8-da16af9e9b5f] succeeded in 0.069956220992s: 'SUCCESS'
+[2017-12-29 00:30:47,122: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[a688a605-40f7-4b61-99aa-de48e8184ee9] succeeded in 0.000204017007491s: 'SUCCESS'
+[2017-12-29 00:31:45,874: INFO/Beat] Scheduler: Sending due task auto-approve-tasks (crowdsourcing.tasks.auto_approve_tasks)
+[2017-12-29 00:31:45,879: INFO/MainProcess] Received task: crowdsourcing.tasks.auto_approve_tasks[5bbbdf30-5057-4488-958d-7ff191cf5b26]  
+[2017-12-29 00:31:45,936: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.auto_approve_tasks[5bbbdf30-5057-4488-958d-7ff191cf5b26] succeeded in 0.0549328210036s: 'SUCCESS'
+[2017-12-29 00:31:47,047: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:31:47,049: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[edd5e434-cadc-47bf-ab2b-4df93a370086]  
+[2017-12-29 00:31:47,103: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[cee428d1-5528-4e90-a34e-295ea6964507]  
+[2017-12-29 00:31:47,104: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.refund_task[cee428d1-5528-4e90-a34e-295ea6964507] succeeded in 0.000292823999189s: 'OBSOLETE METHOD'
+[2017-12-29 00:31:47,118: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[a3fdfc97-ef19-4155-9f9b-005a0f79b2c4]  
+[2017-12-29 00:31:47,121: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.update_worker_cache[a3fdfc97-ef19-4155-9f9b-005a0f79b2c4] succeeded in 0.00103738000325s: 'SUCCESS'
+[2017-12-29 00:31:47,136: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[d11e880e-d223-4fb4-9990-f01b71cea30b]  
+[2017-12-29 00:31:47,138: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.refund_task[d11e880e-d223-4fb4-9990-f01b71cea30b] succeeded in 0.000441036987468s: 'OBSOLETE METHOD'
+[2017-12-29 00:31:47,153: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[3f174556-388f-4814-b2bc-dff1dc184956]  
+[2017-12-29 00:31:47,152: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.expire_tasks[edd5e434-cadc-47bf-ab2b-4df93a370086] succeeded in 0.101709087001s: 'SUCCESS'
+[2017-12-29 00:31:47,154: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.update_worker_cache[3f174556-388f-4814-b2bc-dff1dc184956] succeeded in 0.000500273992657s: 'SUCCESS'
+[2017-12-29 00:32:47,048: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:32:47,064: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[1849abdd-093e-4a62-b1c4-32aa4747de41]  
+[2017-12-29 00:32:47,118: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[9830ccc2-2384-407f-aad1-3f6ff2997238]  
+[2017-12-29 00:32:47,127: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.refund_task[9830ccc2-2384-407f-aad1-3f6ff2997238] succeeded in 0.00341829100216s: 'OBSOLETE METHOD'
+[2017-12-29 00:32:47,131: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[688cc460-205c-4c21-ab69-bf0990bc764d]  
+[2017-12-29 00:32:47,143: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.update_worker_cache[688cc460-205c-4c21-ab69-bf0990bc764d] succeeded in 0.00477600700106s: 'SUCCESS'
+[2017-12-29 00:32:47,147: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[fe995708-1cba-4bc9-8433-6e0b2d3c202e]  
+[2017-12-29 00:32:47,158: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.refund_task[fe995708-1cba-4bc9-8433-6e0b2d3c202e] succeeded in 0.00322176600457s: 'OBSOLETE METHOD'
+[2017-12-29 00:32:47,161: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[3954624a-9351-4667-b940-e7897f6c3cf2]  
+[2017-12-29 00:32:47,161: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.expire_tasks[1849abdd-093e-4a62-b1c4-32aa4747de41] succeeded in 0.0878216830024s: 'SUCCESS'
+[2017-12-29 00:32:47,164: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.update_worker_cache[3954624a-9351-4667-b940-e7897f6c3cf2] succeeded in 0.00080234798952s: 'SUCCESS'
+[2017-12-29 00:33:44,110: INFO/Beat] Scheduler: Sending due task update-feed-boomerang (crowdsourcing.tasks.update_feed_boomerang)
+[2017-12-29 00:33:44,117: INFO/MainProcess] Received task: crowdsourcing.tasks.update_feed_boomerang[2226660c-6ae3-4adf-a44d-bd5a4df48256]  
+[2017-12-29 00:33:44,192: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_feed_boomerang[2226660c-6ae3-4adf-a44d-bd5a4df48256] succeeded in 0.0734927650046s: 'SUCCESS: 0 rows affected'
+[2017-12-29 00:33:45,822: INFO/Beat] Scheduler: Sending due task email-notifications (crowdsourcing.tasks.email_notifications)
+[2017-12-29 00:33:45,825: INFO/MainProcess] Received task: crowdsourcing.tasks.email_notifications[a3fb7704-4741-4f85-807a-00c6b9ff90fa]  
+[2017-12-29 00:33:45,945: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.email_notifications[a3fb7704-4741-4f85-807a-00c6b9ff90fa] succeeded in 0.118354501989s: 'SUCCESS'
+[2017-12-29 00:33:47,047: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:33:47,050: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[2c0e3c0e-fc04-47ec-bb60-6d4faba28caf]  
+[2017-12-29 00:33:47,081: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[1df4fe42-9bf4-4ce4-b3c2-42c3367c640b]  
+[2017-12-29 00:33:47,083: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.refund_task[1df4fe42-9bf4-4ce4-b3c2-42c3367c640b] succeeded in 0.000342155006365s: 'OBSOLETE METHOD'
+[2017-12-29 00:33:47,096: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[b322b651-abe3-43c6-ac44-ce6b3bf2578e]  
+[2017-12-29 00:33:47,097: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.update_worker_cache[b322b651-abe3-43c6-ac44-ce6b3bf2578e] succeeded in 0.000213727005757s: 'SUCCESS'
+[2017-12-29 00:33:47,112: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[f35b6c5e-0a04-484c-a0f7-ea7819cb7d61]  
+[2017-12-29 00:33:47,113: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.refund_task[f35b6c5e-0a04-484c-a0f7-ea7819cb7d61] succeeded in 0.000254490005318s: 'OBSOLETE METHOD'
+[2017-12-29 00:33:47,124: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[fce70c35-47fb-4481-9210-ebfef22d0a22]  
+[2017-12-29 00:33:47,124: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.expire_tasks[2c0e3c0e-fc04-47ec-bb60-6d4faba28caf] succeeded in 0.0722527720063s: 'SUCCESS'
+[2017-12-29 00:33:47,125: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.update_worker_cache[fce70c35-47fb-4481-9210-ebfef22d0a22] succeeded in 0.000215537991608s: 'SUCCESS'
+[2017-12-29 00:34:47,049: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:34:47,067: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[6c4fc985-423f-404e-bcf1-c18c067a8d8e]  
+[2017-12-29 00:34:47,119: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[ec215d34-25e0-4411-afa4-9b3d38a51c58]  
+[2017-12-29 00:34:47,129: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.refund_task[ec215d34-25e0-4411-afa4-9b3d38a51c58] succeeded in 0.00301304999448s: 'OBSOLETE METHOD'
+[2017-12-29 00:34:47,134: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[f4ee0af7-eb35-42a6-80ed-cd040ee78f1f]  
+[2017-12-29 00:34:47,149: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.update_worker_cache[f4ee0af7-eb35-42a6-80ed-cd040ee78f1f] succeeded in 0.00321750799776s: 'SUCCESS'
+[2017-12-29 00:34:47,154: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[f6db61e1-0ab5-46c6-b41a-f6cb6248df0f]  
+[2017-12-29 00:34:47,168: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.refund_task[f6db61e1-0ab5-46c6-b41a-f6cb6248df0f] succeeded in 0.00753478400293s: 'OBSOLETE METHOD'
+[2017-12-29 00:34:47,173: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[ef5bdb7e-d96c-4bd4-9ec8-a3972ac370fa]  
+[2017-12-29 00:34:47,173: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.expire_tasks[6c4fc985-423f-404e-bcf1-c18c067a8d8e] succeeded in 0.0986004049919s: 'SUCCESS'
+[2017-12-29 00:34:47,176: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.update_worker_cache[ef5bdb7e-d96c-4bd4-9ec8-a3972ac370fa] succeeded in 0.000851924007293s: 'SUCCESS'
+[2017-12-29 00:35:45,874: INFO/Beat] Scheduler: Sending due task auto-approve-tasks (crowdsourcing.tasks.auto_approve_tasks)
+[2017-12-29 00:35:45,879: INFO/MainProcess] Received task: crowdsourcing.tasks.auto_approve_tasks[76114c39-0d08-41ad-bc37-1c874c4be01c]  
+[2017-12-29 00:35:45,923: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.auto_approve_tasks[76114c39-0d08-41ad-bc37-1c874c4be01c] succeeded in 0.0427609649923s: 'SUCCESS'
+[2017-12-29 00:35:47,048: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:35:47,051: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[19eecd04-37b4-4f14-9b72-e56a731b3c84]  
+[2017-12-29 00:35:47,105: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[516b8121-54bf-4c91-94e5-e014cb0a04e6]  
+[2017-12-29 00:35:47,108: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[516b8121-54bf-4c91-94e5-e014cb0a04e6] succeeded in 0.000273519995972s: 'OBSOLETE METHOD'
+[2017-12-29 00:35:47,121: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[bb777f9c-3b9c-4f6f-8618-ac9a6ce564e5]  
+[2017-12-29 00:35:47,123: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[bb777f9c-3b9c-4f6f-8618-ac9a6ce564e5] succeeded in 0.000781590002589s: 'SUCCESS'
+[2017-12-29 00:35:47,137: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[939f73a8-7b4c-4141-b856-416e2e0fb0fe]  
+[2017-12-29 00:35:47,139: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[939f73a8-7b4c-4141-b856-416e2e0fb0fe] succeeded in 0.000422857003286s: 'OBSOLETE METHOD'
+[2017-12-29 00:35:47,149: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[eca1fe78-3a6c-4684-8087-efff8214a766]  
+[2017-12-29 00:35:47,149: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[19eecd04-37b4-4f14-9b72-e56a731b3c84] succeeded in 0.094742863992s: 'SUCCESS'
+[2017-12-29 00:35:47,151: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[eca1fe78-3a6c-4684-8087-efff8214a766] succeeded in 0.00054595900292s: 'SUCCESS'
+[2017-12-29 00:36:47,048: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:36:47,052: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[85e01011-91f8-49eb-abae-e6a6c83ce934]  
+[2017-12-29 00:36:47,107: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[ef4ca8ee-8326-4834-b88a-cac00be5aab7]  
+[2017-12-29 00:36:47,109: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[ef4ca8ee-8326-4834-b88a-cac00be5aab7] succeeded in 0.000174304004759s: 'OBSOLETE METHOD'
+[2017-12-29 00:36:47,121: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[d1fc43bc-d83b-46fe-9bf7-df2b43c697e8]  
+[2017-12-29 00:36:47,123: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[d1fc43bc-d83b-46fe-9bf7-df2b43c697e8] succeeded in 0.000357493001502s: 'SUCCESS'
+[2017-12-29 00:36:47,138: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[df005b00-8eec-472c-b981-e15d1808f617]  
+[2017-12-29 00:36:47,140: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[df005b00-8eec-472c-b981-e15d1808f617] succeeded in 0.00034235799103s: 'OBSOLETE METHOD'
+[2017-12-29 00:36:47,150: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[53152709-5617-47f3-83db-21744f41131f]  
+[2017-12-29 00:36:47,150: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[85e01011-91f8-49eb-abae-e6a6c83ce934] succeeded in 0.096454737999s: 'SUCCESS'
+[2017-12-29 00:36:47,151: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[53152709-5617-47f3-83db-21744f41131f] succeeded in 0.000207379009225s: 'SUCCESS'
+[2017-12-29 00:37:47,048: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:37:47,052: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[b67a0544-8303-4b21-a4c2-dbe5e5b2895c]  
+[2017-12-29 00:37:47,106: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[6168c6c1-63fe-4666-99e3-aa5a73a22d07]  
+[2017-12-29 00:37:47,108: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[6168c6c1-63fe-4666-99e3-aa5a73a22d07] succeeded in 0.000350102985976s: 'OBSOLETE METHOD'
+[2017-12-29 00:37:47,119: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[ec13d766-4b46-4c41-9d17-eaacb4645b49]  
+[2017-12-29 00:37:47,121: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[ec13d766-4b46-4c41-9d17-eaacb4645b49] succeeded in 0.000373849994503s: 'SUCCESS'
+[2017-12-29 00:37:47,135: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[25e81cb6-31df-40f1-ac00-69587d5d94b2]  
+[2017-12-29 00:37:47,136: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[25e81cb6-31df-40f1-ac00-69587d5d94b2] succeeded in 0.00038853600563s: 'OBSOLETE METHOD'
+[2017-12-29 00:37:47,147: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[d1331c4c-b767-452b-a8a9-522e95cd80d9]  
+[2017-12-29 00:37:47,146: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[b67a0544-8303-4b21-a4c2-dbe5e5b2895c] succeeded in 0.0932633589982s: 'SUCCESS'
+[2017-12-29 00:37:47,148: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[d1331c4c-b767-452b-a8a9-522e95cd80d9] succeeded in 0.000196339999093s: 'SUCCESS'
+[2017-12-29 00:38:44,110: INFO/Beat] Scheduler: Sending due task update-feed-boomerang (crowdsourcing.tasks.update_feed_boomerang)
+[2017-12-29 00:38:44,112: INFO/MainProcess] Received task: crowdsourcing.tasks.update_feed_boomerang[e27e7eb5-a206-4352-b411-5661a7de2a83]  
+[2017-12-29 00:38:44,173: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.update_feed_boomerang[e27e7eb5-a206-4352-b411-5661a7de2a83] succeeded in 0.0592380590097s: 'SUCCESS: 0 rows affected'
+[2017-12-29 00:38:47,048: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:38:47,051: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[c69ce681-713b-433d-8a09-6f5eb68deab4]  
+[2017-12-29 00:38:47,092: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[99c3c9ac-409d-4e64-ba0f-a950035a85d9]  
+[2017-12-29 00:38:47,094: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.refund_task[99c3c9ac-409d-4e64-ba0f-a950035a85d9] succeeded in 0.000292270007776s: 'OBSOLETE METHOD'
+[2017-12-29 00:38:47,105: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[27921803-db34-4245-b8be-ef7fd2634afa]  
+[2017-12-29 00:38:47,107: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.update_worker_cache[27921803-db34-4245-b8be-ef7fd2634afa] succeeded in 0.000713661996997s: 'SUCCESS'
+[2017-12-29 00:38:47,120: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[fcfd435c-762d-44b6-bef0-7d98c5147999]  
+[2017-12-29 00:38:47,122: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.refund_task[fcfd435c-762d-44b6-bef0-7d98c5147999] succeeded in 0.000378431010176s: 'OBSOLETE METHOD'
+[2017-12-29 00:38:47,133: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[3aaab0c4-ae41-486a-ab3d-290c0ec26b35]  
+[2017-12-29 00:38:47,133: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.expire_tasks[c69ce681-713b-433d-8a09-6f5eb68deab4] succeeded in 0.0806640980009s: 'SUCCESS'
+[2017-12-29 00:38:47,135: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.update_worker_cache[3aaab0c4-ae41-486a-ab3d-290c0ec26b35] succeeded in 0.000310006013024s: 'SUCCESS'
+[2017-12-29 00:39:45,875: INFO/Beat] Scheduler: Sending due task auto-approve-tasks (crowdsourcing.tasks.auto_approve_tasks)
+[2017-12-29 00:39:45,881: INFO/MainProcess] Received task: crowdsourcing.tasks.auto_approve_tasks[62b19617-eb37-4429-9a44-7bf4193ad2e9]  
+[2017-12-29 00:39:45,899: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.auto_approve_tasks[62b19617-eb37-4429-9a44-7bf4193ad2e9] succeeded in 0.0170964620047s: 'SUCCESS'
+[2017-12-29 00:39:47,048: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:39:47,051: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[42d2ef97-c961-4e79-8749-006c0188d6ec]  
+[2017-12-29 00:39:47,082: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[6e29a9ee-3c9e-4b20-b055-fd72806bc64b]  
+[2017-12-29 00:39:47,083: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[6e29a9ee-3c9e-4b20-b055-fd72806bc64b] succeeded in 0.000242057009018s: 'OBSOLETE METHOD'
+[2017-12-29 00:39:47,095: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[04728555-8d3d-4d5b-8383-1cad9010e7ee]  
+[2017-12-29 00:39:47,096: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[04728555-8d3d-4d5b-8383-1cad9010e7ee] succeeded in 0.000191056999029s: 'SUCCESS'
+[2017-12-29 00:39:47,109: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[ce29cb76-6f96-44a3-9c9c-e2ebfae91263]  
+[2017-12-29 00:39:47,111: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[ce29cb76-6f96-44a3-9c9c-e2ebfae91263] succeeded in 0.000245272996835s: 'OBSOLETE METHOD'
+[2017-12-29 00:39:47,121: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[ff44e96d-f437-46ed-91d0-b752e5d83aa3]  
+[2017-12-29 00:39:47,121: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[42d2ef97-c961-4e79-8749-006c0188d6ec] succeeded in 0.068582449996s: 'SUCCESS'
+[2017-12-29 00:39:47,123: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[ff44e96d-f437-46ed-91d0-b752e5d83aa3] succeeded in 0.000279379004496s: 'SUCCESS'
+[2017-12-29 00:40:47,048: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:40:47,053: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[93b50c11-cfb1-4d4c-8a6a-5907ef8bd071]  
+[2017-12-29 00:40:47,108: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[cd85f699-9be8-4cdc-97a2-b31fc16addd7]  
+[2017-12-29 00:40:47,110: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[cd85f699-9be8-4cdc-97a2-b31fc16addd7] succeeded in 0.000173566993908s: 'OBSOLETE METHOD'
+[2017-12-29 00:40:47,122: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[160636c1-8978-44ea-b69b-37d7bd276b82]  
+[2017-12-29 00:40:47,123: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[160636c1-8978-44ea-b69b-37d7bd276b82] succeeded in 0.000183576994459s: 'SUCCESS'
+[2017-12-29 00:40:47,137: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[e1168ecb-b3ff-4d2b-9155-ddf5c935f70f]  
+[2017-12-29 00:40:47,138: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[e1168ecb-b3ff-4d2b-9155-ddf5c935f70f] succeeded in 0.000246807001531s: 'OBSOLETE METHOD'
+[2017-12-29 00:40:47,149: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[7b055586-44f5-4f94-b895-0df223f1fd7c]  
+[2017-12-29 00:40:47,148: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[93b50c11-cfb1-4d4c-8a6a-5907ef8bd071] succeeded in 0.0946242329956s: 'SUCCESS'
+[2017-12-29 00:40:47,150: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[7b055586-44f5-4f94-b895-0df223f1fd7c] succeeded in 0.000290217009024s: 'SUCCESS'
+[2017-12-29 00:41:47,049: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:41:47,062: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[9fc1e537-b913-4530-a781-b5103f8e59b4]  
+[2017-12-29 00:41:47,755: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[b930b88d-ecda-43d7-803d-e1ec47bf3174]  
+[2017-12-29 00:41:47,756: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[b930b88d-ecda-43d7-803d-e1ec47bf3174] succeeded in 0.000265080001554s: 'OBSOLETE METHOD'
+[2017-12-29 00:41:47,768: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[62957f98-9371-4b51-8e42-7406f270265e]  
+[2017-12-29 00:41:47,769: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[62957f98-9371-4b51-8e42-7406f270265e] succeeded in 0.000296673999401s: 'SUCCESS'
+[2017-12-29 00:41:47,782: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[8ad86669-5d2e-4e5e-b27f-7ed578ca5b0b]  
+[2017-12-29 00:41:47,784: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[8ad86669-5d2e-4e5e-b27f-7ed578ca5b0b] succeeded in 0.000249389006058s: 'OBSOLETE METHOD'
+[2017-12-29 00:41:47,794: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[c0037082-4c46-4e09-bfb9-5b678483bd92]  
+[2017-12-29 00:41:47,794: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[9fc1e537-b913-4530-a781-b5103f8e59b4] succeeded in 0.730459325991s: 'SUCCESS'
+[2017-12-29 00:41:47,795: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[c0037082-4c46-4e09-bfb9-5b678483bd92] succeeded in 0.00019072300347s: 'SUCCESS'
+[2017-12-29 00:42:47,049: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:42:47,056: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[dcb749e8-3723-4bfc-8f74-379bcd44acaa]  
+[2017-12-29 00:42:47,126: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[4edb6b44-e537-410d-a8e6-7459a8850809]  
+[2017-12-29 00:42:47,128: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[4edb6b44-e537-410d-a8e6-7459a8850809] succeeded in 0.000301360996673s: 'OBSOLETE METHOD'
+[2017-12-29 00:42:47,140: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[4bdc7767-3196-4a4f-86e6-6133ee00d825]  
+[2017-12-29 00:42:47,141: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[4bdc7767-3196-4a4f-86e6-6133ee00d825] succeeded in 0.000268269010121s: 'SUCCESS'
+[2017-12-29 00:42:47,155: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[068a856c-5af7-4896-a2f7-71de7e771876]  
+[2017-12-29 00:42:47,157: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[068a856c-5af7-4896-a2f7-71de7e771876] succeeded in 0.000300585990772s: 'OBSOLETE METHOD'
+[2017-12-29 00:42:47,168: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[766ab917-ced8-44c4-802d-7663b494473f]  
+[2017-12-29 00:42:47,168: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[dcb749e8-3723-4bfc-8f74-379bcd44acaa] succeeded in 0.110596922998s: 'SUCCESS'
+[2017-12-29 00:42:47,170: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[766ab917-ced8-44c4-802d-7663b494473f] succeeded in 0.000240723005845s: 'SUCCESS'
+[2017-12-29 00:43:44,110: INFO/Beat] Scheduler: Sending due task update-feed-boomerang (crowdsourcing.tasks.update_feed_boomerang)
+[2017-12-29 00:43:44,115: INFO/MainProcess] Received task: crowdsourcing.tasks.update_feed_boomerang[ad70ee11-e29f-458c-ad66-0f234482f167]  
+[2017-12-29 00:43:44,191: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.update_feed_boomerang[ad70ee11-e29f-458c-ad66-0f234482f167] succeeded in 0.074220526003s: 'SUCCESS: 0 rows affected'
+[2017-12-29 00:43:45,875: INFO/Beat] Scheduler: Sending due task auto-approve-tasks (crowdsourcing.tasks.auto_approve_tasks)
+[2017-12-29 00:43:45,878: INFO/MainProcess] Received task: crowdsourcing.tasks.auto_approve_tasks[2c7eaada-a207-458e-9a1c-c7b693203a9b]  
+[2017-12-29 00:43:45,899: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.auto_approve_tasks[2c7eaada-a207-458e-9a1c-c7b693203a9b] succeeded in 0.0202974010026s: 'SUCCESS'
+[2017-12-29 00:43:47,049: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:43:47,052: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[44ceaf17-a112-4e75-bd3d-7ef478c51e8d]  
+[2017-12-29 00:43:47,083: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[47b3fdf4-a640-49be-918b-298bfea77eec]  
+[2017-12-29 00:43:47,084: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[47b3fdf4-a640-49be-918b-298bfea77eec] succeeded in 0.000274025995168s: 'OBSOLETE METHOD'
+[2017-12-29 00:43:47,095: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[948d2add-8199-4ae8-a95a-66151cb7c7a7]  
+[2017-12-29 00:43:47,097: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[948d2add-8199-4ae8-a95a-66151cb7c7a7] succeeded in 0.000325631001033s: 'SUCCESS'
+[2017-12-29 00:43:47,112: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[6aa6e2ee-834d-4ca1-bf9a-0b4471c741ae]  
+[2017-12-29 00:43:47,113: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[6aa6e2ee-834d-4ca1-bf9a-0b4471c741ae] succeeded in 0.000319958999171s: 'OBSOLETE METHOD'
+[2017-12-29 00:43:47,125: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[040cb8d8-b5bb-45f6-9684-679449bf74ba]  
+[2017-12-29 00:43:47,124: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[44ceaf17-a112-4e75-bd3d-7ef478c51e8d] succeeded in 0.0714336140081s: 'SUCCESS'
+[2017-12-29 00:43:47,126: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[040cb8d8-b5bb-45f6-9684-679449bf74ba] succeeded in 0.000311665004119s: 'SUCCESS'
+[2017-12-29 00:44:47,049: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:44:47,057: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[9e749db1-43b6-4109-accd-00ce64a68a7f]  
+[2017-12-29 00:44:47,113: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[37b6f68d-2efb-4f5a-845b-a2cec18eea38]  
+[2017-12-29 00:44:47,114: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[37b6f68d-2efb-4f5a-845b-a2cec18eea38] succeeded in 0.000269480995485s: 'OBSOLETE METHOD'
+[2017-12-29 00:44:47,127: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[e9536671-2562-4df9-b071-7f85327cbcbe]  
+[2017-12-29 00:44:47,128: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[e9536671-2562-4df9-b071-7f85327cbcbe] succeeded in 0.000319138998748s: 'SUCCESS'
+[2017-12-29 00:44:47,142: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[ef124f38-8310-435a-9a1b-be3d1f7cfa0f]  
+[2017-12-29 00:44:47,144: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[ef124f38-8310-435a-9a1b-be3d1f7cfa0f] succeeded in 0.000200477996259s: 'OBSOLETE METHOD'
+[2017-12-29 00:44:47,155: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[7d0e044f-f8bc-4e71-aa64-9d10cc12aac9]  
+[2017-12-29 00:44:47,155: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[9e749db1-43b6-4109-accd-00ce64a68a7f] succeeded in 0.0970326209936s: 'SUCCESS'
+[2017-12-29 00:44:47,157: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[7d0e044f-f8bc-4e71-aa64-9d10cc12aac9] succeeded in 0.000332861993229s: 'SUCCESS'
+[2017-12-29 00:45:47,049: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:45:47,057: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[195f56f9-8a15-4aa8-badb-ee0fcc191cae]  
+[2017-12-29 00:45:47,114: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[2745b7f1-fbbb-4579-86ac-ec0e71c8df5f]  
+[2017-12-29 00:45:47,115: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[2745b7f1-fbbb-4579-86ac-ec0e71c8df5f] succeeded in 0.000271142998827s: 'OBSOLETE METHOD'
+[2017-12-29 00:45:47,126: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[9f168ad3-8ff0-4493-85eb-acf516abc9f7]  
+[2017-12-29 00:45:47,128: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[9f168ad3-8ff0-4493-85eb-acf516abc9f7] succeeded in 0.000254436003161s: 'SUCCESS'
+[2017-12-29 00:45:47,142: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[01b184c4-1a20-4470-828e-95c4ca919731]  
+[2017-12-29 00:45:47,144: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[01b184c4-1a20-4470-828e-95c4ca919731] succeeded in 0.00026960199466s: 'OBSOLETE METHOD'
+[2017-12-29 00:45:47,155: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[49610de3-7926-4d58-baa6-8a9b2481e28c]  
+[2017-12-29 00:45:47,155: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[195f56f9-8a15-4aa8-badb-ee0fcc191cae] succeeded in 0.0970210580126s: 'SUCCESS'
+[2017-12-29 00:45:47,158: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[49610de3-7926-4d58-baa6-8a9b2481e28c] succeeded in 0.000282591005089s: 'SUCCESS'
+[2017-12-29 00:46:47,049: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:46:47,057: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[a59c7b3b-2560-4ab9-8e26-26902c39492b]  
+[2017-12-29 00:46:47,111: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[f29c183d-4507-4b1c-ae53-5fe7a2a54c79]  
+[2017-12-29 00:46:47,113: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[f29c183d-4507-4b1c-ae53-5fe7a2a54c79] succeeded in 0.000269515992841s: 'OBSOLETE METHOD'
+[2017-12-29 00:46:47,124: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[7b0eac88-f8a3-47fa-9a87-8b12b1cdabf9]  
+[2017-12-29 00:46:47,125: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[7b0eac88-f8a3-47fa-9a87-8b12b1cdabf9] succeeded in 0.000223780007218s: 'SUCCESS'
+[2017-12-29 00:46:47,139: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[17d61f36-a558-4e53-a5a8-c9b94dba0e67]  
+[2017-12-29 00:46:47,141: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[17d61f36-a558-4e53-a5a8-c9b94dba0e67] succeeded in 0.000270296994131s: 'OBSOLETE METHOD'
+[2017-12-29 00:46:47,153: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[1bc2c10a-2a2a-4e4e-bc94-ec0d2f8c6428]  
+[2017-12-29 00:46:47,152: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[a59c7b3b-2560-4ab9-8e26-26902c39492b] succeeded in 0.0937378739909s: 'SUCCESS'
+[2017-12-29 00:46:47,155: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[1bc2c10a-2a2a-4e4e-bc94-ec0d2f8c6428] succeeded in 0.000212414990528s: 'SUCCESS'
+[2017-12-29 00:47:45,875: INFO/Beat] Scheduler: Sending due task auto-approve-tasks (crowdsourcing.tasks.auto_approve_tasks)
+[2017-12-29 00:47:45,883: INFO/MainProcess] Received task: crowdsourcing.tasks.auto_approve_tasks[a1a08504-4c1e-4314-b49e-ffbcac7c439f]  
+[2017-12-29 00:47:45,938: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.auto_approve_tasks[a1a08504-4c1e-4314-b49e-ffbcac7c439f] succeeded in 0.0536917860009s: 'SUCCESS'
+[2017-12-29 00:47:47,050: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:47:47,053: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[15034a6a-0c6b-4ef0-9aaa-f1a2e60a89e5]  
+[2017-12-29 00:47:47,102: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[b0658c08-bfde-4a98-a10b-e1903bc7f3d7]  
+[2017-12-29 00:47:47,104: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.refund_task[b0658c08-bfde-4a98-a10b-e1903bc7f3d7] succeeded in 0.000296810991131s: 'OBSOLETE METHOD'
+[2017-12-29 00:47:47,116: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[2716e7c0-16bb-4326-b4d8-c7c134404547]  
+[2017-12-29 00:47:47,118: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.update_worker_cache[2716e7c0-16bb-4326-b4d8-c7c134404547] succeeded in 0.000791211990872s: 'SUCCESS'
+[2017-12-29 00:47:47,132: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[28165e02-6ffe-4868-b2ee-b5291af65ac8]  
+[2017-12-29 00:47:47,134: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.refund_task[28165e02-6ffe-4868-b2ee-b5291af65ac8] succeeded in 0.000397640993469s: 'OBSOLETE METHOD'
+[2017-12-29 00:47:47,164: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[6f5af6cf-f595-4873-b518-3790dd386474]  
+[2017-12-29 00:47:47,163: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.expire_tasks[15034a6a-0c6b-4ef0-9aaa-f1a2e60a89e5] succeeded in 0.109137680993s: 'SUCCESS'
+[2017-12-29 00:47:47,165: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.update_worker_cache[6f5af6cf-f595-4873-b518-3790dd386474] succeeded in 0.000448477003374s: 'SUCCESS'
+[2017-12-29 00:48:44,111: INFO/Beat] Scheduler: Sending due task update-feed-boomerang (crowdsourcing.tasks.update_feed_boomerang)
+[2017-12-29 00:48:44,130: INFO/MainProcess] Received task: crowdsourcing.tasks.update_feed_boomerang[1ce62bfb-6922-44f5-8d31-2941c821a34a]  
+[2017-12-29 00:48:44,208: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_feed_boomerang[1ce62bfb-6922-44f5-8d31-2941c821a34a] succeeded in 0.0687844719941s: 'SUCCESS: 0 rows affected'
+[2017-12-29 00:48:47,050: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:48:47,053: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[6aaf4141-f7a7-4e6c-9efa-8c22f35119ba]  
+[2017-12-29 00:48:47,112: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[d765d62b-a6c4-43de-9f4b-89459b343cd0]  
+[2017-12-29 00:48:47,113: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[d765d62b-a6c4-43de-9f4b-89459b343cd0] succeeded in 0.000407314990298s: 'OBSOLETE METHOD'
+[2017-12-29 00:48:47,126: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[284d4658-86e0-43b6-be61-9acf5564f5e6]  
+[2017-12-29 00:48:47,136: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[284d4658-86e0-43b6-be61-9acf5564f5e6] succeeded in 0.00352407500031s: 'SUCCESS'
+[2017-12-29 00:48:47,144: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[16bdf101-aa71-43c2-9b0a-4aecb1ee4b25]  
+[2017-12-29 00:48:47,162: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[c1367a8b-3d41-4919-954c-4b9fb4dbf0fd]  
+[2017-12-29 00:48:47,160: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[16bdf101-aa71-43c2-9b0a-4aecb1ee4b25] succeeded in 0.00362486200174s: 'OBSOLETE METHOD'
+[2017-12-29 00:48:47,162: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[6aaf4141-f7a7-4e6c-9efa-8c22f35119ba] succeeded in 0.096233305987s: 'SUCCESS'
+[2017-12-29 00:48:47,165: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[c1367a8b-3d41-4919-954c-4b9fb4dbf0fd] succeeded in 0.000959444994805s: 'SUCCESS'
+[2017-12-29 00:49:47,050: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:49:47,055: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[a54acfda-f2bb-40a8-8a57-9787140829c4]  
+[2017-12-29 00:49:47,132: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[fe4c9879-9e9c-44cb-93bc-0a19ca266852]  
+[2017-12-29 00:49:47,134: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.refund_task[fe4c9879-9e9c-44cb-93bc-0a19ca266852] succeeded in 0.000395630995627s: 'OBSOLETE METHOD'
+[2017-12-29 00:49:47,146: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[42b489db-aa54-43d1-9261-bb92f449fcc2]  
+[2017-12-29 00:49:47,148: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.update_worker_cache[42b489db-aa54-43d1-9261-bb92f449fcc2] succeeded in 0.00104428699706s: 'SUCCESS'
+[2017-12-29 00:49:47,163: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[01c6de25-b18f-421b-87c9-e04607de7277]  
+[2017-12-29 00:49:47,166: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.refund_task[01c6de25-b18f-421b-87c9-e04607de7277] succeeded in 0.000909302005311s: 'OBSOLETE METHOD'
+[2017-12-29 00:49:47,177: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[7b163f39-8555-43e1-ba76-543b358602dd]  
+[2017-12-29 00:49:47,176: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.expire_tasks[a54acfda-f2bb-40a8-8a57-9787140829c4] succeeded in 0.119524594003s: 'SUCCESS'
+[2017-12-29 00:49:47,179: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.update_worker_cache[7b163f39-8555-43e1-ba76-543b358602dd] succeeded in 0.000553312987904s: 'SUCCESS'
+[2017-12-29 00:50:47,051: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:50:47,056: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[84a71646-f29c-4051-aca6-068fe28ed72b]  
+[2017-12-29 00:50:47,110: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[e56cf567-0554-44b5-b93c-9b9a4b347ba6]  
+[2017-12-29 00:50:47,112: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.refund_task[e56cf567-0554-44b5-b93c-9b9a4b347ba6] succeeded in 0.000353819996235s: 'OBSOLETE METHOD'
+[2017-12-29 00:50:47,124: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[f1aff6d6-65ac-4a20-a8d3-7ef97aef970c]  
+[2017-12-29 00:50:47,126: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.update_worker_cache[f1aff6d6-65ac-4a20-a8d3-7ef97aef970c] succeeded in 0.000386835003155s: 'SUCCESS'
+[2017-12-29 00:50:47,140: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[dcfec202-47f9-4ab3-93ed-856ade86e5ae]  
+[2017-12-29 00:50:47,141: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.refund_task[dcfec202-47f9-4ab3-93ed-856ade86e5ae] succeeded in 0.000267808994977s: 'OBSOLETE METHOD'
+[2017-12-29 00:50:47,153: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[bdbd7f04-706a-4aa6-b2b6-3cf0045b66da]  
+[2017-12-29 00:50:47,153: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.expire_tasks[84a71646-f29c-4051-aca6-068fe28ed72b] succeeded in 0.0956390280044s: 'SUCCESS'
+[2017-12-29 00:50:47,155: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.update_worker_cache[bdbd7f04-706a-4aa6-b2b6-3cf0045b66da] succeeded in 0.000306894988171s: 'SUCCESS'
+[2017-12-29 00:51:45,875: INFO/Beat] Scheduler: Sending due task auto-approve-tasks (crowdsourcing.tasks.auto_approve_tasks)
+[2017-12-29 00:51:45,881: INFO/MainProcess] Received task: crowdsourcing.tasks.auto_approve_tasks[3bd57566-2289-4233-9134-9549c42f192a]  
+[2017-12-29 00:51:45,930: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.auto_approve_tasks[3bd57566-2289-4233-9134-9549c42f192a] succeeded in 0.0467946900026s: 'SUCCESS'
+[2017-12-29 00:51:47,051: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:51:47,054: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[088c66d1-96bf-478f-a395-9bc7a25f99b7]  
+[2017-12-29 00:51:47,108: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[53826357-a4a2-43eb-ae3f-17a5f34fb037]  
+[2017-12-29 00:51:47,110: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[53826357-a4a2-43eb-ae3f-17a5f34fb037] succeeded in 0.000262940011453s: 'OBSOLETE METHOD'
+[2017-12-29 00:51:47,122: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[afe950ac-cb13-4ef5-8b8d-e64f9a1f3b25]  
+[2017-12-29 00:51:47,124: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[afe950ac-cb13-4ef5-8b8d-e64f9a1f3b25] succeeded in 0.00102223499562s: 'SUCCESS'
+[2017-12-29 00:51:47,138: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[23cc479d-c467-4458-bdb4-89c771118b07]  
+[2017-12-29 00:51:47,140: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[23cc479d-c467-4458-bdb4-89c771118b07] succeeded in 0.000548370997421s: 'OBSOLETE METHOD'
+[2017-12-29 00:51:47,152: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[42be0000-21be-4033-8c4d-c7d4663a3a8c]  
+[2017-12-29 00:51:47,151: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[088c66d1-96bf-478f-a395-9bc7a25f99b7] succeeded in 0.095895298s: 'SUCCESS'
+[2017-12-29 00:51:47,153: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[42be0000-21be-4033-8c4d-c7d4663a3a8c] succeeded in 0.000461004994577s: 'SUCCESS'
+[2017-12-29 00:52:47,051: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:52:47,059: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[e18d0506-4b76-461c-be0a-bd3b96c506c7]  
+[2017-12-29 00:52:47,118: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[43564133-aecb-43ba-ac03-063b0b763811]  
+[2017-12-29 00:52:47,120: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[43564133-aecb-43ba-ac03-063b0b763811] succeeded in 0.000325354994857s: 'OBSOLETE METHOD'
+[2017-12-29 00:52:47,135: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[1fad7fcc-b29e-428a-ad37-edaaa14abc5d]  
+[2017-12-29 00:52:47,136: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[1fad7fcc-b29e-428a-ad37-edaaa14abc5d] succeeded in 0.000220518995775s: 'SUCCESS'
+[2017-12-29 00:52:47,156: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[59efe281-1bf2-45a8-974c-8d8c686f0cf9]  
+[2017-12-29 00:52:47,158: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[59efe281-1bf2-45a8-974c-8d8c686f0cf9] succeeded in 0.0002679409954s: 'OBSOLETE METHOD'
+[2017-12-29 00:52:47,172: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[25f2abb6-9344-42c2-b6ad-8e5a4d6df480]  
+[2017-12-29 00:52:47,171: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[e18d0506-4b76-461c-be0a-bd3b96c506c7] succeeded in 0.110809196005s: 'SUCCESS'
+[2017-12-29 00:52:47,173: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[25f2abb6-9344-42c2-b6ad-8e5a4d6df480] succeeded in 0.000308009999571s: 'SUCCESS'
+[2017-12-29 00:53:44,110: INFO/Beat] Scheduler: Sending due task update-feed-boomerang (crowdsourcing.tasks.update_feed_boomerang)
+[2017-12-29 00:53:44,114: INFO/MainProcess] Received task: crowdsourcing.tasks.update_feed_boomerang[26a33d7f-7de2-4cb2-a8dc-1190d93c9a56]  
+[2017-12-29 00:53:44,192: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.update_feed_boomerang[26a33d7f-7de2-4cb2-a8dc-1190d93c9a56] succeeded in 0.0754557769978s: 'SUCCESS: 0 rows affected'
+[2017-12-29 00:53:47,052: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:53:47,054: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[3c437e93-d25d-45a7-93c1-b53877b5a036]  
+[2017-12-29 00:53:47,106: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[aaa28495-25b8-449b-a9dc-20e68ea87db6]  
+[2017-12-29 00:53:47,108: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.refund_task[aaa28495-25b8-449b-a9dc-20e68ea87db6] succeeded in 0.000198494002689s: 'OBSOLETE METHOD'
+[2017-12-29 00:53:47,123: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[5ddbbb35-bb5f-4ed8-8130-daf3b80f3720]  
+[2017-12-29 00:53:47,126: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.update_worker_cache[5ddbbb35-bb5f-4ed8-8130-daf3b80f3720] succeeded in 0.00099980700179s: 'SUCCESS'
+[2017-12-29 00:53:47,140: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[61f6b018-d15c-4a96-8796-ce52783dbdc6]  
+[2017-12-29 00:53:47,142: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.refund_task[61f6b018-d15c-4a96-8796-ce52783dbdc6] succeeded in 0.000306025991449s: 'OBSOLETE METHOD'
+[2017-12-29 00:53:47,155: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[21d56123-d823-4b9a-9bf3-10b99041efe5]  
+[2017-12-29 00:53:47,155: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.expire_tasks[3c437e93-d25d-45a7-93c1-b53877b5a036] succeeded in 0.0979815750034s: 'SUCCESS'
+[2017-12-29 00:53:47,158: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.update_worker_cache[21d56123-d823-4b9a-9bf3-10b99041efe5] succeeded in 0.000917423996725s: 'SUCCESS'
+[2017-12-29 00:54:47,052: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:54:47,056: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[a3bfc131-7a0e-4139-9bed-e9fb51c821a2]  
+[2017-12-29 00:54:47,122: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[83f460e1-30e6-498b-9530-dcf2402844e8]  
+[2017-12-29 00:54:47,132: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.refund_task[83f460e1-30e6-498b-9530-dcf2402844e8] succeeded in 0.00356067500252s: 'OBSOLETE METHOD'
+[2017-12-29 00:54:47,136: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[276ea5ef-7663-433e-8c00-1fa5972076e0]  
+[2017-12-29 00:54:47,146: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.update_worker_cache[276ea5ef-7663-433e-8c00-1fa5972076e0] succeeded in 0.00329331000103s: 'SUCCESS'
+[2017-12-29 00:54:47,152: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[3eaae94f-05dd-41c2-8f7d-0f2d69d42ac5]  
+[2017-12-29 00:54:47,162: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.refund_task[3eaae94f-05dd-41c2-8f7d-0f2d69d42ac5] succeeded in 0.0032363240025s: 'OBSOLETE METHOD'
+[2017-12-29 00:54:47,165: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.expire_tasks[a3bfc131-7a0e-4139-9bed-e9fb51c821a2] succeeded in 0.107703598012s: 'SUCCESS'
+[2017-12-29 00:54:47,166: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[f0cb396b-ecd8-4c75-9fa9-6c4b6b2b5774]  
+[2017-12-29 00:54:47,169: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.update_worker_cache[f0cb396b-ecd8-4c75-9fa9-6c4b6b2b5774] succeeded in 0.0009776000079s: 'SUCCESS'
+[2017-12-29 00:55:45,876: INFO/Beat] Scheduler: Sending due task auto-approve-tasks (crowdsourcing.tasks.auto_approve_tasks)
+[2017-12-29 00:55:45,978: INFO/MainProcess] Received task: crowdsourcing.tasks.auto_approve_tasks[ef9fbf57-a52e-4adc-a0b4-85fbe5f114fe]  
+[2017-12-29 00:55:46,647: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.auto_approve_tasks[ef9fbf57-a52e-4adc-a0b4-85fbe5f114fe] succeeded in 0.667585621995s: 'SUCCESS'
+[2017-12-29 00:55:47,052: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:55:47,056: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[ced36b62-1232-4db1-91fa-c5ce760d7037]  
+[2017-12-29 00:55:47,097: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[ca7533b2-c759-4884-9315-e5801201b5f4]  
+[2017-12-29 00:55:47,099: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[ca7533b2-c759-4884-9315-e5801201b5f4] succeeded in 0.000242592999712s: 'OBSOLETE METHOD'
+[2017-12-29 00:55:47,111: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[b14788cc-956f-48ed-a1c4-765e988da64b]  
+[2017-12-29 00:55:47,113: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[b14788cc-956f-48ed-a1c4-765e988da64b] succeeded in 0.0008311119891s: 'SUCCESS'
+[2017-12-29 00:55:47,126: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[7295e62d-9af6-4e25-acdc-330f41361aa5]  
+[2017-12-29 00:55:47,128: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[7295e62d-9af6-4e25-acdc-330f41361aa5] succeeded in 0.000410137014114s: 'OBSOLETE METHOD'
+[2017-12-29 00:55:47,139: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[a4b6db19-6ad1-418c-9d7a-c8db11207792]  
+[2017-12-29 00:55:47,138: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[ced36b62-1232-4db1-91fa-c5ce760d7037] succeeded in 0.0814810299926s: 'SUCCESS'
+[2017-12-29 00:55:47,141: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[a4b6db19-6ad1-418c-9d7a-c8db11207792] succeeded in 0.000485042997752s: 'SUCCESS'
+[2017-12-29 00:56:47,052: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:56:47,058: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[8861b6f0-cc01-4ff7-9812-1367b3307533]  
+[2017-12-29 00:56:47,113: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[c537c553-38e5-400e-9c8d-6a5d21c1c3a0]  
+[2017-12-29 00:56:47,114: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[c537c553-38e5-400e-9c8d-6a5d21c1c3a0] succeeded in 0.000332733994583s: 'OBSOLETE METHOD'
+[2017-12-29 00:56:47,125: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[290ed0d0-e704-4b30-9ca3-1baae354208f]  
+[2017-12-29 00:56:47,127: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[290ed0d0-e704-4b30-9ca3-1baae354208f] succeeded in 0.000284096007817s: 'SUCCESS'
+[2017-12-29 00:56:47,140: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[dcc8df2b-04aa-4376-b652-f1ec5c2a81c3]  
+[2017-12-29 00:56:47,142: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[dcc8df2b-04aa-4376-b652-f1ec5c2a81c3] succeeded in 0.000361275000614s: 'OBSOLETE METHOD'
+[2017-12-29 00:56:47,153: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[2dbd192c-0625-4391-aff2-156a26ce7df9]  
+[2017-12-29 00:56:47,152: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[8861b6f0-cc01-4ff7-9812-1367b3307533] succeeded in 0.0930198510032s: 'SUCCESS'
+[2017-12-29 00:56:47,154: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[2dbd192c-0625-4391-aff2-156a26ce7df9] succeeded in 0.000188531994354s: 'SUCCESS'
+[2017-12-29 00:57:47,053: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:57:47,058: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[7f0b987f-68ff-4683-a2d2-f5cc30284497]  
+[2017-12-29 00:57:47,116: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[a5c589e7-3cd5-4660-83aa-6a41f42fb86d]  
+[2017-12-29 00:57:47,117: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[a5c589e7-3cd5-4660-83aa-6a41f42fb86d] succeeded in 0.000262959991232s: 'OBSOLETE METHOD'
+[2017-12-29 00:57:47,128: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[2315c6dd-7452-4f8e-b1df-14c81978a919]  
+[2017-12-29 00:57:47,130: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[2315c6dd-7452-4f8e-b1df-14c81978a919] succeeded in 0.00035720600863s: 'SUCCESS'
+[2017-12-29 00:57:47,143: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[33790bd2-8069-4bc2-91dc-6076f91c2172]  
+[2017-12-29 00:57:47,144: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[33790bd2-8069-4bc2-91dc-6076f91c2172] succeeded in 0.000251423989539s: 'OBSOLETE METHOD'
+[2017-12-29 00:57:47,156: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[bd721ff4-b1e7-4463-92f0-077c01ee7a9b]  
+[2017-12-29 00:57:47,155: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[7f0b987f-68ff-4683-a2d2-f5cc30284497] succeeded in 0.096635067006s: 'SUCCESS'
+[2017-12-29 00:57:47,157: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[bd721ff4-b1e7-4463-92f0-077c01ee7a9b] succeeded in 0.000280994994682s: 'SUCCESS'
+[2017-12-29 00:58:44,110: INFO/Beat] Scheduler: Sending due task update-feed-boomerang (crowdsourcing.tasks.update_feed_boomerang)
+[2017-12-29 00:58:44,116: INFO/MainProcess] Received task: crowdsourcing.tasks.update_feed_boomerang[844ee9a0-229d-4909-9576-8a06e270e62f]  
+[2017-12-29 00:58:44,193: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.update_feed_boomerang[844ee9a0-229d-4909-9576-8a06e270e62f] succeeded in 0.0710472409992s: 'SUCCESS: 0 rows affected'
+[2017-12-29 00:58:47,053: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:58:47,055: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[8f63cd09-8808-4cf3-afbe-0e539563689c]  
+[2017-12-29 00:58:47,090: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[6de09ce4-02cc-4571-a0c1-40025e9cae2f]  
+[2017-12-29 00:58:47,091: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.refund_task[6de09ce4-02cc-4571-a0c1-40025e9cae2f] succeeded in 0.000377586999093s: 'OBSOLETE METHOD'
+[2017-12-29 00:58:47,103: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[cb6d0e4e-fe37-4ef5-bb67-4915b96ebe8e]  
+[2017-12-29 00:58:47,115: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.update_worker_cache[cb6d0e4e-fe37-4ef5-bb67-4915b96ebe8e] succeeded in 0.00390913299634s: 'SUCCESS'
+[2017-12-29 00:58:47,123: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[f0b68741-ba5a-46e4-82fb-f96ea7f2f38b]  
+[2017-12-29 00:58:47,135: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.refund_task[f0b68741-ba5a-46e4-82fb-f96ea7f2f38b] succeeded in 0.00388287199894s: 'OBSOLETE METHOD'
+[2017-12-29 00:58:47,139: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[4f5f2f46-3202-48a7-a0f8-314d4291c3b1]  
+[2017-12-29 00:58:47,138: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.expire_tasks[8f63cd09-8808-4cf3-afbe-0e539563689c] succeeded in 0.0819320759911s: 'SUCCESS'
+[2017-12-29 00:58:47,141: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.update_worker_cache[4f5f2f46-3202-48a7-a0f8-314d4291c3b1] succeeded in 0.000403187004849s: 'SUCCESS'
+[2017-12-29 00:59:45,876: INFO/Beat] Scheduler: Sending due task auto-approve-tasks (crowdsourcing.tasks.auto_approve_tasks)
+[2017-12-29 00:59:45,976: INFO/MainProcess] Received task: crowdsourcing.tasks.auto_approve_tasks[e7de5405-079a-43da-8484-7bfd3fe7b6a1]  
+[2017-12-29 00:59:45,995: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.auto_approve_tasks[e7de5405-079a-43da-8484-7bfd3fe7b6a1] succeeded in 0.0180361579987s: 'SUCCESS'
+[2017-12-29 00:59:47,053: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 00:59:47,056: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[795e300e-7a49-4391-864b-78f170d7d617]  
+[2017-12-29 00:59:47,100: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[6b73f79b-052d-4f9a-9004-93316b845bc6]  
+[2017-12-29 00:59:47,101: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[6b73f79b-052d-4f9a-9004-93316b845bc6] succeeded in 0.000348845991539s: 'OBSOLETE METHOD'
+[2017-12-29 00:59:47,113: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[cb8a1c27-0aea-4d2c-b0ac-075eba6b2fab]  
+[2017-12-29 00:59:47,115: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[cb8a1c27-0aea-4d2c-b0ac-075eba6b2fab] succeeded in 0.00091658400197s: 'SUCCESS'
+[2017-12-29 00:59:47,129: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[af1e9c5e-6dbd-4d3b-adcb-de998189da42]  
+[2017-12-29 00:59:47,131: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[af1e9c5e-6dbd-4d3b-adcb-de998189da42] succeeded in 0.00036461999116s: 'OBSOLETE METHOD'
+[2017-12-29 00:59:47,142: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[16df7cef-b2b6-4617-892a-2832e53d3eaa]  
+[2017-12-29 00:59:47,141: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[795e300e-7a49-4391-864b-78f170d7d617] succeeded in 0.0846495829901s: 'SUCCESS'
+[2017-12-29 00:59:47,144: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[16df7cef-b2b6-4617-892a-2832e53d3eaa] succeeded in 0.00049689100706s: 'SUCCESS'
+[2017-12-29 01:00:47,053: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 01:00:47,057: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[3abea2e5-c223-49d1-83ac-0052338b4445]  
+[2017-12-29 01:00:47,089: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[19520c34-eaaa-4e87-bba0-0c46486c3f97]  
+[2017-12-29 01:00:47,091: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[19520c34-eaaa-4e87-bba0-0c46486c3f97] succeeded in 0.000203739007702s: 'OBSOLETE METHOD'
+[2017-12-29 01:00:47,103: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[899438ab-4d03-4788-8e3e-950811b6f83d]  
+[2017-12-29 01:00:47,104: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[899438ab-4d03-4788-8e3e-950811b6f83d] succeeded in 0.000261275999947s: 'SUCCESS'
+[2017-12-29 01:00:47,118: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[aa12c766-d2ec-4b39-9b7c-dbba94f2d407]  
+[2017-12-29 01:00:47,119: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[aa12c766-d2ec-4b39-9b7c-dbba94f2d407] succeeded in 0.000173260996235s: 'OBSOLETE METHOD'
+[2017-12-29 01:00:47,131: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[e8a801fc-ae2c-4dc4-bdc5-ff73138f55b4]  
+[2017-12-29 01:00:47,131: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[3abea2e5-c223-49d1-83ac-0052338b4445] succeeded in 0.0724868919933s: 'SUCCESS'
+[2017-12-29 01:00:47,133: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[e8a801fc-ae2c-4dc4-bdc5-ff73138f55b4] succeeded in 0.000296402009553s: 'SUCCESS'
+[2017-12-29 01:01:47,053: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 01:01:47,056: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[8ee46453-98b1-4673-8b61-47a0021510d6]  
+[2017-12-29 01:01:47,098: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[15b602bc-b294-47ca-b0fb-3e721c94e2af]  
+[2017-12-29 01:01:47,100: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[15b602bc-b294-47ca-b0fb-3e721c94e2af] succeeded in 0.000174024986336s: 'OBSOLETE METHOD'
+[2017-12-29 01:01:47,111: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[b9d9f5ae-e7ea-4163-86f1-260f8f3ee6d3]  
+[2017-12-29 01:01:47,113: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[b9d9f5ae-e7ea-4163-86f1-260f8f3ee6d3] succeeded in 0.000304551998852s: 'SUCCESS'
+[2017-12-29 01:01:47,127: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[c8d19348-7fd8-4895-acc0-4bbd9320ccea]  
+[2017-12-29 01:01:47,128: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[c8d19348-7fd8-4895-acc0-4bbd9320ccea] succeeded in 0.000245282994001s: 'OBSOLETE METHOD'
+[2017-12-29 01:01:47,140: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[cb8a6527-289b-43a5-85c7-6e64041fb577]  
+[2017-12-29 01:01:47,139: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[8ee46453-98b1-4673-8b61-47a0021510d6] succeeded in 0.0819034820015s: 'SUCCESS'
+[2017-12-29 01:01:47,141: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[cb8a6527-289b-43a5-85c7-6e64041fb577] succeeded in 0.000263997993898s: 'SUCCESS'
+[2017-12-29 01:02:47,053: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 01:02:47,057: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[6160cf6f-16e4-4b10-a62e-b616b56c1b07]  
+[2017-12-29 01:02:47,113: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[b51de3cb-e09b-46aa-a2a7-ba0af2c605c4]  
+[2017-12-29 01:02:47,115: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[b51de3cb-e09b-46aa-a2a7-ba0af2c605c4] succeeded in 0.000365930012777s: 'OBSOLETE METHOD'
+[2017-12-29 01:02:47,126: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[75cd22aa-6635-4735-93f9-f2535f1fbe8e]  
+[2017-12-29 01:02:47,128: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[75cd22aa-6635-4735-93f9-f2535f1fbe8e] succeeded in 0.000400069999159s: 'SUCCESS'
+[2017-12-29 01:02:47,142: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[c88eb662-4075-4968-b78c-9f5c2041b89b]  
+[2017-12-29 01:02:47,143: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[c88eb662-4075-4968-b78c-9f5c2041b89b] succeeded in 0.000388751999708s: 'OBSOLETE METHOD'
+[2017-12-29 01:02:47,155: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[2f935972-37f9-4c10-bd0d-298fe79c4499]  
+[2017-12-29 01:02:47,155: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[6160cf6f-16e4-4b10-a62e-b616b56c1b07] succeeded in 0.0960776270076s: 'SUCCESS'
+[2017-12-29 01:02:47,157: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[2f935972-37f9-4c10-bd0d-298fe79c4499] succeeded in 0.000533936006832s: 'SUCCESS'
+[2017-12-29 01:03:44,111: INFO/Beat] Scheduler: Sending due task update-feed-boomerang (crowdsourcing.tasks.update_feed_boomerang)
+[2017-12-29 01:03:44,115: INFO/MainProcess] Received task: crowdsourcing.tasks.update_feed_boomerang[ee5c2b3d-1892-453f-81e1-70249e335eae]  
+[2017-12-29 01:03:44,237: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.update_feed_boomerang[ee5c2b3d-1892-453f-81e1-70249e335eae] succeeded in 0.120544085003s: 'SUCCESS: 0 rows affected'
+[2017-12-29 01:03:45,822: INFO/Beat] Scheduler: Sending due task email-notifications (crowdsourcing.tasks.email_notifications)
+[2017-12-29 01:03:45,825: INFO/MainProcess] Received task: crowdsourcing.tasks.email_notifications[52483350-7796-4b9a-a500-7655f4023bf8]  
+[2017-12-29 01:03:45,877: INFO/Beat] Scheduler: Sending due task pay-workers (crowdsourcing.tasks.pay_workers)
+[2017-12-29 01:03:45,881: INFO/MainProcess] Received task: crowdsourcing.tasks.pay_workers[95ac66cf-186e-43da-8f87-26eb01739100]  
+[2017-12-29 01:03:45,881: INFO/Beat] Scheduler: Sending due task auto-approve-tasks (crowdsourcing.tasks.auto_approve_tasks)
+[2017-12-29 01:03:45,891: INFO/MainProcess] Received task: crowdsourcing.tasks.auto_approve_tasks[4400fef0-e69a-492b-9112-59b805da6bca]  
+[2017-12-29 01:03:45,898: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.email_notifications[52483350-7796-4b9a-a500-7655f4023bf8] succeeded in 0.0707689219998s: 'SUCCESS'
+[2017-12-29 01:03:45,933: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.pay_workers[95ac66cf-186e-43da-8f87-26eb01739100] succeeded in 0.0492077009985s: None
+[2017-12-29 01:03:45,935: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.auto_approve_tasks[4400fef0-e69a-492b-9112-59b805da6bca] succeeded in 0.0412241459999s: 'SUCCESS'
+[2017-12-29 01:03:47,054: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 01:03:47,060: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[0808c941-8635-48dd-96ef-f0323d31e3ba]  
+[2017-12-29 01:03:47,151: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[a81ba4d8-2ec4-4cb6-a1b6-fbef55beb900]  
+[2017-12-29 01:03:47,153: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.refund_task[a81ba4d8-2ec4-4cb6-a1b6-fbef55beb900] succeeded in 0.000295505000395s: 'OBSOLETE METHOD'
+[2017-12-29 01:03:47,173: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[fc7e3007-f747-4435-a168-13dcc140d2ef]  
+[2017-12-29 01:03:47,175: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.update_worker_cache[fc7e3007-f747-4435-a168-13dcc140d2ef] succeeded in 0.000389932989492s: 'SUCCESS'
+[2017-12-29 01:03:47,205: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[4c439ba8-79e7-44a6-b0c1-a993aa8e7de6]  
+[2017-12-29 01:03:47,207: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.refund_task[4c439ba8-79e7-44a6-b0c1-a993aa8e7de6] succeeded in 0.000349364010617s: 'OBSOLETE METHOD'
+[2017-12-29 01:03:47,228: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[81a79f43-477d-4897-b8b5-25e85aa6b976]  
+[2017-12-29 01:03:47,228: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.expire_tasks[0808c941-8635-48dd-96ef-f0323d31e3ba] succeeded in 0.165268687997s: 'SUCCESS'
+[2017-12-29 01:03:47,230: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.update_worker_cache[81a79f43-477d-4897-b8b5-25e85aa6b976] succeeded in 0.000322854000842s: 'SUCCESS'
+[2017-12-29 01:04:47,054: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 01:04:47,061: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[5eb10096-14b4-49b8-8367-88c7ac35afdf]  
+[2017-12-29 01:04:47,123: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[bde938aa-44eb-47cc-bb93-7ff34f74a4f5]  
+[2017-12-29 01:04:47,125: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.refund_task[bde938aa-44eb-47cc-bb93-7ff34f74a4f5] succeeded in 0.000262354005827s: 'OBSOLETE METHOD'
+[2017-12-29 01:04:47,139: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[5d9031dc-5791-4d07-b22b-a53f977a9d38]  
+[2017-12-29 01:04:47,141: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.update_worker_cache[5d9031dc-5791-4d07-b22b-a53f977a9d38] succeeded in 0.00029692199314s: 'SUCCESS'
+[2017-12-29 01:04:47,159: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[562b8ee4-2b41-4c75-bdbc-ef42be2fa109]  
+[2017-12-29 01:04:47,161: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.refund_task[562b8ee4-2b41-4c75-bdbc-ef42be2fa109] succeeded in 0.000275057012914s: 'OBSOLETE METHOD'
+[2017-12-29 01:04:47,173: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[20d6eafb-dc52-4d88-911e-afbe3ba9d82e]  
+[2017-12-29 01:04:47,172: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.expire_tasks[5eb10096-14b4-49b8-8367-88c7ac35afdf] succeeded in 0.109634473003s: 'SUCCESS'
+[2017-12-29 01:04:47,175: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.update_worker_cache[20d6eafb-dc52-4d88-911e-afbe3ba9d82e] succeeded in 0.000281422995613s: 'SUCCESS'
+[2017-12-29 01:05:47,054: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 01:05:47,059: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[7f694169-df31-4093-845a-746a3d68424a]  
+[2017-12-29 01:05:47,118: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[65cd7162-3592-439a-841f-046392e51fac]  
+[2017-12-29 01:05:47,120: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.refund_task[65cd7162-3592-439a-841f-046392e51fac] succeeded in 0.000377850999939s: 'OBSOLETE METHOD'
+[2017-12-29 01:05:47,132: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[1010c5c4-0308-4bd9-b483-8226f2348622]  
+[2017-12-29 01:05:47,133: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.update_worker_cache[1010c5c4-0308-4bd9-b483-8226f2348622] succeeded in 0.00036778098729s: 'SUCCESS'
+[2017-12-29 01:05:47,148: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[ea181728-91af-4260-9dda-7151b831a897]  
+[2017-12-29 01:05:47,150: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.refund_task[ea181728-91af-4260-9dda-7151b831a897] succeeded in 0.000351673996192s: 'OBSOLETE METHOD'
+[2017-12-29 01:05:47,161: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[ab19b9e4-f37f-4e0c-96a7-7f410719faff]  
+[2017-12-29 01:05:47,161: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.expire_tasks[7f694169-df31-4093-845a-746a3d68424a] succeeded in 0.100888469009s: 'SUCCESS'
+[2017-12-29 01:05:47,163: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.update_worker_cache[ab19b9e4-f37f-4e0c-96a7-7f410719faff] succeeded in 0.000314716002322s: 'SUCCESS'
+[2017-12-29 01:06:47,056: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 01:06:47,086: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[16b93ad6-3a75-4aba-8304-6a1fcdd058d8]  
+[2017-12-29 01:06:47,186: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[9f396221-214d-4712-b7cc-4f9589c7d299]  
+[2017-12-29 01:06:47,191: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.refund_task[9f396221-214d-4712-b7cc-4f9589c7d299] succeeded in 0.000624767999398s: 'OBSOLETE METHOD'
+[2017-12-29 01:06:47,202: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[99569ad4-e981-43af-97a2-7e4886caa2ef]  
+[2017-12-29 01:06:47,205: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.update_worker_cache[99569ad4-e981-43af-97a2-7e4886caa2ef] succeeded in 0.0011749730038s: 'SUCCESS'
+[2017-12-29 01:06:47,219: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[abc64f08-ab15-43cc-9370-538975d7a3d7]  
+[2017-12-29 01:06:47,222: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.refund_task[abc64f08-ab15-43cc-9370-538975d7a3d7] succeeded in 0.000592103999224s: 'OBSOLETE METHOD'
+[2017-12-29 01:06:47,232: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[0b02a04a-bd52-4392-bf3f-fdca246adb84]  
+[2017-12-29 01:06:47,236: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.update_worker_cache[0b02a04a-bd52-4392-bf3f-fdca246adb84] succeeded in 0.0013247050083s: 'SUCCESS'
+[2017-12-29 01:06:47,232: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.expire_tasks[16b93ad6-3a75-4aba-8304-6a1fcdd058d8] succeeded in 0.131328368996s: 'SUCCESS'
+[2017-12-29 01:07:45,882: INFO/Beat] Scheduler: Sending due task auto-approve-tasks (crowdsourcing.tasks.auto_approve_tasks)
+[2017-12-29 01:07:45,889: INFO/MainProcess] Received task: crowdsourcing.tasks.auto_approve_tasks[9606ed57-80fd-4a7b-b5bb-acd3fa3a776c]  
+[2017-12-29 01:07:45,935: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.auto_approve_tasks[9606ed57-80fd-4a7b-b5bb-acd3fa3a776c] succeeded in 0.0444952460093s: 'SUCCESS'
+[2017-12-29 01:07:47,054: INFO/Beat] Scheduler: Sending due task expire-tasks (crowdsourcing.tasks.expire_tasks)
+[2017-12-29 01:07:47,058: INFO/MainProcess] Received task: crowdsourcing.tasks.expire_tasks[2cbc4b87-cf33-4546-9dae-585879cf1d97]  
+[2017-12-29 01:07:47,134: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[aecd18a8-f226-4990-9050-37d5fe576911]  
+[2017-12-29 01:07:47,136: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.refund_task[aecd18a8-f226-4990-9050-37d5fe576911] succeeded in 0.000489661993925s: 'OBSOLETE METHOD'
+[2017-12-29 01:07:47,151: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[eada1474-1902-4e9a-87b3-dbec9f41331c]  
+[2017-12-29 01:07:47,165: INFO/ForkPoolWorker-3] Task crowdsourcing.tasks.update_worker_cache[eada1474-1902-4e9a-87b3-dbec9f41331c] succeeded in 0.00684625800932s: 'SUCCESS'
+[2017-12-29 01:07:47,176: INFO/MainProcess] Received task: crowdsourcing.tasks.refund_task[c1412e41-028d-4c15-bf49-b82814b5c1ab]  
+[2017-12-29 01:07:47,188: INFO/ForkPoolWorker-4] Task crowdsourcing.tasks.refund_task[c1412e41-028d-4c15-bf49-b82814b5c1ab] succeeded in 0.00445803700131s: 'OBSOLETE METHOD'
+[2017-12-29 01:07:47,195: INFO/MainProcess] Received task: crowdsourcing.tasks.update_worker_cache[059f6493-8a6f-486c-baf1-4ce65176d1e3]  
+[2017-12-29 01:07:47,194: INFO/ForkPoolWorker-5] Task crowdsourcing.tasks.expire_tasks[2cbc4b87-cf33-4546-9dae-585879cf1d97] succeeded in 0.130446002004s: 'SUCCESS'
+[2017-12-29 01:07:47,197: INFO/ForkPoolWorker-2] Task crowdsourcing.tasks.update_worker_cache[059f6493-8a6f-486c-baf1-4ce65176d1e3] succeeded in 0.000773870007833s: 'SUCCESS'

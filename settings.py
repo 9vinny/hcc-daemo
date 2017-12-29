@@ -17,20 +17,15 @@ CELERY_TIMEZONE = 'America/Los_Angeles'
 
 SITE_HOST = 'https://localhost:8000'
 
-# DATABASES = {
-#     "default": {
-#         "ENGINE": "django.db.backends.postgresql_psycopg2",
-#         "NAME": "crowdsource_dev",
-#     }
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.postgresql',
-    #     'NAME': 'crowdsource_dev',
-    #     'USER': 'postgres',
-    #     'PASSWORD': 'Learner#12',
-    #     'HOST': '127.0.0.1',
-    #     'PORT': '5432',
-    # }
-# }
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_URL = '/static/'
+
+# Extra places for collectstatic to find static files.
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
