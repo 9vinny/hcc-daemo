@@ -99,6 +99,7 @@ class UserViewSet(mixins.RetrieveModelMixin, mixins.CreateModelMixin, mixins.Upd
         return Response(response_data)
 
     def create(self, request, *args, **kwargs):
+        print "in create"
         serializer = UserSerializer(validate_non_fields=True, data=request.data, context={'request': request})
         if serializer.is_valid():
             with transaction.atomic():

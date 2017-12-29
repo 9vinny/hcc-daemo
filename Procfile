@@ -1,1 +1,1 @@
-web: gunicorn csp.wsgi --log-file -
+web: python manage.py runserver
