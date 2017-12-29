@@ -1,1 +1,1 @@
-web: gunicorn csp/wsgi.py
+web: gunicorn csp.wsgi --log-file -
