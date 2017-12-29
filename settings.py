@@ -1,3 +1,9 @@
+import dj_database_url
+db_from_env = dj_database_url.config()
+DATABASES['default'].update(db_from_env)
+
+
+
 DEBUG = True
 
 COMPRESS_OFFLINE = False
@@ -11,11 +17,11 @@ CELERY_TIMEZONE = 'America/Los_Angeles'
 
 SITE_HOST = 'https://localhost:8000'
 
-DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.postgresql_psycopg2",
-        "NAME": "crowdsource_dev",
-    }
+# DATABASES = {
+#     "default": {
+#         "ENGINE": "django.db.backends.postgresql_psycopg2",
+#         "NAME": "crowdsource_dev",
+#     }
     # 'default': {
     #     'ENGINE': 'django.db.backends.postgresql',
     #     'NAME': 'crowdsource_dev',
@@ -24,7 +30,7 @@ DATABASES = {
     #     'HOST': '127.0.0.1',
     #     'PORT': '5432',
     # }
-}
+# }
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
