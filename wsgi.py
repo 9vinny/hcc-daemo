@@ -1,28 +1,10 @@
-"""
-WSGI config for csp project.
-
-It exposes the WSGI callable as a module-level variable named ``application``.
-
-For more information on this file, see
-https://docs.djangoproject.com/en/1.8/howto/deployment/wsgi/
-"""
-
+#!/usr/bin/env python
 import os
+import sys
 
-from django.core.wsgi import get_wsgi_application
-from dj_static import Cling
+if __name__ == "__main__":
+    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "csp.settings")
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "csp.settings")
+    from django.core.management import execute_from_command_line
 
-application = get_wsgi_application()
-_webserver = Cling(application)
-
-
-def application(environ, start_response):
-    from django.conf import settings
-
-    if environ.get('PATH_INFO').startswith(settings.WEBSOCKET_URL):
-        from ws4redis.uwsgi_runserver import uWSGIWebsocketServer
-        _websockets = uWSGIWebsocketServer()
-        return _websockets(environ, start_response)
-    return _webserver(environ, start_response)
+    execute_from_command_line(sys.argv)
