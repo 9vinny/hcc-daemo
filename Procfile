@@ -1,1 +1,1 @@
-iweb: gunicorn csp.wsgi --log-file -
+web: gunicorn csp.wsgi --log-file -
