@@ -12,18 +12,18 @@ CELERY_TIMEZONE = 'America/Los_Angeles'
 SITE_HOST = 'https://localhost:8000'
 
 DATABASES = {
-    # "default": {
-    #     "ENGINE": "django.db.backends.postgresql_psycopg2",
-    #     "NAME": "crowdsource_dev",
-    # }
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'crowdsource_dev',
-        'USER': 'postgres',
-        'PASSWORD': 'Learner#12',
-        'HOST': '127.0.0.1',
-        'PORT': '5432',
+    "default": {
+        "ENGINE": "django.db.backends.postgresql_psycopg2",
+        "NAME": "crowdsource_dev",
     }
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.postgresql',
+    #     'NAME': 'crowdsource_dev',
+    #     'USER': 'postgres',
+    #     'PASSWORD': 'Learner#12',
+    #     'HOST': '127.0.0.1',
+    #     'PORT': '5432',
+    # }
 }
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
