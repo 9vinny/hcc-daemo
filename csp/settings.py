@@ -37,6 +37,7 @@ APPEND_SLASH = True
 # Allow all host headers
 ALLOWED_HOSTS = ['*']
 #PRODUCTION_HOSTS = ['daemo.herokuapp.com', 'daemo.stanford.edu']
+PRODUCTION_HOSTS = ['*']
 
 REST_FRAMEWORK = {
     # Use hyperlinked styles by default.

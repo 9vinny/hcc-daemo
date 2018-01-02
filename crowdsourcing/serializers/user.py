@@ -61,6 +61,7 @@ class UserSerializer(DynamicFieldsModelSerializer):
         return value
 
     def create(self, **kwargs):
+        print "in serial create"
         username = ''
 
         validated_username = self.validated_data['first_name'].lower() + '.' + self.validated_data['last_name'].lower()
@@ -75,7 +76,7 @@ class UserSerializer(DynamicFieldsModelSerializer):
                     username = self.validated_data['email']
                 else:
                     username = uuid.uuid4().hex[:settings.USERNAME_MAX_LENGTH]
-
+        print "in serial create - uname val done"
         user = User.objects.create_user(username, self.validated_data.get('email'),
                                         self.initial_data.get('password1'))
 

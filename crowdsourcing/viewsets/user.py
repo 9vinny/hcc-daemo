@@ -103,8 +103,10 @@ class UserViewSet(mixins.RetrieveModelMixin, mixins.CreateModelMixin, mixins.Upd
         serializer = UserSerializer(validate_non_fields=True, data=request.data, context={'request': request})
         if serializer.is_valid():
             with transaction.atomic():
+            	print "in create with"
                 serializer.create()
             return Response({})
+        print "create fails"
         raise serializers.ValidationError(detail=serializer.errors)
 
     @list_route(methods=['post'], permission_classes=[IsAdminUser, ])
