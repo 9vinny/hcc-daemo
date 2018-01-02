@@ -124,31 +124,33 @@ class UserSerializer(DynamicFieldsModelSerializer):
         #     worker_financial_account.type = models.FinancialAccount.TYPE_WORKER
         #     worker_financial_account.save()
 
-        if settings.EMAIL_ENABLED:
-            salt = hashlib.sha1(str(random.random()).encode('utf-8')).hexdigest()[:5]
-            if isinstance(username, str):
-                username = username.encode('utf-8')
-            activation_key = hashlib.sha1(salt.encode('utf-8') + username).hexdigest()
-            registration_model = models.UserRegistration()
-            registration_model.user = User.objects.get(id=user.id)
-            registration_model.activation_key = activation_key
-            send_activation_email(email=user.email, host=self.context['request'].get_host(),
-                                  activation_key=activation_key)
-            registration_model.save()
+        ################Bir Commented out to test#############
+        # if settings.EMAIL_ENABLED:
+        #     print "in EMAIL_ENABLED"
+        #     salt = hashlib.sha1(str(random.random()).encode('utf-8')).hexdigest()[:5]
+        #     if isinstance(username, str):
+        #         username = username.encode('utf-8')
+        #     activation_key = hashlib.sha1(salt.encode('utf-8') + username).hexdigest()
+        #     registration_model = models.UserRegistration()
+        #     registration_model.user = User.objects.get(id=user.id)
+        #     registration_model.activation_key = activation_key
+        #     send_activation_email(email=user.email, host=self.context['request'].get_host(),
+        #                           activation_key=activation_key)
+        #     registration_model.save()
 
-        if settings.DISCOURSE_BASE_URL and settings.DISCOURSE_API_KEY:
-            try:
-                client = DiscourseClient(
-                    settings.DISCOURSE_BASE_URL,
-                    api_username='system',
-                    api_key=settings.DISCOURSE_API_KEY)
+        # if settings.DISCOURSE_BASE_URL and settings.DISCOURSE_API_KEY:
+        #     try:
+        #         client = DiscourseClient(
+        #             settings.DISCOURSE_BASE_URL,
+        #             api_username='system',
+        #             api_key=settings.DISCOURSE_API_KEY)
 
-                client.create_user(name=user.get_full_name(),
-                                   username=user.profile.handle,
-                                   email=user.email,
-                                   password=self.initial_data.get('password1'),
-                                   active=True,
-                                   approved=True)
+        #         client.create_user(name=user.get_full_name(),
+        #                            username=user.profile.handle,
+        #                            email=user.email,
+        #                            password=self.initial_data.get('password1'),
+        #                            active=True,
+        #                            approved=True)
             except Exception:
                 print("Failed to create Discourse user!")
 

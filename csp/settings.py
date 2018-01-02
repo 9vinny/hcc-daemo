@@ -174,7 +174,7 @@ EMAIL_HOST = 'localhost'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_ENABLED = True
-EMAIL_SENDER = 'daemo@cs.stanford.edu'
+EMAIL_SENDER = 'birbhatiaos@gmail.com'
 EMAIL_SENDER_DEV = ''
 EMAIL_SENDER_PASSWORD_DEV = ''
 EMAIL_BACKEND = "crowdsourcing.backends.sendgrid_backend.SendGridBackend"
@@ -223,7 +223,8 @@ CORS_ALLOW_METHODS = (
 HALF_OFF = True
 NON_PROFIT_EMAILS = ['.edu', '.org']
 
-SITE_HOST = os.environ.get('SITE_HOST', 'https://daemo.org')
+#SITE_HOST = os.environ.get('SITE_HOST', 'https://daemo.org')
+SITE_HOST = os.environ.get('SITE_HOST', 'https://thawing-gorge-14679.herokuapp.com')
 
 REDIS_URL = os.environ.get('REDIS_URL', 'redis://localhost:6379')
 REDIS_CONNECTION = dj_redis_url.parse(REDIS_URL)
@@ -329,12 +330,12 @@ WS4REDIS_PROCESS_REQUEST = ws4redis_process_request
 # ------------------------------------------------------------------------------
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#admins
 ADMINS = (
-    ("HCC", 'bhatia.birinder@hyundaicard.com'),  # add more team members
+    ("HCC", 'birbhatiaos@gmail.com'),  # add more team members
 )
 
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#managers
 MANAGERS = ADMINS
-SERVER_EMAIL = 'daemo@cs.stanford.edu'
+SERVER_EMAIL = 'birbhatiaos@gmail.com'
 
 CELERY_REDIS_MAX_CONNECTIONS = 10
 CELERY_IGNORE_RESULT = True
@@ -467,7 +468,7 @@ if not DEBUG:
         'daemo.herokuapp.com', 'daemo.stanford.edu',
         'daemo-staging.herokuapp.com', 'daemo-staging.stanford.edu',
         'daemo.org', 'www.daemo.org', 'daemo-test.herokuapp.com',
-        'sandbox.daemo.org', 'www.sandbox.daemo.org'
+        'sandbox.daemo.org', 'www.sandbox.daemo.org','https://thawing-gorge-14679.herokuapp.com',
     ]
 
 REQUIRED_CONFIGS = ['AWS_DAEMO_KEY', 'AWS_ACCESS_KEY_ID', 'AWS_SECRET_ACCESS_KEY', 'STRIPE_SECRET_KEY',
