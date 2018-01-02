@@ -1,1 +1,1 @@
-web: uwsgi csp.wsgi 
+web: uwsgi --module=csp.wsgi:application 
