@@ -124,19 +124,19 @@ class UserSerializer(DynamicFieldsModelSerializer):
         #     worker_financial_account.type = models.FinancialAccount.TYPE_WORKER
         #     worker_financial_account.save()
 
-        ################Bir Commented out to test#############
-        # if settings.EMAIL_ENABLED:
-        #     print "in EMAIL_ENABLED"
-        #     salt = hashlib.sha1(str(random.random()).encode('utf-8')).hexdigest()[:5]
-        #     if isinstance(username, str):
-        #         username = username.encode('utf-8')
-        #     activation_key = hashlib.sha1(salt.encode('utf-8') + username).hexdigest()
-        #     registration_model = models.UserRegistration()
-        #     registration_model.user = User.objects.get(id=user.id)
-        #     registration_model.activation_key = activation_key
-        #     send_activation_email(email=user.email, host=self.context['request'].get_host(),
-        #                           activation_key=activation_key)
-        #     registration_model.save()
+        ################Bir Commented out to discourse#############
+        if settings.EMAIL_ENABLED:
+            print "in EMAIL_ENABLED"
+            salt = hashlib.sha1(str(random.random()).encode('utf-8')).hexdigest()[:5]
+            if isinstance(username, str):
+                username = username.encode('utf-8')
+            activation_key = hashlib.sha1(salt.encode('utf-8') + username).hexdigest()
+            registration_model = models.UserRegistration()
+            registration_model.user = User.objects.get(id=user.id)
+            registration_model.activation_key = activation_key
+            send_activation_email(email=user.email, host=self.context['request'].get_host(),
+                                  activation_key=activation_key)
+            registration_model.save()
 
         # if settings.DISCOURSE_BASE_URL and settings.DISCOURSE_API_KEY:
         #     try:
