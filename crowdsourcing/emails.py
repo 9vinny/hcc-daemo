@@ -12,8 +12,9 @@ def send_mail(email_from, email_to, subject, text_content, html_content, reply_t
         reply_to=[reply_to] if reply_to is not None else []
     )
 
-    mail.attach_alternative(html_content, "text/html")
-    mail.send()
+    #mail.attach_alternative(html_content, "text/html")  ####Bir - prevent activation mail as no mail server present
+    #mail.send()
+    print mail
 
 
 def send_activation_email(email, host, activation_key):
@@ -54,7 +55,10 @@ def send_password_reset_email(email, host, reset_key):
                    '<a href="' + reset_url + '/0' + '">' + reset_url + '/0' + \
                    '</a><br><br><br>- The Daemo Team'
 
-    send_mail(email_from, email_to, subject, text_content, html_content)
+    #send_mail(email_from, email_to, subject, text_content, html_content) ####Bir - prevent reset mail as no mail server present
+    print html_content
+    print text_content
+
 
 
 def send_notifications_email(email, url, messages):
@@ -70,7 +74,10 @@ def send_notifications_email(email, url, messages):
     }
     text_content = render_to_string('emails/notifications.txt', context)
     html_content = render_to_string('emails/notifications.html', context)
-    send_mail(email_from, email_to, subject, text_content, html_content)
+    #send_mail(email_from, email_to, subject, text_content, html_content)
+    ####Bir - prevent activation mail as no mail server present
+    print html_content
+    print text_content
 
 
 def send_new_tasks_email(to, requester_handle, project_name, price, project_id, available_tasks):
