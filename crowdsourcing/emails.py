@@ -30,7 +30,9 @@ def send_activation_email(email, host, activation_key):
                    '<a href="' + activation_url + '">' + activation_url \
                    + '</a></p>' + '<br><br><br>- The Daemo Team</strong>'
 
-    send_mail(email_from, email_to, subject, text_content, html_content)
+    #send_mail(email_from, email_to, subject, text_content, html_content) ####Bir - prevent activation mail as no mail server present
+    print html_content
+    print text_content
 
 
 def send_password_reset_email(email, host, reset_key):
