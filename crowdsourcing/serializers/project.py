@@ -406,7 +406,8 @@ class ProjectSerializer(DynamicFieldsModelSerializer):
                 "overlaps": True
             }
 
-    def pay(self, amount_due, *args, **kwargs):#Bir - Commenting out the stripe balance operation for user
+    def pay(self, amount_due, *args, **kwargs):
+        #Bir - Commenting out the stripe balance operation for user
         # requester_account = models.FinancialAccount.objects.get(owner_id=self.instance.owner_id,
         #                                                         type=models.FinancialAccount.TYPE_REQUESTER,
         #                                                         is_system=False).id
@@ -431,10 +432,13 @@ class ProjectSerializer(DynamicFieldsModelSerializer):
         #         transaction_serializer.create()
         # self.instance.owner.stripe_customer.account_balance -= int(amount_due * 100)#Bir - Commenting out the stripe balance operation for user
         # self.instance.owner.stripe_customer.save()#Bir - Commenting out the stripe balance operation for user
-        self.instance.is_paid = True
-        self.instance.save()
+        # self.instance.is_paid = True
+        # self.instance.save()
         # else:
         #     raise ValidationError('Error in payment')
+        self.instance.is_paid = True
+        self.instance.save()
+
 
     @staticmethod
     def get_revisions(obj):

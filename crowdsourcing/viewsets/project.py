@@ -280,6 +280,7 @@ class ProjectViewSet(mixins.RetrieveModelMixin, mixins.CreateModelMixin, mixins.
     def worker_projects(self, request, *args, **kwargs):
         group_by = request.query_params.get('group_by', '-')
         # noinspection SqlResolve
+        print "in worker_projects"
         query = '''
             SELECT
               id,
@@ -294,14 +295,15 @@ class ProjectViewSet(mixins.RetrieveModelMixin, mixins.CreateModelMixin, mixins.
               sum(accepted)         completed,
               sum(submitted)         awaiting_review,
               sum(paid_count)         paid_count,
-              case when min(estimated_expire) < now() then null else min(estimated_expire) end expires_at,
+              case when min(estimated_expire) < now() then null else min(estimated_expire) end expires_at
+              -- ,
               -- (max(submitted_at) + INTERVAL '1 day') payout_available_by
-              case when (latest_charge + INTERVAL '2 day') < max(submitted_at)
-              then  max(submitted_at) + INTERVAL '2 day'
-              else
-                 max(submitted_at) + INTERVAL '4 day'
-               end payout_available_by,
-               max(submitted_at) last_submitted_at
+              -- case when (latest_charge + INTERVAL '2 day') < max(submitted_at)
+              -- then  max(submitted_at) + INTERVAL '2 day'
+              -- else
+              --    max(submitted_at) + INTERVAL '4 day'
+              --  end payout_available_by,
+              --  max(submitted_at) last_submitted_at
             FROM (SELECT
                     p.id                                                                      id,
                     p.name,
@@ -328,21 +330,23 @@ class ProjectViewSet(mixins.RetrieveModelMixin, mixins.CreateModelMixin, mixins.
                      CASE WHEN tw.is_paid is true
                       THEN 1
                     ELSE 0 END paid_count,
-                    tw.submitted_at,
-                    max(scharge.created_at) latest_charge
+                    tw.submitted_at
+                    --,
+                    -- max(scharge.created_at) latest_charge
                   FROM crowdsourcing_taskworker tw
                     INNER JOIN crowdsourcing_task t ON tw.task_id = t.id
                     INNER JOIN crowdsourcing_project p ON p.id = t.project_id
-                    inner join crowdsourcing_stripecustomer sc on sc.owner_id = p.owner_id
-                    left outer join crowdsourcing_stripecharge scharge on scharge.customer_id=sc.id
-                    and scharge.created_at < p.revised_at
+                    -- inner join crowdsourcing_stripecustomer sc on sc.owner_id = p.owner_id
+                    -- left outer join crowdsourcing_stripecharge scharge on scharge.customer_id=sc.id
+                    -- and scharge.created_at < p.revised_at
                   WHERE tw.status not in ((%(skipped)s), (%(expired)s))
                   AND tw.worker_id = (%(worker_id)s) AND p.is_review = FALSE
                   GROUP BY p.id,
                     p.name, p.owner_id, p.status, p.price,
                    tw.status, tw.is_paid, p.timeout, tw.started_at, tw.created_at, tw.submitted_at, t.price
                   ) tw
-            GROUP BY tw.id, tw.name, tw.owner_id, tw.status, tw.price, latest_charge
+            GROUP BY tw.id, tw.name, tw.owner_id, tw.status, tw.price 
+            -- , latest_charge
             ORDER BY returned DESC, in_progress DESC, id DESC;
         '''
         projects = Project.objects.raw(query, params={
@@ -383,6 +387,7 @@ class ProjectViewSet(mixins.RetrieveModelMixin, mixins.CreateModelMixin, mixins.
 
     @list_route(methods=['GET'], url_path='for-requesters')
     def requester_projects(self, request, *args, **kwargs):
+        print "in requester_projects"
         # noinspection SqlResolve
         query = '''
             SELECT
