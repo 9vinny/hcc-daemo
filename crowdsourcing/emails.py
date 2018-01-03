@@ -14,7 +14,8 @@ def send_mail(email_from, email_to, subject, text_content, html_content, reply_t
 
     #mail.attach_alternative(html_content, "text/html")  ####Bir - prevent activation mail as no mail server present
     #mail.send()
-    print mail
+    print "Mail Log: " + text_content
+
 
 
 def send_activation_email(email, host, activation_key):
