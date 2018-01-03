@@ -1,1 +1,1 @@
-web: uwsgi uwsgi-dev.ini
+web: gunicorn csp.wsgi --log-file -
