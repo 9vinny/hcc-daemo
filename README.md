@@ -1,7 +1,7 @@
-# Daemo - Stanford Crowd Research Collective
+# Daemo - Stanford Crowd Research Collective - Localized for Hyundai Card
 
 
-This is a Django 1.11 app using a Postgres database 9.5+.
+This is a Django 1.11 app using a Postgres database 9.5+. Python version 2.7. Install python 2.7 in the virtual env before starting this setup.
 
 ## Setup
 
@@ -25,10 +25,12 @@ Create a `local_settings.py` file in the project root folder by copying `local_s
 
     DATABASES = {
         "default": {
-            "ENGINE": "django.db.backends.postgresql_psycopg2",
+            "ENGINE": "django.db.backends.postgresql",
             "NAME": "crowdsource_dev"
         }
     }
+
+Alternative is to install postgres using a installer file and using PGadmin to access the database via the GUI tool.
 
 Install [Redis](http://redis.io/download) key-value store used for managing sessions, cache and web-sockets support. To install Redis on a Mac:
 
@@ -86,7 +88,6 @@ Port 8000 is used by default. If it is already in use, please modify it in Grunt
     bash> grunt serve
 
 #### uWSGI and Web-Sockets Support
-Create a `uwsgi-dev.ini` file in the project root folder by copying `uwsgi-dev-default.ini`
 If there are no errors, you are ready to run the app from your local server instead of the ```runserver``` command above:
 
     bash> uwsgi uwsgi-dev.ini
