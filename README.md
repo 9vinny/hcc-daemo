@@ -2,6 +2,17 @@
 
 
 This is a Django 1.11 app using a Postgres database 9.5+. Python version 2.7. Install python 2.7 in the virtual env before starting this setup.
+If not already setup, create the virtual env and then install python 2.7 as following, else continue with the next step
+
+Install [virtualenv](https://virtualenv.pypa.io/en/latest/installation.html) to manage a local setup of your python packages:
+
+    bash> pip install virtualenv
+
+Go into the directory with the checkout of the code and create the Python virtual environment:
+
+    bash> virtualenv venv
+    
+
 
 ## Setup
 
@@ -37,22 +48,14 @@ Install [Redis](http://redis.io/download) key-value store used for managing sess
     bash> brew install redis
     bash> brew services start redis
 
-#### Backend Dependencies
-Make sure you have [Python](https://www.python.org/downloads/) installed. Test this by opening a command line terminal and typing `python'.
 
-Install [virtualenv](https://virtualenv.pypa.io/en/latest/installation.html) to manage a local setup of your python packages:
-
-    bash> pip install virtualenv
-
-Go into the directory with the checkout of the code and create the Python virtual environment:
-
-    bash> virtualenv venv
 
 Source the virtual environment, install dependencies, and migrate the database:
 
     bash> source venv/bin/activate
     bash> pip install -r local_requirements.txt
     bash> python manage.py migrate
+
 
 #### Frontend Dependencies
 Install node.js. On a Mac:
