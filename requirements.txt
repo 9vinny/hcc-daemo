@@ -26,7 +26,7 @@ gevent==1.2.2
 greenlet==0.4.12
 gunicorn==19.7.1
 hashids==1.2.0
-httplib2==0.10.3
+httplib2==0.18.0
 idna==2.5
 ipaddress==1.0.19
 kombu==4.1.0
